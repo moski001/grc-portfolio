@@ -1,6 +1,6 @@
 # Cybersecurity GRC Portfolio
 
-**Chris Morrissey** · Governance, Risk & Compliance · Central Florida and Washington, DC area
+**Chris Morrissey** · Governance, Risk & Compliance · Washington, DC area
 
 CompTIA A+, Network+, Security+, Project+ · CompTIA CIOS & CSIS stacked credentials · ITIL Foundation v4 · Cisco AI Technical Practitioner
 
@@ -119,6 +119,6 @@ The JSON in Project 3 is **modeled on** CR26 rule requirements. It is not claime
 ## Contact
 
 **Chris Morrissey** — Morrissey Ventures LLC
-[LinkedIn](https://linkedin.com/in/christophermorrissey88) · [morrisseyventuresllc.com](https://morrisseyventuresllc.com) · [Email](mailto:chrismorrissey.88@gmail.com)
+[LinkedIn](#) · [morrisseyventuresllc.com](https://morrisseyventuresllc.com) · [Email](#)
 
 *Open to GRC Analyst, Risk Analyst, ISSO, Security Control Assessor, and IT Specialist (INFOSEC) roles.*
