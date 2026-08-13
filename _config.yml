@@ -1,0 +1,6 @@
+title: GRC Portfolio — Chris Morrissey
+description: Risk programs, FedRAMP authorization packages, and continuous validation engineering
+theme: jekyll-theme-cayman
+show_downloads: false
+exclude:
+  - SETUP.md

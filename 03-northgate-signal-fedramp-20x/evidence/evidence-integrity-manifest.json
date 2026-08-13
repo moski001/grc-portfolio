@@ -1,0 +1,17 @@
+{
+  "document_type": "evidence-integrity-manifest",
+  "generated_at": "2026-08-10T14:00:00+00:00",
+  "algorithm": "sha256",
+  "artifacts": [
+    {
+      "filename": "security-decision-record.json",
+      "sha256": "54b67964a77b41f9ac49defae2a6567626c201d2665b3560d1f3309a725451c8",
+      "bytes": 16339
+    },
+    {
+      "filename": "ongoing-certification-report.json",
+      "sha256": "8afa5b37ac3a988d7717b738566f572495ad6a2a63abe806de495a1fda23119b",
+      "bytes": 1216
+    }
+  ]
+}

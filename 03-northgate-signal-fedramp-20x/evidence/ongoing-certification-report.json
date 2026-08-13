@@ -1,0 +1,40 @@
+{
+  "document_type": "ongoing-certification-report",
+  "schema_note": "Structure modeled on FedRAMP CR26 rules CCM-OCR-AVL and CCM-OCR-NRD. Not validated against FedRAMP official published schemas.",
+  "provider": "Northgate Signal, Inc.",
+  "cloud_service_offering": "Caseline",
+  "certification_type": "20x",
+  "certification_class": "Class C",
+  "report_generated_at": "2026-08-10T14:00:00+00:00",
+  "reporting_period_days": 30,
+  "next_report_date": "2026-09-09",
+  "posture": {
+    "ksis_true": 10,
+    "ksis_total": 12,
+    "ksi_true_percentage": 83.33,
+    "validation_automation": "100% of KSIs validated by at least two automated methods"
+  },
+  "vulnerability_response": {
+    "rule": "VDR-CSO-DET",
+    "detection_coverage_percent": 100.0,
+    "open_findings_past_response_expectation": 0,
+    "median_time_to_remediate_high_days": 6
+  },
+  "availability": {
+    "rule": "CDS-CSO-AVR",
+    "uptime_percent_trailing_30d": 99.98
+  },
+  "incident_summary": {
+    "fedramp_reportable_incidents_period": 0,
+    "reporting_deadline_breaches": 0
+  },
+  "change_summary": {
+    "deployments_period": 214,
+    "significant_changes_notified": 1
+  },
+  "attestation": {
+    "rule": "FRC-CSO-MRA",
+    "statement": "Provider maintains responsibility and accountability for the accuracy and completeness of all information in this report.",
+    "attested_by_role": "Head of Security Assurance"
+  }
+}

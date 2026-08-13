@@ -1,0 +1,613 @@
+{
+  "document_type": "security-decision-record",
+  "schema_note": "Structure modeled on FedRAMP CR26 rules SDR-CSO-FRR and FRC-CSO-JSN. Not validated against FedRAMP official published schemas; see https://fedramp.gov/schemas for authoritative schemas.",
+  "generated_at": "2026-08-10T14:00:00+00:00",
+  "provider": "Northgate Signal, Inc.",
+  "cloud_service_offering": "Caseline",
+  "certification_type": "20x",
+  "certification_class": "Class C",
+  "minimum_assessment_scope": {
+    "rule": "MAS-CSO-IIR",
+    "description": "All information resources likely to handle federal customer data or likely to impact its confidentiality, integrity, or availability.",
+    "information_resources_in_scope": 143,
+    "third_party_information_resources": 6
+  },
+  "summary": {
+    "ksis_evaluated": 12,
+    "ksis_true": 10,
+    "ksis_false": 2,
+    "total_validation_methods": 24,
+    "all_meet_class_c_minimum": true,
+    "drift_detected_count": 2,
+    "ksis_that_would_pass_single_method_validation": [
+      "KSI-CNA-RNT",
+      "KSI-SVC-SIN"
+    ]
+  },
+  "key_security_indicators": [
+    {
+      "ksi_id": "KSI-IAM-AAM",
+      "ksi_family": "Identity and Access Management",
+      "ksi_name": "Automating Account Management",
+      "ksi_statement": "The lifecycle and privileges of all accounts, roles, and groups are securely managed using automation.",
+      "related_sp_800_53_controls": [
+        "AC-02(02)",
+        "AC-02(03)",
+        "AC-02(13)",
+        "AC-06(07)",
+        "IA-04(04)",
+        "IA-12",
+        "IA-12(02)",
+        "IA-12(03)",
+        "IA-12(05)"
+      ],
+      "status": "true",
+      "independently_corroborated": true,
+      "validation_method_count": 2,
+      "meets_class_c_method_minimum": true,
+      "drift_detected": false,
+      "validations": [
+        {
+          "method_type": "control-plane",
+          "method": "IdP and cloud IAM inventory query",
+          "result": "pass",
+          "metrics": {
+            "accounts_total": 412,
+            "automated_lifecycle_pct": 100.0,
+            "manually_provisioned": 0
+          },
+          "assessor_note": "Queries IdP and cloud IAM inventory; asserts no account exists outside automated lifecycle.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        },
+        {
+          "method_type": "telemetry",
+          "method": "Automated access review job output",
+          "result": "pass",
+          "metrics": {
+            "days_since_review": 2,
+            "review_interval_days": 7,
+            "flagged": 3,
+            "remediated": 3,
+            "open_findings": 0
+          },
+          "assessor_note": "Independent source: access review job output. Confirms lifecycle automation produces reviewed outcomes, not just provisioned accounts.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "ksi_id": "KSI-IAM-APM",
+      "ksi_family": "Identity and Access Management",
+      "ksi_name": "Adopting Passwordless Methods",
+      "ksi_statement": "Secure passwordless methods are used for user authentication and authorization when feasible, otherwise strong passwords with phishing-resistant MFA is used.",
+      "related_sp_800_53_controls": [
+        "AC-03",
+        "IA-02",
+        "IA-02(01)",
+        "IA-02(02)",
+        "IA-02(08)",
+        "IA-05",
+        "IA-05(01)",
+        "IA-05(02)",
+        "IA-05(06)",
+        "IA-06",
+        "IA-08",
+        "SC-23",
+        "AC-02"
+      ],
+      "status": "true",
+      "independently_corroborated": true,
+      "validation_method_count": 2,
+      "meets_class_c_method_minimum": true,
+      "drift_detected": false,
+      "validations": [
+        {
+          "method_type": "control-plane",
+          "method": "IdP authentication policy read",
+          "result": "pass",
+          "metrics": {
+            "phishing_resistant_required": true,
+            "passwordless_enabled": true,
+            "password_fallback_allowed": false
+          },
+          "assessor_note": "Reads IdP authentication policy configuration.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        },
+        {
+          "method_type": "data-plane",
+          "method": "Authentication event log analysis",
+          "result": "pass",
+          "metrics": {
+            "authentications_30d": 48213,
+            "phishing_resistant_mfa_pct": 100.0,
+            "passwordless_pct": 93.55
+          },
+          "assessor_note": "Independent source: authentication event log. Proves the policy is enforced in practice, not merely configured.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "ksi_id": "KSI-IAM-ELP",
+      "ksi_family": "Identity and Access Management",
+      "ksi_name": "Ensuring Least Privilege",
+      "ksi_statement": "Identity and access management measures are used and persistently reviewed to ensure each user or device can only access the resources they need.",
+      "related_sp_800_53_controls": [
+        "AC-02(05)",
+        "AC-02(06)",
+        "AC-03",
+        "AC-04",
+        "AC-06",
+        "AC-12",
+        "AC-17",
+        "AC-20",
+        "IA-02",
+        "IA-03",
+        "IA-11",
+        "SI-03"
+      ],
+      "status": "true",
+      "independently_corroborated": true,
+      "validation_method_count": 2,
+      "meets_class_c_method_minimum": true,
+      "drift_detected": false,
+      "validations": [
+        {
+          "method_type": "control-plane",
+          "method": "Role binding enumeration",
+          "result": "pass",
+          "metrics": {
+            "standing_privileged_roles": 0,
+            "jit_eligible_roles": 14
+          },
+          "assessor_note": "Enumerates role bindings; asserts zero standing privilege.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        },
+        {
+          "method_type": "telemetry",
+          "method": "Persistent least-privilege review closure",
+          "result": "pass",
+          "metrics": {
+            "flagged": 3,
+            "remediated": 3
+          },
+          "assessor_note": "Independent source: persistent least-privilege review job; confirms detected excess privilege is closed out.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "ksi_id": "KSI-IAM-JIT",
+      "ksi_family": "Identity and Access Management",
+      "ksi_name": "Authorizing Just-in-Time",
+      "ksi_statement": "A least-privileged, role and attribute-based, and just-in-time security authorization model is used and persistently reviewed for all user and non-user accounts and services.",
+      "related_sp_800_53_controls": [
+        "AC-02",
+        "AC-02(01)",
+        "AC-05",
+        "AC-06",
+        "AC-06(01)",
+        "AC-06(02)",
+        "AC-06(05)",
+        "AC-06(09)",
+        "AC-06(10)",
+        "CM-05",
+        "CM-07",
+        "SC-02"
+      ],
+      "status": "true",
+      "independently_corroborated": true,
+      "validation_method_count": 2,
+      "meets_class_c_method_minimum": true,
+      "drift_detected": false,
+      "validations": [
+        {
+          "method_type": "control-plane",
+          "method": "JIT workflow configuration check",
+          "result": "pass",
+          "metrics": {
+            "jit_eligible_roles": 14,
+            "max_session_minutes": 60
+          },
+          "assessor_note": "Confirms JIT workflow configuration and bounded elevation duration.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        },
+        {
+          "method_type": "telemetry",
+          "method": "Privilege elevation event telemetry",
+          "result": "pass",
+          "metrics": {
+            "elevations_30d": 331,
+            "via_jit": 331,
+            "bypassed_jit": 0,
+            "median_duration_minutes": 22,
+            "exceeded_max_duration": 0
+          },
+          "assessor_note": "Independent source: elevation event telemetry. Detects out-of-band privilege grants the config alone cannot reveal.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "ksi_id": "KSI-IAM-SNU",
+      "ksi_family": "Identity and Access Management",
+      "ksi_name": "Securing Non-User Authentication",
+      "ksi_statement": "Appropriately secure authentication methods are used and persistently reviewed for non-user accounts and services.",
+      "related_sp_800_53_controls": [
+        "AC-02",
+        "AC-02(02)",
+        "AC-04",
+        "AC-06(05)",
+        "IA-03",
+        "IA-05(02)",
+        "RA-05(05)"
+      ],
+      "status": "true",
+      "independently_corroborated": true,
+      "validation_method_count": 2,
+      "meets_class_c_method_minimum": true,
+      "drift_detected": false,
+      "validations": [
+        {
+          "method_type": "control-plane",
+          "method": "Non-user principal inventory",
+          "result": "pass",
+          "metrics": {
+            "non_user_accounts": 63,
+            "workload_identity": 63,
+            "static_credentials": 0
+          },
+          "assessor_note": "Inventories non-user principals; asserts workload identity federation rather than static secrets.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        },
+        {
+          "method_type": "data-plane",
+          "method": "Repository and image secret scanning",
+          "result": "pass",
+          "metrics": {
+            "repos_scanned": 34,
+            "static_credentials_detected": 0,
+            "scan_frequency": "per-commit"
+          },
+          "assessor_note": "Independent source: secret scanning across source repositories and container images; catches credentials the IAM inventory cannot see.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "ksi_id": "KSI-IAM-SUS",
+      "ksi_family": "Identity and Access Management",
+      "ksi_name": "Responding to Suspicious Activity",
+      "ksi_statement": "Accounts with privileged access are disabled or otherwise secured in response to suspicious activity.",
+      "related_sp_800_53_controls": [
+        "AC-02",
+        "AC-02(01)",
+        "AC-02(03)",
+        "AC-02(13)",
+        "AC-07",
+        "PS-04",
+        "PS-08"
+      ],
+      "status": "true",
+      "independently_corroborated": true,
+      "validation_method_count": 2,
+      "meets_class_c_method_minimum": true,
+      "drift_detected": false,
+      "validations": [
+        {
+          "method_type": "control-plane",
+          "method": "Automated risk-response policy check",
+          "result": "pass",
+          "metrics": {
+            "auto_disable_enabled": true
+          },
+          "assessor_note": "Confirms automated risk-response policy is enabled.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        },
+        {
+          "method_type": "telemetry",
+          "method": "Risk signal response telemetry",
+          "result": "pass",
+          "metrics": {
+            "risk_signals_30d": 9,
+            "auto_disabled": 9,
+            "median_response_seconds": 4,
+            "manual_interventions": 0
+          },
+          "assessor_note": "Independent source: risk-signal response telemetry; measures actual response, including latency.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "ksi_id": "KSI-CMT-LMC",
+      "ksi_family": "Change Management",
+      "ksi_name": "Logging Changes",
+      "ksi_statement": "System modifications are logged and monitored.",
+      "related_sp_800_53_controls": [
+        "CM-03",
+        "CM-05",
+        "AU-02",
+        "AU-06",
+        "AU-09"
+      ],
+      "status": "true",
+      "independently_corroborated": true,
+      "validation_method_count": 2,
+      "meets_class_c_method_minimum": true,
+      "drift_detected": false,
+      "validations": [
+        {
+          "method_type": "control-plane",
+          "method": "Change logging configuration verification",
+          "result": "pass",
+          "metrics": {
+            "forwarding_enabled": true,
+            "immutable_storage": true
+          },
+          "assessor_note": "Verifies change-event logging is enabled and written to tamper-resistant storage.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        },
+        {
+          "method_type": "telemetry",
+          "method": "Change event to approval reconciliation",
+          "result": "pass",
+          "metrics": {
+            "change_events_30d": 1904,
+            "reconciled_to_tickets": 1904,
+            "unreconciled": 0
+          },
+          "assessor_note": "Independent source: reconciles observed config-change events against approved change records. Unreconciled changes indicate modification outside the change process.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "ksi_id": "KSI-CMT-IMM",
+      "ksi_family": "Change Management",
+      "ksi_name": "Deploying Immutable Resources",
+      "ksi_statement": "Changes are executed through redeployment of version controlled immutable resources rather than direct modification wherever possible.",
+      "related_sp_800_53_controls": [
+        "CM-02",
+        "CM-03",
+        "CM-04",
+        "CM-08",
+        "SA-11"
+      ],
+      "status": "true",
+      "independently_corroborated": true,
+      "validation_method_count": 2,
+      "meets_class_c_method_minimum": true,
+      "drift_detected": false,
+      "validations": [
+        {
+          "method_type": "control-plane",
+          "method": "Deployment source verification",
+          "result": "pass",
+          "metrics": {
+            "deployments_30d": 214,
+            "from_version_control": 214,
+            "manual_or_console": 0
+          },
+          "assessor_note": "Confirms all deployments originate from version-controlled immutable artifacts.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        },
+        {
+          "method_type": "telemetry",
+          "method": "CI/CD gate execution records",
+          "result": "pass",
+          "metrics": {
+            "with_test_gate": 214,
+            "with_peer_review": 214,
+            "emergency_changes": 3,
+            "emergency_with_retrospective": 3
+          },
+          "assessor_note": "Independent source: CI/CD pipeline records; confirms test and review gates executed and emergency changes received retrospective review.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "ksi_id": "KSI-CNA-RNT",
+      "ksi_family": "Cloud Native Architecture",
+      "ksi_name": "Restricting Network Traffic",
+      "ksi_statement": "All information resources are configured to limit inbound and outbound traffic.",
+      "related_sp_800_53_controls": [
+        "AC-04",
+        "SC-07",
+        "SC-07(05)",
+        "CA-09",
+        "CM-07"
+      ],
+      "status": "false",
+      "independently_corroborated": true,
+      "validation_method_count": 2,
+      "meets_class_c_method_minimum": true,
+      "drift_detected": true,
+      "validations": [
+        {
+          "method_type": "control-plane",
+          "method": "Declared network policy evaluation",
+          "result": "pass",
+          "metrics": {
+            "default_deny_ingress": true,
+            "default_deny_egress": true,
+            "segments": 7,
+            "workload_policy_coverage_pct": 100.0
+          },
+          "assessor_note": "Evaluates declared network policy: default-deny posture and per-workload policy coverage.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        },
+        {
+          "method_type": "data-plane",
+          "method": "Observed network flow log analysis",
+          "result": "fail",
+          "metrics": {
+            "flows_observed_30d": 18400291,
+            "denied": 24117,
+            "unexpected_permitted": 1317,
+            "unexpected_flow_source": "legacy-reporting-subnet -> analytics-egress",
+            "lateral_movement_alerts": 0
+          },
+          "assessor_note": "Independent source: observed network flow logs. Detects permitted traffic the declared policy did not anticipate.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        }
+      ],
+      "drift_analysis": {
+        "type": "configuration-behavior-divergence",
+        "description": "Declared configuration satisfies this KSI, but observed system behavior does not. Single-method validation against configuration alone would have reported this KSI as true.",
+        "significance": "This is a real control gap, not a measurement artifact. The authoritative signal is the observed behavior."
+      }
+    },
+    {
+      "ksi_id": "KSI-SVC-SIN",
+      "ksi_family": "Service Configuration",
+      "ksi_name": "Securing Information",
+      "ksi_statement": "Federal and sensitive information is encrypted at rest and in transit using validated cryptographic methods.",
+      "related_sp_800_53_controls": [
+        "SC-08",
+        "SC-08(01)",
+        "SC-12",
+        "SC-13",
+        "SC-28",
+        "SC-28(01)"
+      ],
+      "status": "false",
+      "independently_corroborated": true,
+      "validation_method_count": 2,
+      "meets_class_c_method_minimum": true,
+      "drift_detected": true,
+      "validations": [
+        {
+          "method_type": "control-plane",
+          "method": "Storage and key management configuration read",
+          "result": "pass",
+          "metrics": {
+            "data_stores": 19,
+            "encrypted_at_rest": 19,
+            "cmk_managed": 19,
+            "keys_past_rotation": 0,
+            "tls_minimum": "1.3",
+            "fips_validated": true
+          },
+          "assessor_note": "Reads storage and key management configuration.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        },
+        {
+          "method_type": "data-plane",
+          "method": "Active protocol negotiation and object scanning",
+          "result": "fail",
+          "metrics": {
+            "endpoints_scanned": 41,
+            "tls_compliant_endpoints": 40,
+            "deprecated_protocol_permitted": 1,
+            "deprecated_protocol_endpoint": "lb-legacy-reporting-01:443 (TLS 1.0 accepted)",
+            "unencrypted_objects_detected": 0
+          },
+          "assessor_note": "Independent source: active protocol negotiation testing and storage object scanning. Configuration can claim TLS 1.3 while a load balancer still accepts 1.0.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        }
+      ],
+      "drift_analysis": {
+        "type": "configuration-behavior-divergence",
+        "description": "Declared configuration satisfies this KSI, but observed system behavior does not. Single-method validation against configuration alone would have reported this KSI as true.",
+        "significance": "This is a real control gap, not a measurement artifact. The authoritative signal is the observed behavior."
+      }
+    },
+    {
+      "ksi_id": "KSI-CED-RAT",
+      "ksi_family": "Cybersecurity Education",
+      "ksi_name": "Reviewing All Training",
+      "ksi_statement": "All employees receive security awareness training, and role-specific training is required for high risk roles including those with privileged access.",
+      "related_sp_800_53_controls": [
+        "AT-02",
+        "AT-03",
+        "AT-04",
+        "PS-07"
+      ],
+      "status": "true",
+      "independently_corroborated": true,
+      "validation_method_count": 2,
+      "meets_class_c_method_minimum": true,
+      "drift_detected": false,
+      "validations": [
+        {
+          "method_type": "control-plane",
+          "method": "LMS completion record query",
+          "result": "pass",
+          "metrics": {
+            "workforce": 88,
+            "awareness_completed": 88,
+            "privileged_role_holders": 21,
+            "role_specific_completed": 21,
+            "past_due": 0
+          },
+          "assessor_note": "Queries LMS completion records against current workforce roster.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        },
+        {
+          "method_type": "telemetry",
+          "method": "Phishing simulation outcome analysis",
+          "result": "pass",
+          "metrics": {
+            "campaigns_12mo": 4,
+            "median_click_rate_pct": 2.1,
+            "target_click_rate_pct": 5.0,
+            "repeat_clickers_remediated": 2
+          },
+          "assessor_note": "Independent source: phishing simulation outcomes. Measures whether training changed behavior, not merely whether it was completed.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "ksi_id": "KSI-INR-RIR",
+      "ksi_family": "Incident Response",
+      "ksi_name": "Reviewing Incident Response Procedures",
+      "ksi_statement": "Incident response procedures are documented, regularly reviewed and exercised, and incidents are reported according to FedRAMP requirements.",
+      "related_sp_800_53_controls": [
+        "IR-03",
+        "IR-04",
+        "IR-05",
+        "IR-06",
+        "IR-08"
+      ],
+      "status": "true",
+      "independently_corroborated": true,
+      "validation_method_count": 2,
+      "meets_class_c_method_minimum": true,
+      "drift_detected": false,
+      "validations": [
+        {
+          "method_type": "control-plane",
+          "method": "IR plan and roster currency check",
+          "result": "pass",
+          "metrics": {
+            "plan_age_days": 41,
+            "plan_interval_days": 180,
+            "roster_age_days": 26,
+            "roster_interval_days": 90,
+            "roster_unverified": 0,
+            "exercises_12mo": 2
+          },
+          "assessor_note": "Checks IR plan review currency, exercise cadence, and contact roster verification age.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        },
+        {
+          "method_type": "telemetry",
+          "method": "Incident record and reporting latency analysis",
+          "result": "pass",
+          "metrics": {
+            "incidents_12mo": 4,
+            "with_after_action_report": 4,
+            "median_detect_to_report_minutes": 31,
+            "reporting_requirement_minutes": 60,
+            "deadline_breaches": 0
+          },
+          "assessor_note": "Independent source: incident records. Measures actual detection-to-report latency against the FedRAMP reporting requirement.",
+          "evaluated_at": "2026-08-10T14:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}
