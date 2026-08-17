@@ -39,7 +39,7 @@ Artifacts:
 - [Project 1 README](01-enterprise-risk-assessment/README.md)
 - [Northbridge Risk Methodology and Executive Summary](01-enterprise-risk-assessment/Northbridge-Risk-Methodology-and-Executive-Summary.md)
 - [Project 1 Learning Guide](01-enterprise-risk-assessment/Project-1-Learning-Guide.md)
-- [Project 1 Interview Mastery Guide](01-enterprise-risk-assessment/Project-1-Interview-Mastery-Guide.md)
+- [Project 1 Interview Discussion Guide](01-enterprise-risk-assessment/Project-1-Interview-Discussion-Guide.md)
 - `Northbridge-Enterprise-Risk-Assessment.xlsx`
 
 ### Project 2 - NIST CSF 2.0 Gap Assessment
@@ -51,7 +51,7 @@ Artifacts:
 - [Project 2 README](02-nist-csf-gap-assessment/README.md)
 - [Northbridge NIST CSF 2.0 Gap Assessment Report](02-nist-csf-gap-assessment/Northbridge-CSF-2.0-Gap-Assessment-Report.md)
 - [Project 2 Learning Guide](02-nist-csf-gap-assessment/Project-2-Learning-Guide.md)
-- [Project 2 Interview Mastery Guide](02-nist-csf-gap-assessment/Project-2-Interview-Mastery-Guide.md)
+- [Project 2 Interview Discussion Guide](02-nist-csf-gap-assessment/Project-2-Interview-Discussion-Guide.md)
 - `Northbridge-NIST-CSF-2.0-Gap-Assessment.xlsx`
 
 ### Project 3 - Third-Party Risk Management Assessment
@@ -63,7 +63,7 @@ Artifacts:
 - [Project 3 README](03-third-party-risk-management/README.md)
 - [DataFlow AI Vendor Risk Assessment Report](03-third-party-risk-management/Northbridge-DataFlow-AI-Vendor-Risk-Assessment-Report.md)
 - [Project 3 Learning Guide](03-third-party-risk-management/Project-3-Learning-Guide.md)
-- [Project 3 Interview Mastery Guide](03-third-party-risk-management/Project-3-Interview-Mastery-Guide.md)
+- [Project 3 Interview Discussion Guide](03-third-party-risk-management/Project-3-Interview-Discussion-Guide.md)
 - `Northbridge-Third-Party-Risk-Assessment.xlsx`
 
 ### Project 4 - Control Framework Crosswalk and Control Testing
@@ -75,7 +75,7 @@ Artifacts:
 - [Project 4 README](04-control-framework-crosswalk/README.md)
 - [Control Crosswalk and Testing Report](04-control-framework-crosswalk/Northbridge-Control-Crosswalk-and-Testing-Report.md)
 - [Project 4 Learning Guide](04-control-framework-crosswalk/Project-4-Learning-Guide.md)
-- [Project 4 Interview Mastery Guide](04-control-framework-crosswalk/Project-4-Interview-Mastery-Guide.md)
+- [Project 4 Interview Discussion Guide](04-control-framework-crosswalk/Project-4-Interview-Discussion-Guide.md)
 - `Northbridge-Control-Framework-Crosswalk-and-Testing.xlsx`
 
 ### Project 5 - SOC 2 Readiness and Evidence Management
@@ -87,7 +87,7 @@ Artifacts:
 - [Project 5 README](05-soc2-readiness/README.md)
 - [SOC 2 Readiness Report](05-soc2-readiness/Northbridge-SOC2-Readiness-Report.md)
 - [Project 5 Learning Guide](05-soc2-readiness/Project-5-Learning-Guide.md)
-- [Project 5 Interview Mastery Guide](05-soc2-readiness/Project-5-Interview-Mastery-Guide.md)
+- [Project 5 Interview Discussion Guide](05-soc2-readiness/Project-5-Interview-Discussion-Guide.md)
 - `Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx`
 
 ## How To Present This Portfolio
@@ -113,5 +113,5 @@ Use this positioning in applications and interviews:
 - AICPA Trust Services Criteria with revised points of focus 2022: https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022
 - NIST SP 800-61 Rev. 3: https://csrc.nist.gov/pubs/sp/800/61/r3/final
 - NIST SP 800-171 Rev. 3: https://csrc.nist.gov/pubs/sp/800/171/r3/final
-- ISO/IEC 27017:2026: https://www.iso.org/standard/43757.html
+- ISO/IEC 27017:2026: https://www.iso.org/standard/27017
 - PCI DSS v4.0.1: https://www.pcisecuritystandards.org/document_library/

@@ -1,4 +1,4 @@
-# Project 3 Interview Mastery Guide
+# Project 3 Interview Discussion Guide
 
 ## Your 60-Second Explanation
 

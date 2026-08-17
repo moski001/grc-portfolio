@@ -1,4 +1,4 @@
-# Project 4 Interview Mastery Guide
+# Project 4 Interview Discussion Guide
 
 ## Your 60-Second Explanation
 

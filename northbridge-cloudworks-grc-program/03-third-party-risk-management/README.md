@@ -10,6 +10,10 @@ Northbridge Cloudworks wants to onboard a fictional SaaS vendor, DataFlow AI, to
 
 Because the vendor will process customer data and connect to production workflows, Northbridge classifies DataFlow AI as a critical third party requiring security review before approval.
 
+## Dashboard Preview
+
+![Northbridge third-party risk assessment dashboard](../../assets/dashboard-previews/northbridge-third-party-risk-dashboard.png)
+
 ## Standards Used
 
 - NIST SP 800-161 Rev. 1 Update 1 for cyber supply-chain risk management.
@@ -28,7 +32,7 @@ Because the vendor will process customer data and connect to production workflow
 - `Northbridge-Third-Party-Risk-Assessment.xlsx`
 - [Vendor Risk Assessment Report](Northbridge-DataFlow-AI-Vendor-Risk-Assessment-Report.md)
 - [Project 3 Learning Guide](Project-3-Learning-Guide.md)
-- [Project 3 Interview Mastery Guide](Project-3-Interview-Mastery-Guide.md)
+- [Project 3 Interview Discussion Guide](Project-3-Interview-Discussion-Guide.md)
 
 ## What This Proves
 

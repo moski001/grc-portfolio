@@ -8,6 +8,10 @@ This project demonstrates how a GRC analyst can assess a company's cybersecurity
 
 Northbridge Cloudworks completed an enterprise cybersecurity risk assessment and now wants to understand how its current cybersecurity program aligns to NIST CSF 2.0. Leadership wants a practical roadmap, not a fake certification score.
 
+## Dashboard Preview
+
+![Northbridge NIST CSF 2.0 gap assessment dashboard](../../assets/dashboard-previews/northbridge-nist-csf-gap-dashboard.png)
+
 ## Standards Used
 
 - NIST CSF 2.0 as the primary framework.
@@ -22,7 +26,7 @@ Northbridge Cloudworks completed an enterprise cybersecurity risk assessment and
 - `Northbridge-NIST-CSF-2.0-Gap-Assessment.xlsx`
 - [CSF 2.0 Gap Assessment Report](Northbridge-CSF-2.0-Gap-Assessment-Report.md)
 - [Project 2 Learning Guide](Project-2-Learning-Guide.md)
-- [Project 2 Interview Mastery Guide](Project-2-Interview-Mastery-Guide.md)
+- [Project 2 Interview Discussion Guide](Project-2-Interview-Discussion-Guide.md)
 
 ## What This Proves
 

@@ -1,4 +1,4 @@
-# Project 1 Interview Mastery Guide
+# Project 1 Interview Discussion Guide
 
 ## Your 60-Second Explanation
 

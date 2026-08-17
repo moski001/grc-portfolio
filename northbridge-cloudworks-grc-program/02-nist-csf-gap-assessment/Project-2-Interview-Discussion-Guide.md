@@ -1,4 +1,4 @@
-# Project 2 Interview Mastery Guide
+# Project 2 Interview Discussion Guide
 
 ## Your 60-Second Explanation
 
