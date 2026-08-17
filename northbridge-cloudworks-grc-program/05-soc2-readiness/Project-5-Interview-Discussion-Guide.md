@@ -1,4 +1,4 @@
-# Project 5 Interview Mastery Guide
+# Project 5 Interview Discussion Guide
 
 ## Your 60-Second Explanation
 

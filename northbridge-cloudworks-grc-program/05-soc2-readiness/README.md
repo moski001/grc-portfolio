@@ -8,6 +8,10 @@ This project demonstrates how a GRC analyst prepares a company for SOC 2 readine
 
 Northbridge Cloudworks is not yet undergoing a real SOC 2 examination, but customer security reviews are increasing. Leadership wants to understand what evidence exists, what is missing, where control exceptions exist, and what must be remediated before engaging an auditor.
 
+## Dashboard Preview
+
+![Northbridge SOC 2 readiness dashboard](../../assets/dashboard-previews/northbridge-soc2-readiness-dashboard.png)
+
 ## Standards Used
 
 - AICPA Trust Services Criteria with revised points of focus 2022 for SOC 2 readiness language.
@@ -24,7 +28,7 @@ Northbridge Cloudworks is not yet undergoing a real SOC 2 examination, but custo
 - `Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx`
 - [SOC 2 Readiness Report](Northbridge-SOC2-Readiness-Report.md)
 - [Project 5 Learning Guide](Project-5-Learning-Guide.md)
-- [Project 5 Interview Mastery Guide](Project-5-Interview-Mastery-Guide.md)
+- [Project 5 Interview Discussion Guide](Project-5-Interview-Discussion-Guide.md)
 
 ## What This Proves
 

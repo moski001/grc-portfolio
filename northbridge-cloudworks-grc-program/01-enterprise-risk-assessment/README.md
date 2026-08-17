@@ -8,6 +8,10 @@ This project demonstrates how a GRC analyst can build a practical cybersecurity 
 
 Northbridge Cloudworks has never completed a formal enterprise cybersecurity risk assessment. Leadership wants a risk register that can support security planning, budget prioritization, SOC 2 readiness, and executive risk discussions.
 
+## Dashboard Preview
+
+![Northbridge enterprise risk assessment dashboard](../../assets/dashboard-previews/northbridge-enterprise-risk-dashboard.png)
+
 ## Standards Used
 
 - NIST SP 800-30 Rev. 1 for risk-assessment concepts.
@@ -22,7 +26,7 @@ Northbridge Cloudworks has never completed a formal enterprise cybersecurity ris
 - `Northbridge-Enterprise-Risk-Assessment.xlsx`
 - [Risk Methodology and Executive Summary](Northbridge-Risk-Methodology-and-Executive-Summary.md)
 - [Project 1 Learning Guide](Project-1-Learning-Guide.md)
-- [Project 1 Interview Mastery Guide](Project-1-Interview-Mastery-Guide.md)
+- [Project 1 Interview Discussion Guide](Project-1-Interview-Discussion-Guide.md)
 
 ## What This Proves
 

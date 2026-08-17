@@ -8,6 +8,10 @@ This project demonstrates how a GRC analyst can translate multiple frameworks in
 
 Northbridge Cloudworks is preparing for stronger customer security reviews and future SOC 2 readiness work. Leadership wants a unified control library instead of separate, duplicated checklists for NIST, CIS, ISO, and SOC 2.
 
+## Dashboard Preview
+
+![Northbridge control crosswalk and testing dashboard](../../assets/dashboard-previews/northbridge-control-testing-dashboard.png)
+
 ## Standards Used
 
 - NIST CSF 2.0 for outcome-oriented program structure.
@@ -25,7 +29,7 @@ Northbridge Cloudworks is preparing for stronger customer security reviews and f
 - `Northbridge-Control-Framework-Crosswalk-and-Testing.xlsx`
 - [Control Crosswalk and Testing Report](Northbridge-Control-Crosswalk-and-Testing-Report.md)
 - [Project 4 Learning Guide](Project-4-Learning-Guide.md)
-- [Project 4 Interview Mastery Guide](Project-4-Interview-Mastery-Guide.md)
+- [Project 4 Interview Discussion Guide](Project-4-Interview-Discussion-Guide.md)
 
 ## What This Proves
 
