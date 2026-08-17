@@ -4,3 +4,4 @@ theme: jekyll-theme-cayman
 show_downloads: false
 exclude:
   - SETUP.md
+  - private/

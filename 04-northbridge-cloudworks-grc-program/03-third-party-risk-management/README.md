@@ -31,8 +31,6 @@ Because the vendor will process customer data and connect to production workflow
 
 - `Northbridge-Third-Party-Risk-Assessment.xlsx`
 - [Vendor Risk Assessment Report](Northbridge-DataFlow-AI-Vendor-Risk-Assessment-Report.md)
-- [Project 3 Learning Guide](Project-3-Learning-Guide.md)
-- [Project 3 Interview Discussion Guide](Project-3-Interview-Discussion-Guide.md)
 
 ## What This Proves
 
@@ -49,3 +47,9 @@ This project shows that you can:
 ## Suggested Interview Positioning
 
 > I built a third-party risk assessment for a fictional critical SaaS vendor called DataFlow AI. I classified inherent vendor risk, reviewed simulated security evidence, scored domains such as IAM, data security, incident response, business continuity, AppSec, and compliance, documented findings, and recommended conditional approval based on specific remediation requirements.
+
+## Files
+
+| Artifact | Browse | Working file |
+|---|---|---|
+| Northbridge Third Party Risk Assessment | [PDF](pdf/Northbridge-Third-Party-Risk-Assessment.pdf) | [xlsx](artifacts/Northbridge-Third-Party-Risk-Assessment.xlsx) |

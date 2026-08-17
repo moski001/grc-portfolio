@@ -28,8 +28,6 @@ Northbridge Cloudworks is preparing for stronger customer security reviews and f
 
 - `Northbridge-Control-Framework-Crosswalk-and-Testing.xlsx`
 - [Control Crosswalk and Testing Report](Northbridge-Control-Crosswalk-and-Testing-Report.md)
-- [Project 4 Learning Guide](Project-4-Learning-Guide.md)
-- [Project 4 Interview Discussion Guide](Project-4-Interview-Discussion-Guide.md)
 
 ## What This Proves
 
@@ -46,3 +44,9 @@ This project shows that you can:
 ## Suggested Interview Positioning
 
 > I built a unified control library and framework crosswalk for a fictional SaaS company. Instead of treating NIST, CIS, ISO, and SOC 2 as separate checklists, I mapped practical internal controls to multiple external requirements and then created test workpapers for selected controls. That helped demonstrate how one well-designed control can support several compliance obligations.
+
+## Files
+
+| Artifact | Browse | Working file |
+|---|---|---|
+| Northbridge Control Framework Crosswalk and Testing | [PDF](pdf/Northbridge-Control-Framework-Crosswalk-and-Testing.pdf) | [xlsx](artifacts/Northbridge-Control-Framework-Crosswalk-and-Testing.xlsx) |

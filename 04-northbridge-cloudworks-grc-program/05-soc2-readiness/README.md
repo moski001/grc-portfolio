@@ -27,8 +27,6 @@ Northbridge Cloudworks is not yet undergoing a real SOC 2 examination, but custo
 
 - `Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx`
 - [SOC 2 Readiness Report](Northbridge-SOC2-Readiness-Report.md)
-- [Project 5 Learning Guide](Project-5-Learning-Guide.md)
-- [Project 5 Interview Discussion Guide](Project-5-Interview-Discussion-Guide.md)
 
 ## What This Proves
 
@@ -44,3 +42,9 @@ This project shows that you can:
 ## Suggested Interview Positioning
 
 > I built a mock SOC 2 readiness and evidence-management package for a fictional SaaS company. It includes a control matrix, PBC evidence tracker, findings register, remediation tracker, and readiness dashboard. The project demonstrates how I would help a company prepare before engaging an external auditor.
+
+## Files
+
+| Artifact | Browse | Working file |
+|---|---|---|
+| Northbridge SOC2 Readiness and Evidence Tracker | [PDF](pdf/Northbridge-SOC2-Readiness-and-Evidence-Tracker.pdf) | [xlsx](artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx) |

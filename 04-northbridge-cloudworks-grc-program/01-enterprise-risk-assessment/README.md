@@ -25,8 +25,6 @@ Northbridge Cloudworks has never completed a formal enterprise cybersecurity ris
 
 - `Northbridge-Enterprise-Risk-Assessment.xlsx`
 - [Risk Methodology and Executive Summary](Northbridge-Risk-Methodology-and-Executive-Summary.md)
-- [Project 1 Learning Guide](Project-1-Learning-Guide.md)
-- [Project 1 Interview Discussion Guide](Project-1-Interview-Discussion-Guide.md)
 
 ## What This Proves
 
@@ -42,3 +40,9 @@ This project shows that you can:
 ## Suggested Interview Positioning
 
 > I built an enterprise cybersecurity risk assessment for a fictional cloud SaaS company. I used NIST SP 800-30 for the assessment structure, the NIST IR 8286 Rev. 1 series to connect cyber risk to enterprise risk management, and NIST CSF 2.0 to organize risk themes. The workbook includes inherent and residual scoring, control effectiveness, owners, treatment plans, due dates, and executive dashboard views.
+
+## Files
+
+| Artifact | Browse | Working file |
+|---|---|---|
+| Northbridge Enterprise Risk Assessment | [PDF](pdf/Northbridge-Enterprise-Risk-Assessment.pdf) | [xlsx](artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx) |

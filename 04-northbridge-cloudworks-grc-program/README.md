@@ -38,8 +38,6 @@ Artifacts:
 
 - [Project 1 README](01-enterprise-risk-assessment/README.md)
 - [Northbridge Risk Methodology and Executive Summary](01-enterprise-risk-assessment/Northbridge-Risk-Methodology-and-Executive-Summary.md)
-- [Project 1 Learning Guide](01-enterprise-risk-assessment/Project-1-Learning-Guide.md)
-- [Project 1 Interview Discussion Guide](01-enterprise-risk-assessment/Project-1-Interview-Discussion-Guide.md)
 - `Northbridge-Enterprise-Risk-Assessment.xlsx`
 
 ### Project 2 - NIST CSF 2.0 Gap Assessment
@@ -50,8 +48,6 @@ Artifacts:
 
 - [Project 2 README](02-nist-csf-gap-assessment/README.md)
 - [Northbridge NIST CSF 2.0 Gap Assessment Report](02-nist-csf-gap-assessment/Northbridge-CSF-2.0-Gap-Assessment-Report.md)
-- [Project 2 Learning Guide](02-nist-csf-gap-assessment/Project-2-Learning-Guide.md)
-- [Project 2 Interview Discussion Guide](02-nist-csf-gap-assessment/Project-2-Interview-Discussion-Guide.md)
 - `Northbridge-NIST-CSF-2.0-Gap-Assessment.xlsx`
 
 ### Project 3 - Third-Party Risk Management Assessment
@@ -62,8 +58,6 @@ Artifacts:
 
 - [Project 3 README](03-third-party-risk-management/README.md)
 - [DataFlow AI Vendor Risk Assessment Report](03-third-party-risk-management/Northbridge-DataFlow-AI-Vendor-Risk-Assessment-Report.md)
-- [Project 3 Learning Guide](03-third-party-risk-management/Project-3-Learning-Guide.md)
-- [Project 3 Interview Discussion Guide](03-third-party-risk-management/Project-3-Interview-Discussion-Guide.md)
 - `Northbridge-Third-Party-Risk-Assessment.xlsx`
 
 ### Project 4 - Control Framework Crosswalk and Control Testing
@@ -74,8 +68,6 @@ Artifacts:
 
 - [Project 4 README](04-control-framework-crosswalk/README.md)
 - [Control Crosswalk and Testing Report](04-control-framework-crosswalk/Northbridge-Control-Crosswalk-and-Testing-Report.md)
-- [Project 4 Learning Guide](04-control-framework-crosswalk/Project-4-Learning-Guide.md)
-- [Project 4 Interview Discussion Guide](04-control-framework-crosswalk/Project-4-Interview-Discussion-Guide.md)
 - `Northbridge-Control-Framework-Crosswalk-and-Testing.xlsx`
 
 ### Project 5 - SOC 2 Readiness and Evidence Management
@@ -86,8 +78,6 @@ Artifacts:
 
 - [Project 5 README](05-soc2-readiness/README.md)
 - [SOC 2 Readiness Report](05-soc2-readiness/Northbridge-SOC2-Readiness-Report.md)
-- [Project 5 Learning Guide](05-soc2-readiness/Project-5-Learning-Guide.md)
-- [Project 5 Interview Discussion Guide](05-soc2-readiness/Project-5-Interview-Discussion-Guide.md)
 - `Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx`
 
 ## How To Present This Portfolio

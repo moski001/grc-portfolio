@@ -25,8 +25,6 @@ Northbridge Cloudworks completed an enterprise cybersecurity risk assessment and
 
 - `Northbridge-NIST-CSF-2.0-Gap-Assessment.xlsx`
 - [CSF 2.0 Gap Assessment Report](Northbridge-CSF-2.0-Gap-Assessment-Report.md)
-- [Project 2 Learning Guide](Project-2-Learning-Guide.md)
-- [Project 2 Interview Discussion Guide](Project-2-Interview-Discussion-Guide.md)
 
 ## What This Proves
 
@@ -42,3 +40,9 @@ This project shows that you can:
 ## Suggested Interview Positioning
 
 > I built a NIST CSF 2.0 current-versus-target gap assessment for the same fictional SaaS company used in my risk assessment project. I assessed outcomes across GOVERN, IDENTIFY, PROTECT, DETECT, RESPOND, and RECOVER, documented evidence and gaps, assigned owners, and built a remediation roadmap with 0-30, 31-90, 3-6 month, and 6-12 month actions.
+
+## Files
+
+| Artifact | Browse | Working file |
+|---|---|---|
+| Northbridge NIST CSF 2.0 Gap Assessment | [PDF](pdf/Northbridge-NIST-CSF-2.0-Gap-Assessment.pdf) | [xlsx](artifacts/Northbridge-NIST-CSF-2.0-Gap-Assessment.xlsx) |
