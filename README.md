@@ -2,7 +2,7 @@
 
 **Chris Morrissey** | GRC, cyber risk, control assurance, and federal cloud security
 
-Eight hands-on projects showing how I translate security frameworks into business decisions, testable controls, audit-ready evidence, and owned remediation.
+Nine hands-on projects showing how I translate security frameworks into business decisions, testable controls, audit-ready evidence, and owned remediation.
 
 [Portfolio website](https://morrisseyventuresllc.com) · [LinkedIn](https://linkedin.com/in/christophermorrissey88) · [GitHub profile](https://github.com/moski001) · [Five-minute review](#five-minute-review)
 
@@ -21,7 +21,7 @@ Eight hands-on projects showing how I translate security frameworks into busines
 | 6 | [Northbridge — Third-Party Risk Management](04-northbridge-cloudworks-grc-program/03-third-party-risk-management/) | Critical AI SaaS vendor | 25-question evidence-based assessment, weighted scorecard, five findings, remediation tracking, and conditional-approval decision |
 | 7 | [Northbridge — Control Crosswalk & Testing](04-northbridge-cloudworks-grc-program/04-control-framework-crosswalk/) | Multi-framework assurance | 15-control internal library, NIST/CIS/ISO/SOC 2 crosswalk, five test workpapers, exceptions, and corrective actions |
 | 8 | [Northbridge — SOC 2 Readiness](04-northbridge-cloudworks-grc-program/05-soc2-readiness/) | Pre-audit readiness | 22-control matrix, PBC evidence tracker, five audit-style findings, remediation plan, and executive readiness decision |
-| 9 | [Halcyon Benefits Group](05-halcyon-ai-governance/) | AI governance | Building governance for AI deployed before anyone asked whether it should be |
+| 9 | [Halcyon Benefits Group — AI Governance](05-halcyon-ai-governance/) | Employee benefits / AI systems | 9-system AI inventory with EU AI Act tiering, 12 risks mapped to NIST AI RMF trustworthiness characteristics, 15-control crosswalk across AI RMF/ISO 42001/EU AI Act, and an executive decision memo |
 
 ## Why five fictional companies
 
@@ -51,6 +51,7 @@ Read together: commercial program management, regulated industry, federal author
 | FedRAMP, RMF, SSP/SAR/POA&M, and shared responsibility | Project 2 |
 | Continuous compliance, structured evidence, and security automation | Project 3 |
 | Policy, business continuity, incident response, and stakeholder communication | Projects 1, 2, 5, and 8 |
+| AI governance, EU AI Act classification, and AI risk assessment | Project 9 |
 
 ## The Northbridge program: five projects, one operating model
 
