@@ -21,8 +21,9 @@ Eight hands-on projects showing how I translate security frameworks into busines
 | 6 | [Northbridge — Third-Party Risk Management](04-northbridge-cloudworks-grc-program/03-third-party-risk-management/) | Critical AI SaaS vendor | 25-question evidence-based assessment, weighted scorecard, five findings, remediation tracking, and conditional-approval decision |
 | 7 | [Northbridge — Control Crosswalk & Testing](04-northbridge-cloudworks-grc-program/04-control-framework-crosswalk/) | Multi-framework assurance | 15-control internal library, NIST/CIS/ISO/SOC 2 crosswalk, five test workpapers, exceptions, and corrective actions |
 | 8 | [Northbridge — SOC 2 Readiness](04-northbridge-cloudworks-grc-program/05-soc2-readiness/) | Pre-audit readiness | 22-control matrix, PBC evidence tracker, five audit-style findings, remediation plan, and executive readiness decision |
+| 9 | [Halcyon Benefits Group](05-halcyon-ai-governance/) | AI governance | Building governance for AI deployed before anyone asked whether it should be |
 
-## Why four fictional companies
+## Why five fictional companies
 
 The scenarios are deliberately different, because the competencies they exercise are different and no single environment shows all of them.
 
@@ -34,7 +35,9 @@ The scenarios are deliberately different, because the competencies they exercise
 
 **Northgate Signal** (project 3) is the same federal discipline under the standard that replaced it. FedRAMP published the Consolidated Rules for 2026 in June 2026, replacing narrative control descriptions with Key Security Indicators validated automatically against the running system. This project was built after that change, and demonstrates it rather than describing it.
 
-Read together: commercial program management, regulated industry, federal authorization, and continuous compliance engineering.
+**Halcyon Benefits Group** (project 9) extends the discipline into AI governance. It applies the same sequence — inventory, classify, assess, map controls, decide — to nine AI systems deployed without oversight, including two that meet the EU AI Act's high-risk definition. Built against a regulatory timeline that moved mid-project.
+
+Read together: commercial program management, regulated industry, federal authorization, continuous compliance engineering, and AI governance.
 
 ## What this portfolio demonstrates
 
@@ -89,13 +92,13 @@ For a commercial-risk sample, open the [Meridian Risk Register PDF](01-meridian-
 
 ## Frameworks and standards applied
 
-[NIST CSF 2.0](https://www.nist.gov/cyberframework) · NIST SP 800-30 Rev. 1 · NIST IR 8286 Rev. 1 series · NIST SP 1308 · NIST SP 800-53 / 800-53A Rev. 5 · NIST SP 800-37 Rev. 2 · NIST SP 800-61 Rev. 3 · NIST SP 800-161 Rev. 1 Update 1 · FIPS 199 · [FedRAMP Rev5](https://www.fedramp.gov/legacy/) · [FedRAMP Consolidated Rules for 2026 / 20x](https://www.fedramp.gov/2026/) · CIS Controls v8.1 · ISO/IEC 27001:2022/Amd 1:2024 · ISO/IEC 27002:2022 · [ISO/IEC 27017:2026](https://www.iso.org/standard/27017) · AICPA Trust Services Criteria · HIPAA/HITECH
+[NIST CSF 2.0](https://www.nist.gov/cyberframework) · NIST SP 800-30 Rev. 1 · NIST IR 8286 Rev. 1 series · NIST SP 1308 · NIST SP 800-53 / 800-53A Rev. 5 · NIST SP 800-37 Rev. 2 · NIST SP 800-61 Rev. 3 · NIST SP 800-161 Rev. 1 Update 1 · FIPS 199 · [FedRAMP Rev5](https://www.fedramp.gov/legacy/) · [FedRAMP Consolidated Rules for 2026 / 20x](https://www.fedramp.gov/2026/) · CIS Controls v8.1 · ISO/IEC 27001:2022/Amd 1:2024 · ISO/IEC 27002:2022 · [ISO/IEC 27017:2026](https://www.iso.org/standard/27017) · AICPA Trust Services Criteria · HIPAA/HITECH · NIST AI RMF 1.0 · NIST AI 600-1 · ISO/IEC 42001:2023 · EU AI Act · NYC Local Law 144
 
 Standards change. Each project states its scope and limitations; current authoritative sources should always be checked before using any artifact in a real program. The FedRAMP 20x JSON is modeled on the Consolidated Rules for 2026 and is not represented as schema-validated certification data.
 
 ## About me
 
-I build GRC work that connects technical evidence to decisions leaders can act on. My background includes CompTIA A+, Network+, Security+, and Project+; CompTIA CIOS and CSIS stacked credentials; ITIL Foundation v4; and Cisco AI Technical Practitioner.
+I build GRC work that connects technical evidence to decisions leaders can act on. My background includes CompTIA A+, Network+, Security+, and Project+; CompTIA CIOS and CSIS stacked credentials; ITIL Foundation v4; and coursework toward Cisco AI Technical Practitioner.
 
 I am interested in opportunities including **GRC Analyst, Cyber Risk Analyst, Third-Party Risk Analyst, IT Auditor, ISSO, Security Control Assessor, and IT Specialist (INFOSEC)**.
 
