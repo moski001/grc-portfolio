@@ -17,7 +17,7 @@
     "ksis_true": 10,
     "ksis_false": 2,
     "total_validation_methods": 24,
-    "all_meet_class_c_minimum": true,
+    "all_meet_class_c_method_count": true,
     "drift_detected_count": 2,
     "ksis_that_would_pass_single_method_validation": [
       "KSI-CNA-RNT",
@@ -363,16 +363,18 @@
       ]
     },
     {
-      "ksi_id": "KSI-CMT-IMM",
+      "ksi_id": "KSI-CMT-RMV",
       "ksi_family": "Change Management",
-      "ksi_name": "Deploying Immutable Resources",
-      "ksi_statement": "Changes are executed through redeployment of version controlled immutable resources rather than direct modification wherever possible.",
+      "ksi_name": "Redeploying vs Modifying",
+      "ksi_statement": "Execute changes to machine-based information resources through redeployment of version controlled immutable resources rather than direct modification wherever reasonable.",
       "related_sp_800_53_controls": [
         "CM-02",
         "CM-03",
-        "CM-04",
-        "CM-08",
-        "SA-11"
+        "CM-05",
+        "CM-06",
+        "CM-07",
+        "CM-08(01)",
+        "SI-03"
       ],
       "status": "true",
       "independently_corroborated": true,

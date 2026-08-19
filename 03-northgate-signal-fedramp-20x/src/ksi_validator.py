@@ -368,7 +368,7 @@ def m_cmt_lmc_reconciliation():
     )
 
 
-def m_cmt_imm_pipeline():
+def m_cmt_rmv_pipeline():
     c = FIXTURES["change_control"]
     return (
         c["deployments_manual_or_console"] == 0,
@@ -379,7 +379,7 @@ def m_cmt_imm_pipeline():
     )
 
 
-def m_cmt_imm_gates():
+def m_cmt_rmv_gates():
     c = FIXTURES["change_control"]
     ok = (c["changes_with_automated_test_gate"] == c["deployments_30d"]
           and c["emergency_changes"] == c["emergency_changes_with_retrospective"])
@@ -422,9 +422,17 @@ def m_cna_rnt_flow():
 
 def m_svc_sin_config():
     e = FIXTURES["encryption_config"]
+    # TLS minimum is part of the assertion, not merely reported. A declared
+    # minimum below 1.2 is itself a control-plane failure; previously this
+    # value was emitted as a metric but never evaluated.
+    try:
+        tls_ok = float(e["tls_minimum_version"]) >= 1.2
+    except (TypeError, ValueError):
+        tls_ok = False
     return (
         e["data_stores_encrypted_at_rest"] == e["data_stores_total"]
         and e["keys_past_rotation_age"] == 0
+        and tls_ok
         and e["fips_validated_modules"],
         {"data_stores": e["data_stores_total"],
          "encrypted_at_rest": e["data_stores_encrypted_at_rest"],
@@ -512,7 +520,12 @@ def m_inr_rir_outcomes():
 
 # ---------------------------------------------------------------------------
 # KSI DEFINITIONS
-# KSI identifiers and statements are drawn from the FedRAMP Consolidated Rules
+# KSI identifiers are taken from the FedRAMP Consolidated Rules for 2026.
+# Statement text: KSI-CMT-RMV uses the official wording verbatim. Others in this
+# sample are close paraphrases and should be treated as implementation
+# interpretations, not authoritative quotations — verify each against the
+# current published text before relying on it.
+# Original note follows: identifiers and statements are drawn from CR26
 # for 2026. Verify current text at:
 # https://www.fedramp.gov/2026/providers/20x/key-security-indicators/
 # ---------------------------------------------------------------------------
@@ -583,12 +596,12 @@ KSIS = [
                     ("telemetry", "Change event to approval reconciliation", m_cmt_lmc_reconciliation)],
     },
     {
-        "id": "KSI-CMT-IMM", "family": "Change Management",
-        "name": "Deploying Immutable Resources",
-        "statement": "Changes are executed through redeployment of version controlled immutable resources rather than direct modification wherever possible.",
-        "related_controls": ["CM-02", "CM-03", "CM-04", "CM-08", "SA-11"],
-        "methods": [("control-plane", "Deployment source verification", m_cmt_imm_pipeline),
-                    ("telemetry", "CI/CD gate execution records", m_cmt_imm_gates)],
+        "id": "KSI-CMT-RMV", "family": "Change Management",
+        "name": "Redeploying vs Modifying",
+        "statement": "Execute changes to machine-based information resources through redeployment of version controlled immutable resources rather than direct modification wherever reasonable.",
+        "related_controls": ["CM-02", "CM-03", "CM-05", "CM-06", "CM-07", "CM-08(01)", "SI-03"],
+        "methods": [("control-plane", "Deployment source verification", m_cmt_rmv_pipeline),
+                    ("telemetry", "CI/CD gate execution records", m_cmt_rmv_gates)],
     },
     {
         "id": "KSI-CNA-RNT", "family": "Cloud Native Architecture",
@@ -710,7 +723,7 @@ def build_sdr(results):
             "ksis_true": sum(1 for r in results if r["status"] == "true"),
             "ksis_false": sum(1 for r in results if r["status"] == "false"),
             "total_validation_methods": sum(r["validation_method_count"] for r in results),
-            "all_meet_class_c_minimum": all(r["meets_class_c_method_minimum"] for r in results),
+            "all_meet_class_c_method_count": all(r["meets_class_c_method_minimum"] for r in results),
             "drift_detected_count": sum(1 for r in results if r.get("drift_detected")),
             "ksis_that_would_pass_single_method_validation": [
                 r["ksi_id"] for r in results if r.get("drift_analysis")
@@ -829,7 +842,7 @@ def main():
         print("-" * 52)
         print(f"{s['ksis_true']}/{s['ksis_evaluated']} KSIs true | "
               f"{s['total_validation_methods']} validation methods | "
-              f"Class C minimum met: {s['all_meet_class_c_minimum']}")
+              f"Class C 2-method count met: {s['all_meet_class_c_method_count']}")
         if s["ksis_that_would_pass_single_method_validation"]:
             print("\n  Drift detected — these KSIs pass configuration review but fail")
             print("  observed-behavior validation. A single-method validator would")

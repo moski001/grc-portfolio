@@ -55,13 +55,13 @@ KSI-IAM-JIT     TRUE     2        -
 KSI-IAM-SNU     TRUE     2        -
 KSI-IAM-SUS     TRUE     2        -
 KSI-CMT-LMC     TRUE     2        -
-KSI-CMT-IMM     TRUE     2        -
+KSI-CMT-RMV     TRUE     2        -
 KSI-CNA-RNT     FALSE    2        DRIFT
 KSI-SVC-SIN     FALSE    2        DRIFT
 KSI-CED-RAT     TRUE     2        -
 KSI-INR-RIR     TRUE     2        -
 ----------------------------------------------------
-10/12 KSIs true | 24 validation methods | Class C minimum met: True
+10/12 KSIs true | 24 validation methods | Class C 2-method count met: True
 ```
 
 **Two KSIs fail, and both fail for the same reason: the configuration is correct and the system is not behaving accordingly.**
