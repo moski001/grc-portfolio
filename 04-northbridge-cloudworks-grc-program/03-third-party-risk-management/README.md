@@ -1,4 +1,4 @@
-# Project 3 - Third-Party Risk Management Assessment
+# Northbridge Program, Phase 3: Third-Party Risk Management Assessment
 
 ## Purpose
 
@@ -43,10 +43,6 @@ This project shows that you can:
 - Recommend approval, conditional approval, rejection, or risk acceptance.
 - Track remediation actions to closure.
 - Explain third-party risk decisions in business terms.
-
-## Suggested Interview Positioning
-
-> I built a third-party risk assessment for a fictional critical SaaS vendor called DataFlow AI. I classified inherent vendor risk, reviewed simulated security evidence, scored domains such as IAM, data security, incident response, business continuity, AppSec, and compliance, documented findings, and recommended conditional approval based on specific remediation requirements.
 
 ## Files
 
