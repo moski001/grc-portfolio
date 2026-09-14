@@ -9,7 +9,7 @@ Specifically:
 - **Meridian Health Analytics, Inc.** does not exist.
 - **Cascade Civic Systems, Inc.** and the **GrantBridge** platform do not exist.
 - **Northgate Signal, Inc.** and the **Caseline** platform do not exist.
-- **Halcyon Benefits Group** and all AI systems, vendors, and decisions described in Project 5 do not exist.
+- **Halcyon Benefits Group** and all AI systems, vendors, and decisions described in Project 9 do not exist.
 - **Northbridge Cloudworks, Inc.** does not exist.
 - **DataFlow AI** does not exist.
 - All vendors, personnel, roles, dates, findings, metrics, incidents, and assessment results are invented.
@@ -17,7 +17,7 @@ Specifically:
 
 ## No confidential or proprietary information
 
-Nothing in this repository derives from any employer, client, or engagement. No confidential, proprietary, controlled, or non-public information appears here in any form. Documents marked with classification headers such as "Controlled Unclassified Information" carry those markings **only** to demonstrate correct document handling conventions — no actual CUI is present.
+Nothing in this repository derives from any employer, client, or engagement. No confidential, proprietary, controlled, or non-public information appears here in any form. Documents marked with classification headers such as "Controlled Unclassified Information" carry those markings **only** to demonstrate correct document handling conventions. No actual CUI is present.
 
 ## Original work
 
@@ -29,7 +29,7 @@ These artifacts demonstrate methodology. They are not templates for production u
 
 ## AI governance content
 
-Project 5 contains EU AI Act, ISO/IEC 42001, NIST AI RMF, and NYC Local Law 144 citations for demonstration purposes only. Real AI-system classification and regulatory applicability require qualified legal counsel.
+Project 9 contains EU AI Act, ISO/IEC 42001, NIST AI RMF, and NYC Local Law 144 citations for demonstration purposes only. Real AI-system classification and regulatory applicability require qualified legal counsel.
 
 ## Currency
 
