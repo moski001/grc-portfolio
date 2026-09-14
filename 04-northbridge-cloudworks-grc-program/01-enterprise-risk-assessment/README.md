@@ -1,4 +1,4 @@
-# Project 1 - Enterprise Cybersecurity Risk Assessment
+# Northbridge Program, Phase 1: Enterprise Cybersecurity Risk Assessment
 
 ## Purpose
 
@@ -36,10 +36,6 @@ This project shows that you can:
 - Recommend realistic risk treatment actions.
 - Assign accountable owners and due dates.
 - Explain risk in business terms instead of only technical terms.
-
-## Suggested Interview Positioning
-
-> I built an enterprise cybersecurity risk assessment for a fictional cloud SaaS company. I used NIST SP 800-30 for the assessment structure, the NIST IR 8286 Rev. 1 series to connect cyber risk to enterprise risk management, and NIST CSF 2.0 to organize risk themes. The workbook includes inherent and residual scoring, control effectiveness, owners, treatment plans, due dates, and executive dashboard views.
 
 ## Files
 
