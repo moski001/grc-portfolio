@@ -2,13 +2,17 @@
 
 ## Purpose
 
-This project demonstrates how a GRC analyst evaluates a prospective vendor, reviews security evidence, identifies risks, tracks remediation, and makes a documented approval recommendation.
+I built this project to evaluate a prospective vendor: reviewing security evidence, identifying risks, tracking remediation, and making a documented approval recommendation.
 
 ## Scenario
 
 Northbridge Cloudworks wants to onboard a fictional SaaS vendor, DataFlow AI, to enrich customer-support analytics. DataFlow AI would process confidential customer business data and integrate with Northbridge's production application and Salesforce environment.
 
 Because the vendor will process customer data and connect to production workflows, Northbridge classifies DataFlow AI as a critical third party requiring security review before approval.
+
+## The judgment call
+
+DataFlow AI's two high-severity findings, incomplete privileged-MFA evidence and vague breach-notification terms, were enough that I wasn't comfortable with an unconditional approval. But they weren't disqualifying either: the underlying security foundation was reasonable, and both gaps are things a vendor can fix on a timeline. I recommended conditional approval with four named preconditions instead of a rejection. A more risk-averse analyst could reasonably have rejected the vendor outright until every finding closed, given the AI system's access to confidential customer data, and that call would have cost Northbridge a service leadership already wanted.
 
 ## Dashboard Preview
 
@@ -32,17 +36,17 @@ Because the vendor will process customer data and connect to production workflow
 - `Northbridge-Third-Party-Risk-Assessment.xlsx`
 - [Vendor Risk Assessment Report](Northbridge-DataFlow-AI-Vendor-Risk-Assessment-Report.md)
 
-## What This Proves
+## Scope and approach
 
-This project shows that you can:
+In this phase, I:
 
-- Classify a vendor by inherent risk.
-- Build and score a vendor security questionnaire.
-- Review simulated SOC 2, penetration-test, policy, incident-response, and business-continuity evidence.
-- Distinguish vendor control gaps from contract gaps.
-- Recommend approval, conditional approval, rejection, or risk acceptance.
-- Track remediation actions to closure.
-- Explain third-party risk decisions in business terms.
+- Classified a vendor by inherent risk.
+- Built and scored a vendor security questionnaire.
+- Reviewed simulated SOC 2, penetration-test, policy, incident-response, and business-continuity evidence.
+- Distinguished vendor control gaps from contract gaps.
+- Recommended approval, conditional approval, rejection, or risk acceptance.
+- Tracked remediation actions to closure.
+- Explained third-party risk decisions in business terms.
 
 ## Files
 
