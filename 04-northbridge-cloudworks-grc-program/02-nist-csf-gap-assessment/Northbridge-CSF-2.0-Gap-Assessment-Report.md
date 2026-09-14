@@ -84,4 +84,4 @@ Implementation status categories:
 
 ## Conclusion
 
-Northbridge does not need a theoretical framework score. It needs a practical, risk-based roadmap. The CSF 2.0 gap assessment shows how governance, risk, controls, evidence, incident response, recovery, and vendor risk connect to business objectives. The most important message for leadership is that many controls exist, but maturity depends on ownership, evidence, cadence, testing, and remediation follow-through.
+This assessment gives Northbridge a practical, risk-based roadmap. It shows how governance, risk, controls, evidence, incident response, recovery, and vendor risk connect to business objectives. Many of the underlying controls already exist. What leadership needs to fund next is ownership, evidence, cadence, testing, and remediation follow-through, the things that turn existing controls into demonstrated maturity.
