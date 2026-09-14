@@ -1,0 +1,98 @@
+{
+  "engine": "LibreOffice headless PDF export",
+  "files": [
+    {
+      "file": "01-meridian-health-grc-program/pdf/nist_csf_gap_assessment.pdf",
+      "pages": 3,
+      "text_probes": [
+        "Remediation Action",
+        "Owner"
+      ],
+      "missing_probes": [],
+      "formula_error_tokens": [],
+      "sha256": "7af49b1accdfd86fac3f874beea2a6bd55e3f7ebee202b2e68c42271a602af9a"
+    },
+    {
+      "file": "01-meridian-health-grc-program/pdf/risk_register.pdf",
+      "pages": 2,
+      "text_probes": [
+        "Accepter not recorded",
+        "Inherent score 12 ties"
+      ],
+      "missing_probes": [],
+      "formula_error_tokens": [],
+      "sha256": "2313eba32652d3e3995864bf5cc36b3a12b38908543ec8a1b142a3d7bf385dc1"
+    },
+    {
+      "file": "02-cascade-civic-rev5-ato/pdf/customer_responsibility_matrix.pdf",
+      "pages": 4,
+      "text_probes": [
+        "Agency duties and go-live actions",
+        "Cascade verifies inheritance"
+      ],
+      "missing_probes": [],
+      "formula_error_tokens": [],
+      "sha256": "e6548ead8fbb5e8f9216931acfc7e0daf2fdeedf7bdc2afc07ba2bfe85396f54"
+    },
+    {
+      "file": "02-cascade-civic-rev5-ato/pdf/poam.pdf",
+      "pages": 3,
+      "text_probes": [
+        "original 2026-06-15 completion",
+        "severity classification was delayed"
+      ],
+      "missing_probes": [],
+      "formula_error_tokens": [],
+      "sha256": "8369d429eecb23853bb73c302b026160b656f3ed9bd8c1556410ef9c78a45a01"
+    },
+    {
+      "file": "03-northgate-signal-fedramp-20x/pdf/ksi_validation_register.pdf",
+      "pages": 4,
+      "text_probes": [
+        "IA-08, SC-23, AC-02",
+        "IA-11, SI-03",
+        "CM-07, SC-02"
+      ],
+      "missing_probes": [],
+      "formula_error_tokens": [],
+      "sha256": "a4f52a14e630237832c9b6b7e6b8034b36542dd6bcc6840375d01ddfa5a1491b"
+    },
+    {
+      "file": "04-northbridge-cloudworks-grc-program/03-third-party-risk-management/pdf/Northbridge-Third-Party-Risk-Assessment.pdf",
+      "pages": 8,
+      "text_probes": [
+        "Unable to test",
+        "evidence not provided"
+      ],
+      "missing_probes": [],
+      "formula_error_tokens": [],
+      "sha256": "89f2e7a439a8d98050e564cc1de3066d45cd526594b84a0e76e597f5ff49e0de"
+    },
+    {
+      "file": "05-halcyon-ai-governance/pdf/ai_control_crosswalk.pdf",
+      "pages": 3,
+      "text_probes": [
+        "row 13; AIR-002 and AIR-007"
+      ],
+      "missing_probes": [],
+      "formula_error_tokens": [],
+      "sha256": "71c9c433dd2a80c1ee60639756a01f07570ae48f534f38fb4154355463098406"
+    },
+    {
+      "file": "05-halcyon-ai-governance/pdf/ai_system_inventory.pdf",
+      "pages": 3,
+      "text_probes": [
+        "Not Applicable: AI Act system classification",
+        "does not exempt the underlying uses"
+      ],
+      "missing_probes": [],
+      "formula_error_tokens": [],
+      "sha256": "802f07e84e40053663dc8470fd2293826a83764905b490e7aa16f6be887a2f62"
+    }
+  ],
+  "limitations": [
+    "Worksheet range previews were visually inspected with Artifact Tool. PDF text checks alone do not prove page layout.",
+    "Original workbook print settings retained; no broad print-layout redesign."
+  ],
+  "visual_review": "Contact-sheet review of 26 PDF pages plus separate review of DataFlow Findings Register page 5, covering all changed sheets. Changed workbook ranges independently rendered before/after. Original dense table print layouts retained."
+}
