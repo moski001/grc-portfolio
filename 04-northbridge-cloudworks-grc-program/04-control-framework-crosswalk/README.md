@@ -1,4 +1,4 @@
-# Project 4 - Control Framework Crosswalk and Control Testing
+# Northbridge Program, Phase 4: Control Framework Crosswalk and Control Testing
 
 ## Purpose
 
@@ -40,10 +40,6 @@ This project shows that you can:
 - Evaluate design and operating effectiveness.
 - Document exceptions and remediation actions.
 - Explain control work in language auditors and managers understand.
-
-## Suggested Interview Positioning
-
-> I built a unified control library and framework crosswalk for a fictional SaaS company. Instead of treating NIST, CIS, ISO, and SOC 2 as separate checklists, I mapped practical internal controls to multiple external requirements and then created test workpapers for selected controls. That helped demonstrate how one well-designed control can support several compliance obligations.
 
 ## Files
 
