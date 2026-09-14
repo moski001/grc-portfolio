@@ -2,11 +2,15 @@
 
 ## Purpose
 
-This project demonstrates how a GRC analyst can build a practical cybersecurity risk assessment for a cloud SaaS company. It includes risk identification, inherent risk scoring, existing control evaluation, residual risk scoring, risk treatment, ownership, target dates, and executive reporting.
+I built this project to show how a GRC analyst builds a practical cybersecurity risk assessment for a cloud SaaS company: risk identification, inherent risk scoring, existing control evaluation, residual risk scoring, risk treatment, ownership, target dates, and executive reporting.
 
 ## Scenario
 
 Northbridge Cloudworks has never completed a formal enterprise cybersecurity risk assessment. Leadership wants a risk register that can support security planning, budget prioritization, SOC 2 readiness, and executive risk discussions.
+
+## The judgment call
+
+Privileged account compromise scored highest of the twenty risks I identified, and a register organized purely by score would put it first and treat everything else as background noise underneath it. I led the executive summary with governance instead, because five of the top risks trace back to the same root cause: no owner, no cadence, no evidence, not five unrelated technical failures. A different analyst could reasonably have kept the strict scoring order and written five independent narratives. I'm betting that fixing governance resolves more residual risk per hour of remediation effort than fixing any single control in isolation.
 
 ## Dashboard Preview
 
@@ -26,16 +30,16 @@ Northbridge Cloudworks has never completed a formal enterprise cybersecurity ris
 - `Northbridge-Enterprise-Risk-Assessment.xlsx`
 - [Risk Methodology and Executive Summary](Northbridge-Risk-Methodology-and-Executive-Summary.md)
 
-## What This Proves
+## Scope and approach
 
-This project shows that you can:
+In this phase, I:
 
-- Convert business and technology conditions into risk statements.
-- Distinguish inherent risk from residual risk.
-- Evaluate whether existing controls reduce risk enough.
-- Recommend realistic risk treatment actions.
-- Assign accountable owners and due dates.
-- Explain risk in business terms instead of only technical terms.
+- Converted business and technology conditions into risk statements.
+- Distinguished inherent risk from residual risk.
+- Evaluated whether existing controls reduce risk enough.
+- Recommended realistic risk treatment actions.
+- Assigned accountable owners and due dates.
+- Explained risk in business terms instead of only technical terms.
 
 ## Files
 
