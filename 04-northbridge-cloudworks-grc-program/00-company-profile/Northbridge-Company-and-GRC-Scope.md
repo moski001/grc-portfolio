@@ -55,7 +55,7 @@ The portfolio focuses on practical GRC analyst work:
 
 ## Portfolio Message
 
-The purpose of this company profile is to give each project a realistic business context. In an interview, this prevents the work from sounding theoretical. Each artifact should answer:
+The purpose of this company profile is to give each project a realistic business context. Each artifact should answer:
 
 - What business process is affected?
 - What system or data is at risk?
