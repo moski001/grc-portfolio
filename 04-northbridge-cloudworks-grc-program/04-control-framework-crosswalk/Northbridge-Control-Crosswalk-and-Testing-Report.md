@@ -4,7 +4,7 @@
 
 Northbridge Cloudworks needs a control model that supports security governance, customer assurance, and future SOC 2 readiness without creating duplicate work for every framework. This project creates a unified internal control library, maps the controls across major frameworks, and demonstrates control testing for selected controls.
 
-The strongest lesson from this project is that frameworks often describe related outcomes using different language. A GRC analyst adds value by translating those requirements into practical controls, evidence, testing, findings, and remediation.
+The strongest lesson from this project is that frameworks are not the work product by themselves. The work product is the control, the evidence, the test procedure, the exception, the remediation plan, and the business decision that follows from testing it. Translating overlapping framework language into that concrete set of deliverables is where a GRC analyst adds value.
 
 ## Control Library Scope
 
