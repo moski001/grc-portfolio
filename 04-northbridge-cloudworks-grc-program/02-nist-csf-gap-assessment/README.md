@@ -2,11 +2,15 @@
 
 ## Purpose
 
-This project demonstrates how a GRC analyst can assess a company's cybersecurity program against NIST CSF 2.0, compare current and target states, identify gaps, prioritize remediation, and communicate results to leadership.
+I built this project to assess a company's cybersecurity program against NIST CSF 2.0: comparing current and target states, identifying gaps, prioritizing remediation, and communicating results to leadership.
 
 ## Scenario
 
 Northbridge Cloudworks completed an enterprise cybersecurity risk assessment and now wants to understand how its current cybersecurity program aligns to NIST CSF 2.0. Leadership wants a practical roadmap, not a fake certification score.
+
+## The judgment call
+
+Phase 1 ranked ransomware disruption as the third-highest residual risk, driven partly by untested backups. I still pushed the disaster-recovery exercise to the 6-12 month window here, behind governance owners, a risk tracker, and vendor tiering. That's a trade-off, not an oversight: running a DR test before anyone owns the results just produces another undocumented finding. A different analyst weighting the risk score more heavily than the ownership gap could reasonably have pulled the DR exercise into the first 90 days and treated the accountability gap as a problem to solve afterward.
 
 ## Dashboard Preview
 
@@ -26,16 +30,16 @@ Northbridge Cloudworks completed an enterprise cybersecurity risk assessment and
 - `Northbridge-NIST-CSF-2.0-Gap-Assessment.xlsx`
 - [CSF 2.0 Gap Assessment Report](Northbridge-CSF-2.0-Gap-Assessment-Report.md)
 
-## What This Proves
+## Scope and approach
 
-This project shows that you can:
+In this phase, I:
 
-- Interpret NIST CSF 2.0 outcomes in a realistic business context.
-- Build current and target profiles.
-- Identify implementation gaps.
-- Avoid claiming NIST CSF "certification."
-- Prioritize remediation by risk, business impact, and effort.
-- Translate assessment results into a 12-month roadmap.
+- Interpreted NIST CSF 2.0 outcomes in a realistic business context.
+- Built current and target profiles.
+- Identified implementation gaps.
+- Avoided claiming NIST CSF "certification."
+- Prioritized remediation by risk, business impact, and effort.
+- Translated assessment results into a 12-month roadmap.
 
 ## Files
 
