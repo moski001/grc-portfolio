@@ -40,4 +40,4 @@ Northbridge should not start a formal SOC 2 examination period until high-priori
 
 ## Conclusion
 
-SOC 2 readiness is not just having policies. It is proving that controls are designed, assigned, evidenced, and operating over time.
+For Northbridge, SOC 2 readiness means proving that controls are designed, assigned, evidenced, and operating over time. The 60-90 day sprint above is what closes that gap before an auditor tests it directly.
