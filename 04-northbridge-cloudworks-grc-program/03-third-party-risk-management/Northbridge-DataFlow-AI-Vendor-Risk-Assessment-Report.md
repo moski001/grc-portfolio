@@ -62,3 +62,5 @@ The vendor is not rejected because the gaps appear remediable and the service pr
 ## Interview-Ready Conclusion
 
 The key judgment in this project is that vendor risk is not binary. A vendor can be usable if the risks are understood, documented, contractually managed, and tracked through remediation. Conditional approval is appropriate when the business wants the service, the risk is not outside tolerance, and specific gaps can be closed before full production use.
+
+Scenario assessment date: **2026-08-26**. Next annual review: **2027-08-26**. These authored dates are part of the [shared scenario chronology](../00-company-profile/Northbridge-Company-and-GRC-Scope.md#scenario-chronology-and-rating-definitions); remediation commitments remain unchanged.

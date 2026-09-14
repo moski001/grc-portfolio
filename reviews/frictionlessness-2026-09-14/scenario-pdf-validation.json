@@ -1,0 +1,47 @@
+[
+  {
+    "file": "01-meridian-health-grc-program/pdf/risk_register.pdf",
+    "pages": 3,
+    "no_formula_errors": true
+  },
+  {
+    "file": "01-meridian-health-grc-program/pdf/vendor_risk_assessment.pdf",
+    "pages": 3,
+    "no_formula_errors": true
+  },
+  {
+    "file": "02-cascade-civic-rev5-ato/pdf/poam.pdf",
+    "pages": 3,
+    "no_formula_errors": true
+  },
+  {
+    "file": "02-cascade-civic-rev5-ato/pdf/sctm_control_matrix.pdf",
+    "pages": 4,
+    "no_formula_errors": true
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/pdf/Northbridge-Enterprise-Risk-Assessment.pdf",
+    "pages": 5,
+    "no_formula_errors": true
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/02-nist-csf-gap-assessment/pdf/Northbridge-NIST-CSF-2.0-Gap-Assessment.pdf",
+    "pages": 4,
+    "no_formula_errors": true
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/03-third-party-risk-management/pdf/Northbridge-Third-Party-Risk-Assessment.pdf",
+    "pages": 8,
+    "no_formula_errors": true
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/04-control-framework-crosswalk/pdf/Northbridge-Control-Framework-Crosswalk-and-Testing.pdf",
+    "pages": 7,
+    "no_formula_errors": true
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/pdf/Northbridge-SOC2-Readiness-and-Evidence-Tracker.pdf",
+    "pages": 7,
+    "no_formula_errors": true
+  }
+]

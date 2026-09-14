@@ -86,3 +86,9 @@ Regulatory articles, ISO clause numbers, and NIST subcategory references were cu
 ## Companion projects
 
 This project extends the portfolio's commercial GRC work (Meridian, Northbridge) into AI-specific risk, and applies the same discipline as the federal packages (Cascade, Northgate): inventory the scope, assess against a defined framework, trace controls to evidence, and make a defensible decision.
+
+## Deferred review notes
+
+The inventory's Classification Method B8 describes the Digital Omnibus deferral as proposed, while other artifacts describe it as enacted. Resolve that external-fact question in pass 5; this pass makes no legal-status determination.
+
+AI-009's inventory describes inputs as unknown/likely, while AIR-010 states member-data entry more firmly. Retain both: the inventory records discovery uncertainty; the risk assessment states the exposure scenario being evaluated. The latter is not independent evidence that the former has been confirmed. Confirmation would require evidence of the actual data submitted.

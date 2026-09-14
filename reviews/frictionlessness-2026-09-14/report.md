@@ -1,5 +1,7 @@
 # Frictionlessness Report — 2026-09-14
 
+Historical first pass. For current resolutions and authorized scenario decisions, see [the follow-up](scenario-follow-up.md). The original findings and validation hashes below are retained as the record of commit d507c62.
+
 Repository: `/Users/cmorrissey/Documents/Codex/grc-portfolio-frictionlessness-20260914`
 Branch: `agent/frictionlessness-review-20260914`
 Base: `e51513e8f191d9809c99e3744b475961699c90ab`

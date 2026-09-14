@@ -62,3 +62,54 @@ The purpose of this company profile is to give each project a realistic business
 - What framework or standard guided the work?
 - What evidence would prove the control exists?
 - What decision should leadership make?
+
+
+## Scenario chronology and rating definitions
+
+These are fictional assessment dates and decision assumptions authored for the portfolio. They do not describe real operating tests or the time spent producing the files. The framework-reference baseline remains August 13, 2026.
+
+| Phase | Scenario assessment date | Dependency |
+|---|---|---|
+| Enterprise risk assessment | 2026-08-13 | Establish risks and treatment ownership |
+| CSF gap assessment | 2026-08-19 | Use enterprise risks to prioritize gaps |
+| DataFlow AI vendor assessment | 2026-08-26 | Assess the vendor before the control-testing workpaper |
+| Control crosswalk and testing | 2026-09-02 | Use the vendor assessment as TPRM-01 evidence |
+| SOC 2 readiness | 2026-09-10 | Consolidate earlier work into evidence requests and readiness actions |
+
+DataFlow AI's next annual assessment is 2027-08-26. Existing remediation commitments are retained. Dates are assessment checkpoints, not assertions that every activity happened on that one day.
+
+### Distinct rating purposes
+
+This section owns the definitions used by the Northbridge workbooks. An identical control ID keeps the same control objective; the rating columns answer different questions.
+
+| Field and authoritative location | Meaning | Tier interpretation |
+|---|---|---|
+| Control Criticality — crosswalk Control Library column L | Business importance of the control objective if it fails; independent of whether current evidence is complete. | High: broad access, exposure or service-protection consequence. Medium: narrower or supporting control objective. Low: limited consequence. |
+| Evidence Review Priority — SOC 2 Control Matrix column I | Relative attention for the readiness evidence review, considering the documented evidence gap and follow-up needed. It is not a new business-risk rating. | High: production-sensitive evidence or important incomplete vendor/cloud assurance. Medium: routine control evidence or a bounded review/workflow gap. Low: administrative evidence follow-up. A Ready control may retain a review priority for continued monitoring. |
+| Finding Severity — workpapers and findings registers | Severity of the particular observed or assumed exception described in that finding. | The finding's stated consequence and evidence determine its severity. It need not equal the control's criticality. |
+| Residual Risk — enterprise Risk Register | Likelihood × impact remaining for the business-risk scenario after crediting effective controls. | Low 1–4; Medium 5–9; High 10–16; Critical 17–25. These bands apply to Northbridge only. |
+
+The shared controls below retain different values deliberately. They are reconciled by purpose and the existing finding, not silently treated as one scale.
+
+| Control | Criticality | Evidence review priority | Reconciliation |
+|---|---|---|---|
+| AC-02 Access Review | High | Medium | Access is consequential; the documented exception is a missing approval timestamp on a review that occurred. |
+| VM-01 Scanning | High | Medium | Scanning is important; three monthly scans passed the workpaper test, with an aging-summary follow-up. |
+| VM-02 Vulnerability Remediation | High | Medium | Unremediated vulnerabilities can be serious; SOCF-004 specifically concerns undocumented SLA exceptions and is rated Medium. |
+| LOG-01 Logging | High | Medium | Detection coverage is important; readiness work requires the source inventory and documented ownership. |
+| SEC-01 Training | Medium | Low | Workforce awareness is a supporting control; the PBC follow-up is contractor completion evidence, not a newly discovered security incident. |
+
+All other shared controls have matching tier labels. PBC request priority and finding severity remain separately scoped fields.
+
+### Control effectiveness assumptions
+
+Effective means the described control operates consistently within its scope; it does not mean zero residual risk. Ineffective means the control does not meet the assessed objective, and this assessment credits no reduction for it. Partial controls have limited or incomplete operation.
+
+| Risk | Effectiveness | Fictional scenario decision and scoring consequence |
+|---|---|---|
+| R-005 Former employee access | Effective | Deactivation and retained records operate after timely HR notice. The remaining risk is a delayed upstream notification. Residual score remains 8. |
+| R-018 Unauthorized change | Effective | Approvals and five-business-day emergency review operate consistently. Unauthorized bypass can still cause harm before detection. Residual score remains 8. |
+| R-015 Untested response | Ineffective | A plan and rota do not demonstrate coordinated response without an exercise. No reduction is credited: 20 inherent and 20 residual, Critical. |
+| R-020 Missing evidence | Ineffective | Shared folders without evidence owners do not establish evidence governance. No reduction is credited: 16 inherent and 16 residual, High. |
+
+The other sixteen risks retain Partially Effective. These are scenario assumptions, not newly executed tests. The dashboard ranks residual scores dynamically; tied scores keep register order for display only.

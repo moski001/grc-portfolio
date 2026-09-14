@@ -41,7 +41,7 @@ Five controls were selected for test workpapers:
 | AC-01 MFA Enforcement | Inspect identity-provider configuration and user sample | Exception noted |
 | AC-02 Quarterly Access Review | Inspect access review evidence | Exception noted |
 | VM-01 Vulnerability Scanning | Inspect scan cadence and remediation aging | Pass with improvement |
-| IR-01 Incident Response Tabletop | Inspect exercise evidence | Exception noted |
+| IR-02 Incident Response Tabletop | Inspect exercise evidence | Exception noted |
 | TPRM-01 Critical Vendor Review | Inspect vendor review evidence | Pass with observation |
 
 ## Key Findings
@@ -63,3 +63,5 @@ That answer sets you apart because it shows you can move from theory to executio
 ## Management Recommendation
 
 Northbridge should maintain the unified control library as the source of truth, assign control owners, define evidence requirements, and use the testing workpapers as the foundation for SOC 2 readiness.
+
+Scenario assessment date: **2026-09-02**. [Shared rating definitions](../00-company-profile/Northbridge-Company-and-GRC-Scope.md#distinct-rating-purposes) distinguish Control Criticality from SOC 2 Evidence Review Priority.
