@@ -38,6 +38,6 @@ Northbridge should not start a formal SOC 2 examination period until high-priori
 5. Formalizing vulnerability SLA exception approval.
 6. Reviewing all PBC requests for completeness.
 
-## Interview-Ready Conclusion
+## Conclusion for Leadership
 
-SOC 2 readiness is not just having policies. It is proving that controls are designed, assigned, evidenced, and operating over time. A strong GRC analyst helps the company find gaps before the auditor does.
+SOC 2 readiness is not just having policies. It is proving that controls are designed, assigned, evidenced, and operating over time.
