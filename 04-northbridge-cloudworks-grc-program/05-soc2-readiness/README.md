@@ -1,4 +1,4 @@
-# Project 5 - SOC 2 Readiness and Evidence Management
+# Northbridge Program, Phase 5: SOC 2 Readiness and Evidence Management
 
 ## Purpose
 
@@ -38,10 +38,6 @@ This project shows that you can:
 - Document audit findings and remediation actions.
 - Explain why evidence quality matters.
 - Communicate readiness status to leadership.
-
-## Suggested Interview Positioning
-
-> I built a mock SOC 2 readiness and evidence-management package for a fictional SaaS company. It includes a control matrix, PBC evidence tracker, findings register, remediation tracker, and readiness dashboard. The project demonstrates how I would help a company prepare before engaging an external auditor.
 
 ## Files
 
