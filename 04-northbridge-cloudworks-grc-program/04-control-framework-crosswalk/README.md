@@ -2,11 +2,15 @@
 
 ## Purpose
 
-This project demonstrates how a GRC analyst can translate multiple frameworks into a practical internal control library, map controls across standards, request evidence, perform control testing, document exceptions, and track remediation.
+I built this project to translate multiple frameworks into a practical internal control library: mapping controls across standards, requesting evidence, performing control testing, documenting exceptions, and tracking remediation.
 
 ## Scenario
 
 Northbridge Cloudworks is preparing for stronger customer security reviews and future SOC 2 readiness work. Leadership wants a unified control library instead of separate, duplicated checklists for NIST, CIS, ISO, and SOC 2.
+
+## The judgment call
+
+Fifteen controls exist in the library; only five got test workpapers this cycle, and access control got two of them while business continuity and change management got none. That's not neutral. I weighted testing coverage toward access control because Phase 1's risk register ranked privileged account compromise as Northbridge's top residual risk, and testing effort should follow risk rather than chase even coverage across categories. A different analyst optimizing for breadth across all ten control areas could reasonably have spread the five test slots differently, and would have caught problems in categories this cycle didn't touch at all.
 
 ## Dashboard Preview
 
@@ -29,17 +33,17 @@ Northbridge Cloudworks is preparing for stronger customer security reviews and f
 - `Northbridge-Control-Framework-Crosswalk-and-Testing.xlsx`
 - [Control Crosswalk and Testing Report](Northbridge-Control-Crosswalk-and-Testing-Report.md)
 
-## What This Proves
+## Scope and approach
 
-This project shows that you can:
+In this phase, I:
 
-- Build an internal control library.
-- Map one internal control to multiple frameworks.
-- Distinguish framework mapping from actual control testing.
-- Request evidence that supports a control objective.
-- Evaluate design and operating effectiveness.
-- Document exceptions and remediation actions.
-- Explain control work in language auditors and managers understand.
+- Built an internal control library.
+- Mapped one internal control to multiple frameworks.
+- Distinguished framework mapping from actual control testing.
+- Requested evidence that supports a control objective.
+- Evaluated design and operating effectiveness.
+- Documented exceptions and remediation actions.
+- Explained control work in language auditors and managers understand.
 
 ## Files
 
