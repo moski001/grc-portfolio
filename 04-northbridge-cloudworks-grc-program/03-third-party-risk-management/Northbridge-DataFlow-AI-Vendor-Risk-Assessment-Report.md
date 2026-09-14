@@ -59,6 +59,6 @@ DataFlow AI may proceed to limited implementation only after Northbridge receive
 
 The vendor is not rejected because the gaps appear remediable and the service provides business value. However, unconditional approval would be inappropriate because two issues directly affect customer-data risk and incident-response obligations.
 
-## Interview-Ready Conclusion
+## Conclusion for Decision-Makers
 
-The key judgment in this project is that vendor risk is not binary. A vendor can be usable if the risks are understood, documented, contractually managed, and tracked through remediation. Conditional approval is appropriate when the business wants the service, the risk is not outside tolerance, and specific gaps can be closed before full production use.
+The key judgment in this assessment is that vendor risk is not binary. A vendor can be usable if the risks are understood, documented, contractually managed, and tracked through remediation. Conditional approval is appropriate when the business wants the service, the risk is not outside tolerance, and specific gaps can be closed before full production use.
