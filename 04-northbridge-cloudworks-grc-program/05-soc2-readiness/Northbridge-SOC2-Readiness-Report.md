@@ -38,6 +38,6 @@ Northbridge should not start a formal SOC 2 examination period until high-priori
 5. Formalizing vulnerability SLA exception approval.
 6. Reviewing all PBC requests for completeness.
 
-## Conclusion for Leadership
+## Conclusion
 
 SOC 2 readiness is not just having policies. It is proving that controls are designed, assigned, evidenced, and operating over time.
