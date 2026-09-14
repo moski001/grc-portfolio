@@ -41,3 +41,5 @@ Northbridge should not start a formal SOC 2 examination period until high-priori
 ## Conclusion
 
 For Northbridge, SOC 2 readiness means proving that controls are designed, assigned, evidenced, and operating over time. The 60-90 day sprint above is what closes that gap before an auditor tests it directly.
+
+Scenario assessment date: **2026-09-10**. Dashboard areas are mutually exclusive and derived from Control Matrix column J: 22 controls total, comprising 6 Ready, 15 Partial and 1 Not Ready. [Shared rating definitions](../00-company-profile/Northbridge-Company-and-GRC-Scope.md#distinct-rating-purposes) explain Evidence Review Priority and its differences from Control Criticality.

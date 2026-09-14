@@ -1,0 +1,2018 @@
+[
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Legend & Methodology",
+    "cell": "B4",
+    "before": "20-25 \u2014 Immediate executive escalation and remediation required",
+    "after": "15-25 \u2014 Immediate executive escalation and remediation required",
+    "reason": "ERR-03: align legend with existing >=15 formula rubric."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Legend & Methodology",
+    "cell": "B5",
+    "before": "10-19 \u2014 Remediation plan required within 30-60 days",
+    "after": "10-14 \u2014 Remediation plan required within 30-60 days",
+    "reason": "ERR-03: adjacent High band matches formulas."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Register",
+    "cell": "S13",
+    "before": "Add colo badge log review to quarterly physical security checklist; low residual risk given facility is being decommissioned in migration plan",
+    "after": "Add colo badge log review to quarterly physical security checklist; Medium residual risk (score 6) given facility is being decommissioned in migration plan",
+    "reason": "ERR-05: wording must match calculated band."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Register",
+    "cell": "S18",
+    "before": "Monitor for abuse; Q3 rate-limiting backlog. Accepted because directory data is public and exposure does not justify remediation cost (project README). Accepter not recorded; API Platform Lead is the risk owner.",
+    "after": "Accepted under ACC-014 by Elena Voss, COO, on 2026-03-12. Public directory data and Low residual score 2 do not justify immediate remediation cost. Monitor abuse; retain Q3 rate-limiting backlog. See Risk Acceptance for authority and conditions.",
+    "reason": "SCN-01: user-authorized fictional acceptance record."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A1",
+    "before": null,
+    "after": "MERIDIAN RISK ACCEPTANCE RECORD",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A2",
+    "before": null,
+    "after": "Scenario status",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "B2",
+    "before": null,
+    "after": "Fictional decision and personnel, authored for this portfolio exercise. No real executive approval is represented.",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A3",
+    "before": null,
+    "after": "Acceptance ID",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "B3",
+    "before": null,
+    "after": "ACC-014",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A4",
+    "before": null,
+    "after": "Related risk",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "B4",
+    "before": null,
+    "after": "R-014",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A5",
+    "before": null,
+    "after": "Decision",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "B5",
+    "before": null,
+    "after": "Accept with monitoring",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A6",
+    "before": null,
+    "after": "Accepter",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "B6",
+    "before": null,
+    "after": "Elena Voss",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A7",
+    "before": null,
+    "after": "Role",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "B7",
+    "before": null,
+    "after": "Chief Operating Officer",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A8",
+    "before": null,
+    "after": "Delegated authority",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "B8",
+    "before": null,
+    "after": "Scenario risk charter delegates acceptance of Low residual operational risks involving public data to the COO. No authority to waive legal obligations or accept PHI disclosure risk.",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A9",
+    "before": null,
+    "after": "Decision date",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "B9",
+    "before": null,
+    "after": "2026-03-12 00:00:00",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A10",
+    "before": null,
+    "after": "Residual score at decision",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "B10",
+    "before": null,
+    "after": 2,
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A11",
+    "before": null,
+    "after": "Residual band",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "B11",
+    "before": null,
+    "after": "Low",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A12",
+    "before": null,
+    "after": "Business rationale",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "B12",
+    "before": null,
+    "after": "The directory is public by design. Immediate rate-limiting work would displace higher-priority PHI and access-control remediation; expected scraping exposure does not justify that cost. Q3 implementation remains in the backlog.",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A13",
+    "before": null,
+    "after": "Risk owner",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "B13",
+    "before": null,
+    "after": "API Platform Lead",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A14",
+    "before": null,
+    "after": "Conditions",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "B14",
+    "before": null,
+    "after": "Review gateway abuse logs monthly; escalate service degradation, unexpected nonpublic data exposure, or a material change in API usage to the COO and CISO. Acceptance must be reconsidered if any condition fails.",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A15",
+    "before": null,
+    "after": "Scheduled review date",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "B15",
+    "before": null,
+    "after": "2026-07-31 00:00:00",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A16",
+    "before": null,
+    "after": "Acceptance expires",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "B16",
+    "before": null,
+    "after": "2026-12-31 00:00:00",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A17",
+    "before": null,
+    "after": "Review evidence",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "B17",
+    "before": null,
+    "after": "This record documents the March decision only. A completed July review or renewal is not supplied.",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "A18",
+    "before": null,
+    "after": "Closure evidence",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Acceptance",
+    "cell": "B18",
+    "before": null,
+    "after": "Rate-limiting configuration and validation of expected API behavior are required to close the remediation action. Acceptance alone does not close R-014.",
+    "reason": "SCN-01: fictional acceptance record field"
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/vendor_risk_assessment.xlsx",
+    "sheet": "Vendor Inventory",
+    "cell": "H5",
+    "before": "2025-11-01",
+    "after": "2025-11-03 00:00:00",
+    "reason": "SCN-02: fictional staggered vendor review chronology."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/vendor_risk_assessment.xlsx",
+    "sheet": "Vendor Inventory",
+    "cell": "H6",
+    "before": "2025-11-01",
+    "after": "2025-10-14 00:00:00",
+    "reason": "SCN-02: fictional staggered vendor review chronology."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/vendor_risk_assessment.xlsx",
+    "sheet": "Vendor Inventory",
+    "cell": "H7",
+    "before": "2025-11-01",
+    "after": "2025-12-02 00:00:00",
+    "reason": "SCN-02: fictional staggered vendor review chronology."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/vendor_risk_assessment.xlsx",
+    "sheet": "Vendor Inventory",
+    "cell": "H8",
+    "before": "2025-11-01",
+    "after": "2025-09-18 00:00:00",
+    "reason": "SCN-02: fictional staggered vendor review chronology."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/vendor_risk_assessment.xlsx",
+    "sheet": "Vendor Inventory",
+    "cell": "H9",
+    "before": "2025-11-01",
+    "after": "2025-10-29 00:00:00",
+    "reason": "SCN-02: fictional staggered vendor review chronology."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/vendor_risk_assessment.xlsx",
+    "sheet": "Vendor Inventory",
+    "cell": "H10",
+    "before": "2025-11-01",
+    "after": "2025-08-21 00:00:00",
+    "reason": "SCN-02: fictional staggered vendor review chronology."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/vendor_risk_assessment.xlsx",
+    "sheet": "Vendor Inventory",
+    "cell": "H11",
+    "before": "2025-11-01",
+    "after": "2025-11-19 00:00:00",
+    "reason": "SCN-02: fictional staggered vendor review chronology."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/vendor_risk_assessment.xlsx",
+    "sheet": "Vendor Inventory",
+    "cell": "H13",
+    "before": "2025-11-01",
+    "after": "2026-01-12 00:00:00",
+    "reason": "SCN-02: fictional staggered vendor review chronology."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/vendor_risk_assessment.xlsx",
+    "sheet": "Vendor Inventory",
+    "cell": "H14",
+    "before": "2025-11-01",
+    "after": "2025-12-16 00:00:00",
+    "reason": "SCN-02: fictional staggered vendor review chronology."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/vendor_risk_assessment.xlsx",
+    "sheet": "Vendor Inventory",
+    "cell": "H15",
+    "before": "2025-11-01",
+    "after": "2026-02-04 00:00:00",
+    "reason": "SCN-02: fictional staggered vendor review chronology."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/vendor_risk_assessment.xlsx",
+    "sheet": "Vendor Inventory",
+    "cell": "A2",
+    "before": "Sample GRC portfolio artifact | Fictional company | Vendor inventory, risk tiering, and assessment status",
+    "after": "Sample GRC portfolio artifact | Fictional company | Vendor inventory, risk tiering, and assessment status | Assessment dates are fictional scenario dates.",
+    "reason": "SCN-02: identify authored chronology."
+  },
+  {
+    "file": "02-cascade-civic-rev5-ato/artifacts/poam.xlsx",
+    "sheet": "POA&M",
+    "cell": "J7",
+    "before": "High",
+    "after": "Moderate",
+    "reason": "ERR-01: V-003 risk rating matches SAR FIND-003 source finding; G7 severity already Moderate."
+  },
+  {
+    "file": "02-cascade-civic-rev5-ato/artifacts/sctm_control_matrix.xlsx",
+    "sheet": "SCTM",
+    "cell": "E5",
+    "before": "Implemented",
+    "after": "Partially Implemented",
+    "reason": "ERR-02: V-008 shared-account weakness prevents complete AC-2 implementation."
+  },
+  {
+    "file": "02-cascade-civic-rev5-ato/artifacts/sctm_control_matrix.xlsx",
+    "sheet": "SCTM",
+    "cell": "I5",
+    "before": "Satisfied",
+    "after": "Other Than Satisfied",
+    "reason": "ERR-02: align assessment result with V-008 and SAR FIND-002."
+  },
+  {
+    "file": "02-cascade-civic-rev5-ato/artifacts/sctm_control_matrix.xlsx",
+    "sheet": "SCTM",
+    "cell": "J5",
+    "before": null,
+    "after": "V-008",
+    "reason": "ERR-02: restore control-to-weakness traceability."
+  },
+  {
+    "file": "02-cascade-civic-rev5-ato/artifacts/sctm_control_matrix.xlsx",
+    "sheet": "SCTM",
+    "cell": "G5",
+    "before": "Accounts provisioned via Okta tied to HRIS events; privileged accounts require manager + system owner approval; automated disable at 35 days inactivity.",
+    "after": "Okta/HRIS lifecycle automation and account approvals exist, but four batch jobs share one elevated database account. Process attribution and least privilege are not met for that account; see V-008 / SAR FIND-002.",
+    "reason": "ERR-02: carry existing source-finding condition into AC-2."
+  },
+  {
+    "file": "02-cascade-civic-rev5-ato/artifacts/sctm_control_matrix.xlsx",
+    "sheet": "SCTM",
+    "cell": "H5",
+    "before": "Examine, Interview",
+    "after": "Examine, Interview, Test",
+    "reason": "ERR-02: include source finding technical test method."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "E6",
+    "before": "Offboarding evidence is not centrally retained",
+    "after": "Deprovisioning depends on timely HR termination notification; residual risk remains if that upstream trigger is delayed.",
+    "reason": "SCN-04: vary control effectiveness with explicit fictional rationale; ineffective controls receive no score reduction."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "F6",
+    "before": "Terminated users may retain access because account removal evidence is incomplete across connected SaaS systems.",
+    "after": "A delayed HR termination notification could leave a former employee with access before the otherwise operating removal workflow is triggered.",
+    "reason": "SCN-04: vary control effectiveness with explicit fictional rationale; ineffective controls receive no score reduction."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "K6",
+    "before": "HR ticketing, SSO deactivation",
+    "after": "Fictional scenario assumption: SSO deactivation and retained termination records operate consistently when HR notification is received.",
+    "reason": "SCN-04: vary control effectiveness with explicit fictional rationale; ineffective controls receive no score reduction."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "L6",
+    "before": "Partially Effective",
+    "after": "Effective",
+    "reason": "SCN-04: vary control effectiveness with explicit fictional rationale; ineffective controls receive no score reduction."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "R6",
+    "before": "Automate deprovisioning checklist; sample monthly terminations; retain evidence.",
+    "after": "Maintain automated deprovisioning and monthly termination sampling; monitor timeliness of HR notification.",
+    "reason": "SCN-04: vary control effectiveness with explicit fictional rationale; ineffective controls receive no score reduction."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "C6",
+    "before": "Automate deprovisioning checklist; sample monthly terminations; retain evidence.",
+    "after": "Maintain automated deprovisioning and monthly termination sampling; monitor timeliness of HR notification.",
+    "reason": "SCN-04: treatment plan mirrors revised maintenance action."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "E19",
+    "before": "Emergency changes lack consistent post-implementation review",
+    "after": "An unauthorized change can still bypass the normal approval path; retrospective review is a detective control.",
+    "reason": "SCN-04: vary control effectiveness with explicit fictional rationale; ineffective controls receive no score reduction."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "F19",
+    "before": "Production instability or security exposure may occur because emergency changes are not consistently reviewed after implementation.",
+    "after": "An unauthorized production change could cause exposure before review detects it, despite consistently operating approvals and emergency post-review.",
+    "reason": "SCN-04: vary control effectiveness with explicit fictional rationale; ineffective controls receive no score reduction."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "K19",
+    "before": "Pull requests, approvals",
+    "after": "Fictional scenario assumption: pull-request approvals and emergency reviews within five business days operate consistently.",
+    "reason": "SCN-04: vary control effectiveness with explicit fictional rationale; ineffective controls receive no score reduction."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "L19",
+    "before": "Partially Effective",
+    "after": "Effective",
+    "reason": "SCN-04: vary control effectiveness with explicit fictional rationale; ineffective controls receive no score reduction."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "R19",
+    "before": "Require emergency change review within five business days; sample monthly.",
+    "after": "Maintain production approvals and five-business-day emergency review; sample changes monthly.",
+    "reason": "SCN-04: vary control effectiveness with explicit fictional rationale; ineffective controls receive no score reduction."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "C19",
+    "before": "Require emergency change review within five business days; sample monthly.",
+    "after": "Maintain production approvals and five-business-day emergency review; sample changes monthly.",
+    "reason": "SCN-04: treatment plan mirrors revised maintenance action."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "K16",
+    "before": "IR plan, on-call rotation",
+    "after": "IR plan and on-call rotation exist, but no current exercise validates coordinated response. No demonstrated reduction credited to these controls for this risk.",
+    "reason": "SCN-04: vary control effectiveness with explicit fictional rationale; ineffective controls receive no score reduction."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "L16",
+    "before": "Partially Effective",
+    "after": "Ineffective",
+    "reason": "SCN-04: vary control effectiveness with explicit fictional rationale; ineffective controls receive no score reduction."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "M16",
+    "before": 3,
+    "after": 4,
+    "reason": "SCN-04: vary control effectiveness with explicit fictional rationale; ineffective controls receive no score reduction."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "K21",
+    "before": "Shared folders, ticketing",
+    "after": "Shared folders and ticketing lack central evidence ownership and review; they do not meet the evidence-governance objective.",
+    "reason": "SCN-04: vary control effectiveness with explicit fictional rationale; ineffective controls receive no score reduction."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "L21",
+    "before": "Partially Effective",
+    "after": "Ineffective",
+    "reason": "SCN-04: vary control effectiveness with explicit fictional rationale; ineffective controls receive no score reduction."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "M21",
+    "before": 3,
+    "after": 4,
+    "reason": "SCN-04: vary control effectiveness with explicit fictional rationale; ineffective controls receive no score reduction."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B2",
+    "before": "High",
+    "after": "='Risk Register'!P2",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G2",
+    "before": "High",
+    "after": "=B2",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y2",
+    "before": null,
+    "after": "=RANK(O2,$O$2:$O$21,0)+COUNTIF($O$2:O2,O2)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B3",
+    "before": "High",
+    "after": "='Risk Register'!P3",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G3",
+    "before": "High",
+    "after": "=B3",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y3",
+    "before": null,
+    "after": "=RANK(O3,$O$2:$O$21,0)+COUNTIF($O$2:O3,O3)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B4",
+    "before": "High",
+    "after": "='Risk Register'!P4",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G4",
+    "before": "High",
+    "after": "=B4",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y4",
+    "before": null,
+    "after": "=RANK(O4,$O$2:$O$21,0)+COUNTIF($O$2:O4,O4)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B5",
+    "before": "High",
+    "after": "='Risk Register'!P5",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G5",
+    "before": "High",
+    "after": "=B5",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y5",
+    "before": null,
+    "after": "=RANK(O5,$O$2:$O$21,0)+COUNTIF($O$2:O5,O5)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B6",
+    "before": "Medium",
+    "after": "='Risk Register'!P6",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G6",
+    "before": "Medium",
+    "after": "=B6",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y6",
+    "before": null,
+    "after": "=RANK(O6,$O$2:$O$21,0)+COUNTIF($O$2:O6,O6)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B7",
+    "before": "Medium",
+    "after": "='Risk Register'!P7",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G7",
+    "before": "Medium",
+    "after": "=B7",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y7",
+    "before": null,
+    "after": "=RANK(O7,$O$2:$O$21,0)+COUNTIF($O$2:O7,O7)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B8",
+    "before": "High",
+    "after": "='Risk Register'!P8",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G8",
+    "before": "High",
+    "after": "=B8",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y8",
+    "before": null,
+    "after": "=RANK(O8,$O$2:$O$21,0)+COUNTIF($O$2:O8,O8)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B9",
+    "before": "High",
+    "after": "='Risk Register'!P9",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G9",
+    "before": "High",
+    "after": "=B9",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y9",
+    "before": null,
+    "after": "=RANK(O9,$O$2:$O$21,0)+COUNTIF($O$2:O9,O9)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B10",
+    "before": "High",
+    "after": "='Risk Register'!P10",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G10",
+    "before": "High",
+    "after": "=B10",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y10",
+    "before": null,
+    "after": "=RANK(O10,$O$2:$O$21,0)+COUNTIF($O$2:O10,O10)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B11",
+    "before": "High",
+    "after": "='Risk Register'!P11",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G11",
+    "before": "High",
+    "after": "=B11",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y11",
+    "before": null,
+    "after": "=RANK(O11,$O$2:$O$21,0)+COUNTIF($O$2:O11,O11)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B12",
+    "before": "High",
+    "after": "='Risk Register'!P12",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G12",
+    "before": "High",
+    "after": "=B12",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y12",
+    "before": null,
+    "after": "=RANK(O12,$O$2:$O$21,0)+COUNTIF($O$2:O12,O12)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B13",
+    "before": "High",
+    "after": "='Risk Register'!P13",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G13",
+    "before": "High",
+    "after": "=B13",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y13",
+    "before": null,
+    "after": "=RANK(O13,$O$2:$O$21,0)+COUNTIF($O$2:O13,O13)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B14",
+    "before": "High",
+    "after": "='Risk Register'!P14",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G14",
+    "before": "High",
+    "after": "=B14",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y14",
+    "before": null,
+    "after": "=RANK(O14,$O$2:$O$21,0)+COUNTIF($O$2:O14,O14)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B15",
+    "before": "Medium",
+    "after": "='Risk Register'!P15",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G15",
+    "before": "Medium",
+    "after": "=B15",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y15",
+    "before": null,
+    "after": "=RANK(O15,$O$2:$O$21,0)+COUNTIF($O$2:O15,O15)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B16",
+    "before": "High",
+    "after": "='Risk Register'!P16",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G16",
+    "before": "High",
+    "after": "=B16",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y16",
+    "before": null,
+    "after": "=RANK(O16,$O$2:$O$21,0)+COUNTIF($O$2:O16,O16)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B17",
+    "before": "Medium",
+    "after": "='Risk Register'!P17",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G17",
+    "before": "Medium",
+    "after": "=B17",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y17",
+    "before": null,
+    "after": "=RANK(O17,$O$2:$O$21,0)+COUNTIF($O$2:O17,O17)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B18",
+    "before": "High",
+    "after": "='Risk Register'!P18",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G18",
+    "before": "High",
+    "after": "=B18",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y18",
+    "before": null,
+    "after": "=RANK(O18,$O$2:$O$21,0)+COUNTIF($O$2:O18,O18)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B19",
+    "before": "Medium",
+    "after": "='Risk Register'!P19",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G19",
+    "before": "Medium",
+    "after": "=B19",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y19",
+    "before": null,
+    "after": "=RANK(O19,$O$2:$O$21,0)+COUNTIF($O$2:O19,O19)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B20",
+    "before": "Medium",
+    "after": "='Risk Register'!P20",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G20",
+    "before": "Medium",
+    "after": "=B20",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y20",
+    "before": null,
+    "after": "=RANK(O20,$O$2:$O$21,0)+COUNTIF($O$2:O20,O20)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "B21",
+    "before": "High",
+    "after": "='Risk Register'!P21",
+    "reason": "SCN-04: link treatment rating to source formula."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "G21",
+    "before": "High",
+    "after": "=B21",
+    "reason": "SCN-04: priority follows current residual band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y21",
+    "before": null,
+    "after": "=RANK(O21,$O$2:$O$21,0)+COUNTIF($O$2:O21,O21)-1",
+    "reason": "SCN-04: unique display rank; ties keep register order, not a new business-priority assertion."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Risk Register",
+    "cell": "Y1",
+    "before": null,
+    "after": "Display Rank",
+    "reason": "SCN-04: calculated top-risk display order."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "A12",
+    "before": "R-001",
+    "after": "=INDEX('Risk Register'!$A$2:$A$21,MATCH(ROWS($A$12:A12),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "B12",
+    "before": "Identity and Access Management",
+    "after": "=INDEX('Risk Register'!$B$2:$B$21,MATCH(ROWS($A$12:A12),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "C12",
+    "before": "Okta / Microsoft 365 / AWS Admin",
+    "after": "=INDEX('Risk Register'!$C$2:$C$21,MATCH(ROWS($A$12:A12),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "D12",
+    "before": 15,
+    "after": "=INDEX('Risk Register'!$O$2:$O$21,MATCH(ROWS($A$12:A12),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "E12",
+    "before": "High",
+    "after": "=INDEX('Risk Register'!$P$2:$P$21,MATCH(ROWS($A$12:A12),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "F12",
+    "before": "Mitigate",
+    "after": "=INDEX('Risk Register'!$Q$2:$Q$21,MATCH(ROWS($A$12:A12),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "G12",
+    "before": "VP of IT",
+    "after": "=INDEX('Risk Register'!$S$2:$S$21,MATCH(ROWS($A$12:A12),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "H12",
+    "before": "2026-10-15 00:00:00",
+    "after": "=INDEX('Risk Register'!$T$2:$T$21,MATCH(ROWS($A$12:A12),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "A13",
+    "before": "R-002",
+    "after": "=INDEX('Risk Register'!$A$2:$A$21,MATCH(ROWS($A$12:A13),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "B13",
+    "before": "Business Continuity",
+    "after": "=INDEX('Risk Register'!$B$2:$B$21,MATCH(ROWS($A$12:A13),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "C13",
+    "before": "Production SaaS Platform",
+    "after": "=INDEX('Risk Register'!$C$2:$C$21,MATCH(ROWS($A$12:A13),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "D13",
+    "before": 15,
+    "after": "=INDEX('Risk Register'!$O$2:$O$21,MATCH(ROWS($A$12:A13),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "E13",
+    "before": "High",
+    "after": "=INDEX('Risk Register'!$P$2:$P$21,MATCH(ROWS($A$12:A13),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "F13",
+    "before": "Mitigate",
+    "after": "=INDEX('Risk Register'!$Q$2:$Q$21,MATCH(ROWS($A$12:A13),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "G13",
+    "before": "Director of Infrastructure",
+    "after": "=INDEX('Risk Register'!$S$2:$S$21,MATCH(ROWS($A$12:A13),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "H13",
+    "before": "2026-11-30 00:00:00",
+    "after": "=INDEX('Risk Register'!$T$2:$T$21,MATCH(ROWS($A$12:A13),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "A14",
+    "before": "R-003",
+    "after": "=INDEX('Risk Register'!$A$2:$A$21,MATCH(ROWS($A$12:A14),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "B14",
+    "before": "Cloud Security",
+    "after": "=INDEX('Risk Register'!$B$2:$B$21,MATCH(ROWS($A$12:A14),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "C14",
+    "before": "AWS S3 / IAM / Network Configurations",
+    "after": "=INDEX('Risk Register'!$C$2:$C$21,MATCH(ROWS($A$12:A14),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "D14",
+    "before": 15,
+    "after": "=INDEX('Risk Register'!$O$2:$O$21,MATCH(ROWS($A$12:A14),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "E14",
+    "before": "High",
+    "after": "=INDEX('Risk Register'!$P$2:$P$21,MATCH(ROWS($A$12:A14),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "F14",
+    "before": "Mitigate",
+    "after": "=INDEX('Risk Register'!$Q$2:$Q$21,MATCH(ROWS($A$12:A14),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "G14",
+    "before": "Cloud Engineering Manager",
+    "after": "=INDEX('Risk Register'!$S$2:$S$21,MATCH(ROWS($A$12:A14),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "H14",
+    "before": "2026-10-31 00:00:00",
+    "after": "=INDEX('Risk Register'!$T$2:$T$21,MATCH(ROWS($A$12:A14),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "A15",
+    "before": "R-007",
+    "after": "=INDEX('Risk Register'!$A$2:$A$21,MATCH(ROWS($A$12:A15),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "B15",
+    "before": "Third-Party Risk",
+    "after": "=INDEX('Risk Register'!$B$2:$B$21,MATCH(ROWS($A$12:A15),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "C15",
+    "before": "Customer Data Processors",
+    "after": "=INDEX('Risk Register'!$C$2:$C$21,MATCH(ROWS($A$12:A15),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "D15",
+    "before": 15,
+    "after": "=INDEX('Risk Register'!$O$2:$O$21,MATCH(ROWS($A$12:A15),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "E15",
+    "before": "High",
+    "after": "=INDEX('Risk Register'!$P$2:$P$21,MATCH(ROWS($A$12:A15),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "F15",
+    "before": "Mitigate",
+    "after": "=INDEX('Risk Register'!$Q$2:$Q$21,MATCH(ROWS($A$12:A15),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "G15",
+    "before": "GRC Lead",
+    "after": "=INDEX('Risk Register'!$S$2:$S$21,MATCH(ROWS($A$12:A15),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "H15",
+    "before": "2026-12-31 00:00:00",
+    "after": "=INDEX('Risk Register'!$T$2:$T$21,MATCH(ROWS($A$12:A15),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "A16",
+    "before": "R-015",
+    "after": "=INDEX('Risk Register'!$A$2:$A$21,MATCH(ROWS($A$12:A16),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "B16",
+    "before": "Incident Response",
+    "after": "=INDEX('Risk Register'!$B$2:$B$21,MATCH(ROWS($A$12:A16),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "C16",
+    "before": "Enterprise Incident Process",
+    "after": "=INDEX('Risk Register'!$C$2:$C$21,MATCH(ROWS($A$12:A16),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "D16",
+    "before": 15,
+    "after": "=INDEX('Risk Register'!$O$2:$O$21,MATCH(ROWS($A$12:A16),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "E16",
+    "before": "High",
+    "after": "=INDEX('Risk Register'!$P$2:$P$21,MATCH(ROWS($A$12:A16),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "F16",
+    "before": "Mitigate",
+    "after": "=INDEX('Risk Register'!$Q$2:$Q$21,MATCH(ROWS($A$12:A16),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "G16",
+    "before": "CISO",
+    "after": "=INDEX('Risk Register'!$S$2:$S$21,MATCH(ROWS($A$12:A16),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "H16",
+    "before": "2026-11-15 00:00:00",
+    "after": "=INDEX('Risk Register'!$T$2:$T$21,MATCH(ROWS($A$12:A16),'Risk Register'!$Y$2:$Y$21,0))",
+    "reason": "SCN-04: dashboard top risks recalculate after effectiveness changes."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "H16",
+    "before": "Track in monthly GRC remediation review",
+    "after": "Critical residual 20. Escalate to leadership; tabletop and corrective-action evidence required before crediting risk reduction.",
+    "reason": "SCN-04: escalation matches Critical band."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "Treatment Plan",
+    "cell": "H21",
+    "before": "Track in monthly GRC remediation review",
+    "after": "Residual 16 equals inherent: existing storage tools do not constitute an effective evidence-governance process.",
+    "reason": "SCN-04: explain no risk reduction."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "References",
+    "cell": "A19",
+    "before": null,
+    "after": "Scenario dates and rating definitions",
+    "reason": "SCN-03/TIER-01: reference one shared definition and chronology source."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "References",
+    "cell": "B19",
+    "before": null,
+    "after": "Fictional assessment assumptions; see shared company profile",
+    "reason": "SCN-03/TIER-01: reference one shared definition and chronology source."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/artifacts/Northbridge-Enterprise-Risk-Assessment.xlsx",
+    "sheet": "References",
+    "cell": "C19",
+    "before": null,
+    "after": "../../00-company-profile/Northbridge-Company-and-GRC-Scope.md",
+    "reason": "SCN-03/TIER-01: reference one shared definition and chronology source."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/02-nist-csf-gap-assessment/artifacts/Northbridge-NIST-CSF-2.0-Gap-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "B8",
+    "before": "2026-08-13 00:00:00",
+    "after": "2026-08-19 00:00:00",
+    "reason": "SCN-03: phased fictional assessment chronology."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/02-nist-csf-gap-assessment/artifacts/Northbridge-NIST-CSF-2.0-Gap-Assessment.xlsx",
+    "sheet": "References",
+    "cell": "A19",
+    "before": null,
+    "after": "Scenario dates and rating definitions",
+    "reason": "SCN-03/TIER-01: reference one shared definition and chronology source."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/02-nist-csf-gap-assessment/artifacts/Northbridge-NIST-CSF-2.0-Gap-Assessment.xlsx",
+    "sheet": "References",
+    "cell": "B19",
+    "before": null,
+    "after": "Fictional assessment assumptions; see shared company profile",
+    "reason": "SCN-03/TIER-01: reference one shared definition and chronology source."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/02-nist-csf-gap-assessment/artifacts/Northbridge-NIST-CSF-2.0-Gap-Assessment.xlsx",
+    "sheet": "References",
+    "cell": "C19",
+    "before": null,
+    "after": "../../00-company-profile/Northbridge-Company-and-GRC-Scope.md",
+    "reason": "SCN-03/TIER-01: reference one shared definition and chronology source."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/03-third-party-risk-management/artifacts/Northbridge-Third-Party-Risk-Assessment.xlsx",
+    "sheet": "Dashboard",
+    "cell": "B9",
+    "before": "2026-08-13 00:00:00",
+    "after": "2026-08-26 00:00:00",
+    "reason": "SCN-03: same vendor assessment date in every view."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/03-third-party-risk-management/artifacts/Northbridge-Third-Party-Risk-Assessment.xlsx",
+    "sheet": "Vendor Profile",
+    "cell": "D12",
+    "before": "2026-08-13 00:00:00",
+    "after": "2026-08-26 00:00:00",
+    "reason": "SCN-03: same vendor assessment date in every view."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/03-third-party-risk-management/artifacts/Northbridge-Third-Party-Risk-Assessment.xlsx",
+    "sheet": "Decision Memo",
+    "cell": "D9",
+    "before": "2026-08-13 00:00:00",
+    "after": "2026-08-26 00:00:00",
+    "reason": "SCN-03: same vendor assessment date in every view."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/03-third-party-risk-management/artifacts/Northbridge-Third-Party-Risk-Assessment.xlsx",
+    "sheet": "Vendor Profile",
+    "cell": "D8",
+    "before": "2027-08-13 00:00:00",
+    "after": "2027-08-26 00:00:00",
+    "reason": "SCN-03: annual reassessment follows revised scenario assessment date."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/03-third-party-risk-management/artifacts/Northbridge-Third-Party-Risk-Assessment.xlsx",
+    "sheet": "Decision Memo",
+    "cell": "D8",
+    "before": "2027-08-13 00:00:00",
+    "after": "2027-08-26 00:00:00",
+    "reason": "SCN-03: annual reassessment follows revised scenario assessment date."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/03-third-party-risk-management/artifacts/Northbridge-Third-Party-Risk-Assessment.xlsx",
+    "sheet": "Remediation Tracker",
+    "cell": "F2",
+    "before": "=DATEDIF(DATE(2026,8,13),D2,\"d\")",
+    "after": "=D2-'Vendor Profile'!$D$12",
+    "reason": "SCN-03: use shared assessment date; subtraction also handles negative overdue intervals."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/03-third-party-risk-management/artifacts/Northbridge-Third-Party-Risk-Assessment.xlsx",
+    "sheet": "Remediation Tracker",
+    "cell": "F3",
+    "before": "=DATEDIF(DATE(2026,8,13),D3,\"d\")",
+    "after": "=D3-'Vendor Profile'!$D$12",
+    "reason": "SCN-03: use shared assessment date; subtraction also handles negative overdue intervals."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/03-third-party-risk-management/artifacts/Northbridge-Third-Party-Risk-Assessment.xlsx",
+    "sheet": "Remediation Tracker",
+    "cell": "F4",
+    "before": "=DATEDIF(DATE(2026,8,13),D4,\"d\")",
+    "after": "=D4-'Vendor Profile'!$D$12",
+    "reason": "SCN-03: use shared assessment date; subtraction also handles negative overdue intervals."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/03-third-party-risk-management/artifacts/Northbridge-Third-Party-Risk-Assessment.xlsx",
+    "sheet": "Remediation Tracker",
+    "cell": "F5",
+    "before": "=DATEDIF(DATE(2026,8,13),D5,\"d\")",
+    "after": "=D5-'Vendor Profile'!$D$12",
+    "reason": "SCN-03: use shared assessment date; subtraction also handles negative overdue intervals."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/03-third-party-risk-management/artifacts/Northbridge-Third-Party-Risk-Assessment.xlsx",
+    "sheet": "Remediation Tracker",
+    "cell": "F6",
+    "before": "=DATEDIF(DATE(2026,8,13),D6,\"d\")",
+    "after": "=D6-'Vendor Profile'!$D$12",
+    "reason": "SCN-03: use shared assessment date; subtraction also handles negative overdue intervals."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/03-third-party-risk-management/artifacts/Northbridge-Third-Party-Risk-Assessment.xlsx",
+    "sheet": "References",
+    "cell": "A13",
+    "before": null,
+    "after": "Scenario dates and rating definitions",
+    "reason": "SCN-03/TIER-01: reference one shared definition and chronology source."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/03-third-party-risk-management/artifacts/Northbridge-Third-Party-Risk-Assessment.xlsx",
+    "sheet": "References",
+    "cell": "B13",
+    "before": null,
+    "after": "Fictional assessment assumptions; see shared company profile",
+    "reason": "SCN-03/TIER-01: reference one shared definition and chronology source."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/03-third-party-risk-management/artifacts/Northbridge-Third-Party-Risk-Assessment.xlsx",
+    "sheet": "References",
+    "cell": "C13",
+    "before": null,
+    "after": "../../00-company-profile/Northbridge-Company-and-GRC-Scope.md",
+    "reason": "SCN-03/TIER-01: reference one shared definition and chronology source."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/04-control-framework-crosswalk/artifacts/Northbridge-Control-Framework-Crosswalk-and-Testing.xlsx",
+    "sheet": "Dashboard",
+    "cell": "B8",
+    "before": "2026-08-13 00:00:00",
+    "after": "2026-09-02 00:00:00",
+    "reason": "SCN-03: phased fictional assessment chronology."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/04-control-framework-crosswalk/artifacts/Northbridge-Control-Framework-Crosswalk-and-Testing.xlsx",
+    "sheet": "Control Library",
+    "cell": "L1",
+    "before": "Risk Tier",
+    "after": "Control Criticality",
+    "reason": "TIER-01: distinguish control importance from evidence-review priority."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/04-control-framework-crosswalk/artifacts/Northbridge-Control-Framework-Crosswalk-and-Testing.xlsx",
+    "sheet": "Dashboard",
+    "cell": "F3",
+    "before": "High Risk",
+    "after": "High Criticality",
+    "reason": "TIER-01: name the counted source tier accurately."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/04-control-framework-crosswalk/artifacts/Northbridge-Control-Framework-Crosswalk-and-Testing.xlsx",
+    "sheet": "References",
+    "cell": "A12",
+    "before": null,
+    "after": "Scenario dates and rating definitions",
+    "reason": "SCN-03/TIER-01: reference one shared definition and chronology source."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/04-control-framework-crosswalk/artifacts/Northbridge-Control-Framework-Crosswalk-and-Testing.xlsx",
+    "sheet": "References",
+    "cell": "B12",
+    "before": null,
+    "after": "Fictional assessment assumptions; see shared company profile",
+    "reason": "SCN-03/TIER-01: reference one shared definition and chronology source."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/04-control-framework-crosswalk/artifacts/Northbridge-Control-Framework-Crosswalk-and-Testing.xlsx",
+    "sheet": "References",
+    "cell": "C12",
+    "before": null,
+    "after": "../../00-company-profile/Northbridge-Company-and-GRC-Scope.md",
+    "reason": "SCN-03/TIER-01: reference one shared definition and chronology source."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "B9",
+    "before": "2026-08-13 00:00:00",
+    "after": "2026-09-10 00:00:00",
+    "reason": "SCN-03: phased fictional readiness assessment date."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Readiness Report",
+    "cell": "B10",
+    "before": "2026-08-13 00:00:00",
+    "after": "2026-09-10 00:00:00",
+    "reason": "SCN-03: phased fictional readiness assessment date."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "I1",
+    "before": "Risk Tier",
+    "after": "Evidence Review Priority",
+    "reason": "TIER-01: evidence-review priority is not control criticality or enterprise residual risk."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J1",
+    "before": null,
+    "after": "Readiness Area",
+    "reason": "ERR-04: assign each control exactly one dashboard area."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J2",
+    "before": null,
+    "after": "Access Control",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J3",
+    "before": null,
+    "after": "Access Control",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J4",
+    "before": null,
+    "after": "Access Control",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J5",
+    "before": null,
+    "after": "Security Operations",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J6",
+    "before": null,
+    "after": "Security Operations",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J7",
+    "before": null,
+    "after": "Security Operations",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J8",
+    "before": null,
+    "after": "Security Operations",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J9",
+    "before": null,
+    "after": "Security Operations",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J10",
+    "before": null,
+    "after": "Availability",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J11",
+    "before": null,
+    "after": "Availability",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J12",
+    "before": null,
+    "after": "Vendor / Cloud",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J13",
+    "before": null,
+    "after": "Security Operations",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J14",
+    "before": null,
+    "after": "Governance / Evidence",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J15",
+    "before": null,
+    "after": "Governance / Evidence",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J16",
+    "before": null,
+    "after": "Governance / Evidence",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J17",
+    "before": null,
+    "after": "Vendor / Cloud",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J18",
+    "before": null,
+    "after": "Governance / Evidence",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J19",
+    "before": null,
+    "after": "Governance / Evidence",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J20",
+    "before": null,
+    "after": "Governance / Evidence",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J21",
+    "before": null,
+    "after": "Governance / Evidence",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J22",
+    "before": null,
+    "after": "Governance / Evidence",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Control Matrix",
+    "cell": "J23",
+    "before": null,
+    "after": "Governance / Evidence",
+    "reason": "ERR-04: explicit mutually exclusive population mapping."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "E4",
+    "before": 1,
+    "after": "=COUNTIFS('Control Matrix'!$J$2:$J$23,$D4,'Control Matrix'!$G$2:$G$23,E$3)",
+    "reason": "ERR-04: derive area/status counts from the unique control population."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "F4",
+    "before": 2,
+    "after": "=COUNTIFS('Control Matrix'!$J$2:$J$23,$D4,'Control Matrix'!$G$2:$G$23,F$3)",
+    "reason": "ERR-04: derive area/status counts from the unique control population."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "G4",
+    "before": 0,
+    "after": "=COUNTIFS('Control Matrix'!$J$2:$J$23,$D4,'Control Matrix'!$G$2:$G$23,G$3)",
+    "reason": "ERR-04: derive area/status counts from the unique control population."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "E5",
+    "before": 2,
+    "after": "=COUNTIFS('Control Matrix'!$J$2:$J$23,$D5,'Control Matrix'!$G$2:$G$23,E$3)",
+    "reason": "ERR-04: derive area/status counts from the unique control population."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "F5",
+    "before": 5,
+    "after": "=COUNTIFS('Control Matrix'!$J$2:$J$23,$D5,'Control Matrix'!$G$2:$G$23,F$3)",
+    "reason": "ERR-04: derive area/status counts from the unique control population."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "G5",
+    "before": 1,
+    "after": "=COUNTIFS('Control Matrix'!$J$2:$J$23,$D5,'Control Matrix'!$G$2:$G$23,G$3)",
+    "reason": "ERR-04: derive area/status counts from the unique control population."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "E6",
+    "before": 1,
+    "after": "=COUNTIFS('Control Matrix'!$J$2:$J$23,$D6,'Control Matrix'!$G$2:$G$23,E$3)",
+    "reason": "ERR-04: derive area/status counts from the unique control population."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "F6",
+    "before": 1,
+    "after": "=COUNTIFS('Control Matrix'!$J$2:$J$23,$D6,'Control Matrix'!$G$2:$G$23,F$3)",
+    "reason": "ERR-04: derive area/status counts from the unique control population."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "G6",
+    "before": 0,
+    "after": "=COUNTIFS('Control Matrix'!$J$2:$J$23,$D6,'Control Matrix'!$G$2:$G$23,G$3)",
+    "reason": "ERR-04: derive area/status counts from the unique control population."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "E7",
+    "before": 0,
+    "after": "=COUNTIFS('Control Matrix'!$J$2:$J$23,$D7,'Control Matrix'!$G$2:$G$23,E$3)",
+    "reason": "ERR-04: derive area/status counts from the unique control population."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "F7",
+    "before": 2,
+    "after": "=COUNTIFS('Control Matrix'!$J$2:$J$23,$D7,'Control Matrix'!$G$2:$G$23,F$3)",
+    "reason": "ERR-04: derive area/status counts from the unique control population."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "G7",
+    "before": 0,
+    "after": "=COUNTIFS('Control Matrix'!$J$2:$J$23,$D7,'Control Matrix'!$G$2:$G$23,G$3)",
+    "reason": "ERR-04: derive area/status counts from the unique control population."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "E8",
+    "before": 2,
+    "after": "=COUNTIFS('Control Matrix'!$J$2:$J$23,$D8,'Control Matrix'!$G$2:$G$23,E$3)",
+    "reason": "ERR-04: derive area/status counts from the unique control population."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "F8",
+    "before": 7,
+    "after": "=COUNTIFS('Control Matrix'!$J$2:$J$23,$D8,'Control Matrix'!$G$2:$G$23,F$3)",
+    "reason": "ERR-04: derive area/status counts from the unique control population."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "G8",
+    "before": 0,
+    "after": "=COUNTIFS('Control Matrix'!$J$2:$J$23,$D8,'Control Matrix'!$G$2:$G$23,G$3)",
+    "reason": "ERR-04: derive area/status counts from the unique control population."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "D10",
+    "before": null,
+    "after": "TOTAL",
+    "reason": "ERR-04: visible reconciliation total."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "E10",
+    "before": null,
+    "after": "=SUM(E4:E8)",
+    "reason": "ERR-04: status totals equal overall counts."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "F10",
+    "before": null,
+    "after": "=SUM(F4:F8)",
+    "reason": "ERR-04: status totals equal overall counts."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "G10",
+    "before": null,
+    "after": "=SUM(G4:G8)",
+    "reason": "ERR-04: status totals equal overall counts."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "Dashboard",
+    "cell": "H10",
+    "before": null,
+    "after": "=SUM(E10:G10)&\" controls; matches overall: \"&IF(SUM(E10:G10)=B3,\"Yes\",\"No\")",
+    "reason": "ERR-04: expose a mismatched dashboard population."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "References",
+    "cell": "A12",
+    "before": null,
+    "after": "Scenario dates and rating definitions",
+    "reason": "SCN-03/TIER-01: reference one shared definition and chronology source."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "References",
+    "cell": "B12",
+    "before": null,
+    "after": "Fictional assessment assumptions; see shared company profile",
+    "reason": "SCN-03/TIER-01: reference one shared definition and chronology source."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/05-soc2-readiness/artifacts/Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx",
+    "sheet": "References",
+    "cell": "C12",
+    "before": null,
+    "after": "../../00-company-profile/Northbridge-Company-and-GRC-Scope.md",
+    "reason": "SCN-03/TIER-01: reference one shared definition and chronology source."
+  }
+]

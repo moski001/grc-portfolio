@@ -85,3 +85,5 @@ Implementation status categories:
 ## Conclusion
 
 This assessment gives Northbridge a practical, risk-based roadmap. It shows how governance, risk, controls, evidence, incident response, recovery, and vendor risk connect to business objectives. Many of the underlying controls already exist. What leadership needs to fund next is ownership, evidence, cadence, testing, and remediation follow-through, the things that turn existing controls into demonstrated maturity.
+
+Scenario assessment date: **2026-08-19**; see the [shared scenario chronology](../00-company-profile/Northbridge-Company-and-GRC-Scope.md#scenario-chronology-and-rating-definitions).

@@ -65,7 +65,7 @@ The Digital Omnibus on AI (Regulation (EU) 2026/1744) was published in the Offic
 
 **The deferral is selective, and that turns out to be the interesting part.** Article 50 transparency duties were expressly *not* deferred and applied from 2 August 2026. Neither were the Article 5 prohibitions or the GPAI provider obligations.
 
-So the obligation Halcyon has actually missed is the cheapest one in the entire register: telling members they're talking to a chatbot. AIR-007 is a low-effort UX change, and it's the only item with a deadline in the past. Everything expensive got sixteen more months; the one thing that was trivially fixable was already due.
+So the obligation Halcyon has actually missed is the cheapest one in the entire register: telling members they're talking to a chatbot. AIR-007 is a low-effort UX change. Its legal deadline and remediation target are different dates. As of this review on 2026-09-14, the register lists past remediation targets for AIR-005 and AIR-007 (2026-08-15), and AIR-010 and AIR-012 (2026-08-31). Closure evidence and reasons for missing those targets are not recorded. Everything expensive got sixteen more months; the one thing that was trivially fixable was already due.
 
 The deeper point is in Section 2 of the memo: a deadline only determines when enforcement can begin. It says nothing about whether harm is already occurring. AIR-001 (whether ClaimSight encodes historical bias into denial recommendations) has no compliance date attached. The model either discriminates or it doesn't, and nobody currently knows. A member denied benefits in 2026 is not helped by a 2027 deadline.
 
@@ -86,3 +86,9 @@ Regulatory articles, ISO clause numbers, and NIST subcategory references were cu
 ## Companion projects
 
 This project extends the portfolio's commercial GRC work (Meridian, Northbridge) into AI-specific risk, and applies the same discipline as the federal packages (Cascade, Northgate): inventory the scope, assess against a defined framework, and trace controls to evidence.
+
+## Deferred review notes
+
+The inventory's Classification Method B8 describes the Digital Omnibus deferral as proposed, while other artifacts describe it as enacted. Resolve that external-fact question in pass 5; this pass makes no legal-status determination.
+
+AI-009's inventory describes inputs as unknown/likely, while AIR-010 states member-data entry more firmly. Retain both: the inventory records discovery uncertainty; the risk assessment states the exposure scenario being evaluated. The latter is not independent evidence that the former has been confirmed. Confirmation would require evidence of the actual data submitted.

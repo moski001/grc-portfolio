@@ -1,0 +1,54 @@
+[
+  {
+    "check": "Recalculated top-five IDs and scores",
+    "passed": true
+  },
+  {
+    "check": "Increasing R001 to 25 dynamically moves it first",
+    "passed": true
+  },
+  {
+    "check": "Recalculated SOC2 area totals equal overall22",
+    "passed": true
+  },
+  {
+    "check": "Ready-to-Partial mutation updates totals",
+    "passed": true
+  },
+  {
+    "check": "Past due date yields signed minus1",
+    "passed": true
+  },
+  {
+    "check": "Meridian R009 Medium and R014 Low",
+    "passed": true
+  },
+  {
+    "check": "Northbridge-Enterprise-Risk-Assessment.xlsx: no recalculated error cells",
+    "passed": true
+  },
+  {
+    "check": "Northbridge-Control-Framework-Crosswalk-and-Testing.xlsx: no recalculated error cells",
+    "passed": true
+  },
+  {
+    "check": "vendor-perturbed.xlsx: no recalculated error cells",
+    "passed": true
+  },
+  {
+    "check": "risk-perturbed.xlsx: no recalculated error cells",
+    "passed": true
+  },
+  {
+    "check": "soc-perturbed.xlsx: no recalculated error cells",
+    "passed": true
+  },
+  {
+    "check": "risk_register.xlsx: no recalculated error cells",
+    "passed": true
+  },
+  {
+    "check": "Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx: no recalculated error cells",
+    "passed": true
+  }
+]

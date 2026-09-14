@@ -1,0 +1,570 @@
+[
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Register",
+    "cell": "S18",
+    "before": "Monitor for abuse patterns; add to backlog for API gateway rate-limiting rollout in Q3",
+    "after": "Monitor for abuse; Q3 rate-limiting backlog. Accepted because directory data is public and exposure does not justify remediation cost (project README). Accepter not recorded; API Platform Lead is the risk owner.",
+    "reason": "Bring existing README business rationale into R-014 without treating its owner as the accepter."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/risk_register.xlsx",
+    "sheet": "Risk Register",
+    "cell": "S19",
+    "before": "Document rules engine logic and decision tables; cross-train second engineer; add to succession plan",
+    "after": "Document rules engine logic and decision tables; cross-train second engineer; add to succession plan Inherent score 12 ties R-003, R-006, R-010 and R-013; R-015 remains 12 residual because no formal controls are recorded.",
+    "reason": "Explain existing tie and unchanged residual score without changing scoring or priority."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K5",
+    "before": null,
+    "after": "Compliance Officer",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J5",
+    "before": "Compliance Officer",
+    "after": "Add regulatory-driver field to risk register intake so every risk traces to a specific obligation",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I5",
+    "before": "Add regulatory-driver field to risk register intake so every risk traces to a specific obligation",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K6",
+    "before": null,
+    "after": "CISO",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J6",
+    "before": "CISO",
+    "after": "Draft and board-approve a formal risk appetite statement with quantitative thresholds by risk category",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I6",
+    "before": "Draft and board-approve a formal risk appetite statement with quantitative thresholds by risk category",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K8",
+    "before": null,
+    "after": "Compliance Officer",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J8",
+    "before": "Compliance Officer",
+    "after": "Implement policy management tool with automated review reminders and version history",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I8",
+    "before": "Implement policy management tool with automated review reminders and version history",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K9",
+    "before": null,
+    "after": "CISO",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J9",
+    "before": "CISO",
+    "after": "Institute quarterly board-level cybersecurity risk briefing with standardized reporting template",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I9",
+    "before": "Institute quarterly board-level cybersecurity risk briefing with standardized reporting template",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K10",
+    "before": null,
+    "after": "Vendor Risk Manager",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J10",
+    "before": "Vendor Risk Manager",
+    "after": "Deploy TPRM platform; require SOC 2/questionnaire before any vendor onboarding",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I10",
+    "before": "Deploy TPRM platform; require SOC 2/questionnaire before any vendor onboarding",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K11",
+    "before": null,
+    "after": "IT Asset Manager",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J11",
+    "before": "IT Asset Manager",
+    "after": "Deploy SaaS discovery/CASB tooling to close asset visibility gap",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I11",
+    "before": "Deploy SaaS discovery/CASB tooling to close asset visibility gap",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K12",
+    "before": null,
+    "after": "GRC Analyst",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J12",
+    "before": "GRC Analyst",
+    "after": "Extend risk assessment to include threat-intelligence-informed likelihood scoring",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I12",
+    "before": "Extend risk assessment to include threat-intelligence-informed likelihood scoring",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K13",
+    "before": null,
+    "after": "CISO",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J13",
+    "before": "CISO",
+    "after": "Stand up CAPA tracker linking incident/audit findings to remediation with due dates and closure verification",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I13",
+    "before": "Stand up CAPA tracker linking incident/audit findings to remediation with due dates and closure verification",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K14",
+    "before": null,
+    "after": "IAM Manager",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J14",
+    "before": "IAM Manager",
+    "after": "Roll out PAM with just-in-time access; complete least-privilege access recertification",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I14",
+    "before": "Roll out PAM with just-in-time access; complete least-privilege access recertification",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K15",
+    "before": null,
+    "after": "Security Awareness Lead",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J15",
+    "before": "Security Awareness Lead",
+    "after": "Move to quarterly training cadence with role-based modules for high-risk groups",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I15",
+    "before": "Move to quarterly training cadence with role-based modules for high-risk groups",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K16",
+    "before": null,
+    "after": "Data Governance Lead",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J16",
+    "before": "Data Governance Lead",
+    "after": "Complete encryption-at-rest remediation for all PHI-containing systems; enforce via policy and automated scanning",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I16",
+    "before": "Complete encryption-at-rest remediation for all PHI-containing systems; enforce via policy and automated scanning",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K17",
+    "before": null,
+    "after": "Cloud Security Engineer",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J17",
+    "before": "Cloud Security Engineer",
+    "after": "Deploy continuous cloud security posture management (CSPM) with automated guardrails",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I17",
+    "before": "Deploy continuous cloud security posture management (CSPM) with automated guardrails",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K18",
+    "before": null,
+    "after": "Director of Infrastructure",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J18",
+    "before": "Director of Infrastructure",
+    "after": "Stand up tested multi-region failover; conduct semi-annual DR tabletop exercises",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I18",
+    "before": "Stand up tested multi-region failover; conduct semi-annual DR tabletop exercises",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K19",
+    "before": null,
+    "after": "Security Operations Lead",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J19",
+    "before": "Security Operations Lead",
+    "after": "Onboard colocation facility logs to SIEM; tune detection rules against MITRE ATT&CK healthcare threat profile",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I19",
+    "before": "Onboard colocation facility logs to SIEM; tune detection rules against MITRE ATT&CK healthcare threat profile",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K20",
+    "before": null,
+    "after": "Security Operations Lead",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J20",
+    "before": "Security Operations Lead",
+    "after": "Maintain current state; revisit staffing model at next headcount planning cycle",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I20",
+    "before": "Maintain current state; revisit staffing model at next headcount planning cycle",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K21",
+    "before": null,
+    "after": "Incident Response Lead",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J21",
+    "before": "Incident Response Lead",
+    "after": "Schedule and conduct IR tabletop exercise; update plan based on findings",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I21",
+    "before": "Schedule and conduct IR tabletop exercise; update plan based on findings",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K22",
+    "before": null,
+    "after": "Compliance Officer",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J22",
+    "before": "Compliance Officer",
+    "after": "Run breach-notification tabletop scenario involving Legal, Compliance, and Communications",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I22",
+    "before": "Run breach-notification tabletop scenario involving Legal, Compliance, and Communications",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K23",
+    "before": null,
+    "after": "Director of Infrastructure",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J23",
+    "before": "Director of Infrastructure",
+    "after": "Conduct full-stack recovery exercise measuring actual RTO/RPO against BIA targets",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I23",
+    "before": "Conduct full-stack recovery exercise measuring actual RTO/RPO against BIA targets",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "K24",
+    "before": null,
+    "after": "Communications Lead",
+    "reason": "Restore existing owner to Owner column; no owner invented."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "J24",
+    "before": "Communications Lead",
+    "after": "Maintain current state",
+    "reason": "Restore existing remediation action to Remediation Action column."
+  },
+  {
+    "file": "01-meridian-health-grc-program/artifacts/nist_csf_gap_assessment.xlsx",
+    "sheet": "NIST CSF 2.0 Gap Assessment",
+    "cell": "I24",
+    "before": "Maintain current state",
+    "after": null,
+    "reason": "Remove action from Evidence column; missing evidence is left blank, not invented."
+  },
+  {
+    "file": "02-cascade-civic-rev5-ato/artifacts/customer_responsibility_matrix.xlsx",
+    "sheet": "Summary",
+    "cell": "D5",
+    "before": "No agency action required. Cascade Civic Systems implements and evidences the control in full.",
+    "after": "Cascade implements the CSP control. Agency duties and go-live actions remain as listed in the detail rows.",
+    "reason": "Reconcile summary with CA-7, CP-9, RA-5, SC-8, SC-28 and SI-4 agency actions."
+  },
+  {
+    "file": "02-cascade-civic-rev5-ato/artifacts/customer_responsibility_matrix.xlsx",
+    "sheet": "Summary",
+    "cell": "D8",
+    "before": "Control is satisfied by the underlying IaaS provider's authorization; no action by either party.",
+    "after": "Underlying IaaS control is inherited. Cascade verifies inheritance; agency retains the listed deletion and facility duties.",
+    "reason": "Reconcile inherited-control summary with MP-6 and PE-3 detail."
+  },
+  {
+    "file": "02-cascade-civic-rev5-ato/artifacts/customer_responsibility_matrix.xlsx",
+    "sheet": "Legend",
+    "cell": "B4",
+    "before": "Cascade Civic Systems implements and evidences the control in full. No agency action.",
+    "after": "Cascade implements and evidences the CSP control. Agency duties are listed in the detail rows.",
+    "reason": "Match corrected CSP summary."
+  },
+  {
+    "file": "02-cascade-civic-rev5-ato/artifacts/customer_responsibility_matrix.xlsx",
+    "sheet": "Legend",
+    "cell": "B7",
+    "before": "Satisfied by the underlying IaaS provider under its own FedRAMP authorization; documented for traceability, no action by either party.",
+    "after": "Underlying IaaS control is inherited. Cascade verifies inheritance; agency retains duties listed in the detail rows.",
+    "reason": "Match corrected inherited summary."
+  },
+  {
+    "file": "02-cascade-civic-rev5-ato/artifacts/poam.xlsx",
+    "sheet": "POA&M",
+    "cell": "N10",
+    "before": "M1: Develop tabletop scenario (2026-05-01); M2: Execute tabletop with Legal and Communications (2026-06-01); M3: Update IR Plan and roster (2026-06-15)",
+    "after": "M1: Develop tabletop scenario (2026-05-01); M2: Execute tabletop with Legal and Communications (2026-06-01); M3: Update IR Plan and roster (2026-06-15) Later evidence (AAR approved 2026-06-04, sections 8\u201311): original 2026-06-15 completion is incompatible with corrective actions due 2026-06-30 and 2026-07-15. Reason: notification draft took 64 minutes against 60; severity classification was delayed. Follow-up exercise recommended by 2026-09-30. Original date retained; approved revised closure date not recorded.",
+    "reason": "Document a supported schedule conflict and reason while preserving the Q1 status date, original commitment and unapproved nature of any replacement."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/03-third-party-risk-management/artifacts/Northbridge-Third-Party-Risk-Assessment.xlsx",
+    "sheet": "Questionnaire",
+    "cell": "D17",
+    "before": "No tabletop evidence",
+    "after": "Unable to test \u2014 evidence not provided. No tabletop evidence (F-004).",
+    "reason": "Express existing evidence limitation; preserve vendor response, score and finding severity."
+  },
+  {
+    "file": "04-northbridge-cloudworks-grc-program/03-third-party-risk-management/artifacts/Northbridge-Third-Party-Risk-Assessment.xlsx",
+    "sheet": "Findings Register",
+    "cell": "E5",
+    "before": "Vendor provided incident-response plan but no recent exercise report.",
+    "after": "Unable to test \u2014 evidence not provided. Vendor provided incident-response plan but no recent exercise report.",
+    "reason": "Carry the same assessment limitation into F-004; retain Open status and requested closure evidence."
+  },
+  {
+    "file": "05-halcyon-ai-governance/artifacts/ai_control_crosswalk.xlsx",
+    "sheet": "Legend",
+    "cell": "B7",
+    "before": "Sixteen additional months on the high-risk controls. It does not change which controls are needed, and it does not touch the transparency control (row 9), which is already past deadline. Planning that treats the deferral as relief rather than runway will arrive at December 2027 in the same position.",
+    "after": "Sixteen additional months on the high-risk controls. It does not change which controls are needed, and it does not touch the transparency control (AI Control Crosswalk row 13; AIR-002 and AIR-007), which is already past deadline. Planning that treats the deferral as relief rather than runway will arrive at December 2027 in the same position.",
+    "reason": "Fix wrong worksheet row reference: row 9 is impact assessment, row 13 is transparency."
+  },
+  {
+    "file": "05-halcyon-ai-governance/artifacts/ai_system_inventory.xlsx",
+    "sheet": "AI System Inventory",
+    "cell": "P13",
+    "before": "Not an AI system and therefore not classifiable under the Act. Recorded here because an inventory that omits known unmanaged use is not an inventory. Discovered via CASB telemetry: 214 unique users hitting consumer AI endpoints in 30 days.",
+    "after": "Not Applicable: AI Act system classification. AI-009 records an enterprise governance finding, not a discrete AI system. CASB telemetry identified 214 users of consumer AI endpoints in 30 days. This determination does not exempt the underlying uses from assessment.",
+    "reason": "Make existing N/A classification explicit with a bounded written rationale; preserve category and summary formulas."
+  },
+  {
+    "file": "03-northgate-signal-fedramp-20x/artifacts/ksi_validation_register.xlsx",
+    "sheet": "KSI Validation Register",
+    "cell": "E6",
+    "before": "AC-03, IA-02, IA-02(01), IA-02(02), IA-02(08), IA-05, IA-05(01), IA-05(02), IA-05(06), IA-06",
+    "after": "AC-03, IA-02, IA-02(01), IA-02(02), IA-02(08), IA-05, IA-05(01), IA-05(02), IA-05(06), IA-06, IA-08, SC-23, AC-02",
+    "reason": "Restore omitted control references from the stated authoritative security-decision-record.json source; no independent standards determination."
+  },
+  {
+    "file": "03-northgate-signal-fedramp-20x/artifacts/ksi_validation_register.xlsx",
+    "sheet": "KSI Validation Register",
+    "cell": "E7",
+    "before": "AC-02(05), AC-02(06), AC-03, AC-04, AC-06, AC-12, AC-17, AC-20, IA-02, IA-03",
+    "after": "AC-02(05), AC-02(06), AC-03, AC-04, AC-06, AC-12, AC-17, AC-20, IA-02, IA-03, IA-11, SI-03",
+    "reason": "Restore omitted control references from the stated authoritative security-decision-record.json source; no independent standards determination."
+  },
+  {
+    "file": "03-northgate-signal-fedramp-20x/artifacts/ksi_validation_register.xlsx",
+    "sheet": "KSI Validation Register",
+    "cell": "E8",
+    "before": "AC-02, AC-02(01), AC-05, AC-06, AC-06(01), AC-06(02), AC-06(05), AC-06(09), AC-06(10), CM-05",
+    "after": "AC-02, AC-02(01), AC-05, AC-06, AC-06(01), AC-06(02), AC-06(05), AC-06(09), AC-06(10), CM-05, CM-07, SC-02",
+    "reason": "Restore omitted control references from the stated authoritative security-decision-record.json source; no independent standards determination."
+  }
+]

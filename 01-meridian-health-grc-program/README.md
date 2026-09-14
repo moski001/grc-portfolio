@@ -34,7 +34,7 @@ Each carries an **inherent** score (likelihood × impact, before controls), the 
 
 **Look at R-001.** Unencrypted PHI backups on a legacy NAS. Inherent risk is Critical (20/25). Residual is Low, because the controls actually work. That gap is the measurable value the security program produces. A register showing only inherent risk tells leadership nothing about whether their spend is doing anything.
 
-**R-014 is different.** No rate limiting on the public provider directory API, deliberately **accepted**, not mitigated. The data is public by design and the exposure doesn't justify the remediation cost. Accepting risk isn't failure; refusing to accept any risk means spending money in the wrong places.
+**R-014 is different.** No rate limiting on the public provider directory API, deliberately **accepted**, not mitigated. The data is public by design and the exposure doesn't justify the remediation cost. Accepting risk isn't failure; refusing to accept any risk means spending money in the wrong places. The Risk Acceptance sheet records ACC-014: Elena Voss, COO, accepted the Low residual risk on 2026-03-12 under delegated authority for public-data operational risks, with monitoring conditions, a July review, and a December expiry. The person, authority, and decision are fictional scenario content.
 
 ### Then the Gap Assessment
 The register says what could go wrong. The gap assessment says how mature the program is against a recognized framework.
