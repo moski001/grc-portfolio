@@ -13,21 +13,21 @@ Nine hands-on projects showing how I translate security frameworks into business
 
 | # | Project | Environment | Evidence of capability |
 |---:|---|---|---|
-| 1 | [Meridian Health Analytics — GRC Program](01-meridian-health-grc-program/) | Healthcare analytics / HIPAA | 15-risk register, NIST CSF 2.0 gap assessment, multi-framework control mapping, vendor risk, policy, and BIA |
-| 2 | [Cascade Civic Systems — FedRAMP Rev5 ATO](02-cascade-civic-rev5-ato/) | Federal grants SaaS | SSP, 30-control traceability matrix, security assessment report, POA&M, shared-responsibility matrix, and IR tabletop AAR |
-| 3 | [Northgate Signal — FedRAMP 20x](03-northgate-signal-fedramp-20x/) | Government case-management SaaS | Python validation engine, 12 KSIs, 24 independent validation methods, machine-readable evidence, and two detected drift conditions |
-| 4 | [Northbridge — Enterprise Risk Assessment](04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/) | B2B cloud SaaS | 20 risks, inherent/residual scoring, control-effectiveness analysis, treatment plans, owners, and executive dashboard |
-| 5 | [Northbridge — NIST CSF 2.0 Gap Assessment](04-northbridge-cloudworks-grc-program/02-nist-csf-gap-assessment/) | B2B cloud SaaS | 18 assessed outcomes across all six functions, 12 high-priority gaps, current/target profiles, and a 12-month roadmap |
-| 6 | [Northbridge — Third-Party Risk Management](04-northbridge-cloudworks-grc-program/03-third-party-risk-management/) | Critical AI SaaS vendor | 25-question evidence-based assessment, weighted scorecard, five findings, remediation tracking, and conditional-approval decision |
-| 7 | [Northbridge — Control Crosswalk & Testing](04-northbridge-cloudworks-grc-program/04-control-framework-crosswalk/) | Multi-framework assurance | 15-control internal library, NIST/CIS/ISO/SOC 2 crosswalk, five test workpapers, exceptions, and corrective actions |
-| 8 | [Northbridge — SOC 2 Readiness](04-northbridge-cloudworks-grc-program/05-soc2-readiness/) | Pre-audit readiness | 22-control matrix, PBC evidence tracker, five audit-style findings, remediation plan, and executive readiness decision |
-| 9 | [Halcyon Benefits Group — AI Governance](05-halcyon-ai-governance/) | Employee benefits / AI systems | 8-system AI inventory plus shadow-AI finding, with EU AI Act tiering, 12 risks mapped to NIST AI RMF trustworthiness characteristics, 15-control crosswalk across AI RMF/ISO 42001/EU AI Act, and an executive decision memo |
+| 1 | [Meridian Health Analytics: GRC Program](01-meridian-health-grc-program/) | Healthcare analytics / HIPAA | 15-risk register, NIST CSF 2.0 gap assessment, multi-framework control mapping, vendor risk, policy, and BIA |
+| 2 | [Cascade Civic Systems: FedRAMP Rev5 ATO](02-cascade-civic-rev5-ato/) | Federal grants SaaS | SSP, 30-control traceability matrix, security assessment report, POA&M, shared-responsibility matrix, and IR tabletop AAR |
+| 3 | [Northgate Signal: FedRAMP 20x](03-northgate-signal-fedramp-20x/) | Government case-management SaaS | Python validation engine, 12 KSIs, 24 independent validation methods, machine-readable evidence, and two detected drift conditions |
+| 4 | [Northbridge: Enterprise Risk Assessment](04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/) | B2B cloud SaaS | 20 risks, inherent/residual scoring, control-effectiveness analysis, treatment plans, owners, and executive dashboard |
+| 5 | [Northbridge: NIST CSF 2.0 Gap Assessment](04-northbridge-cloudworks-grc-program/02-nist-csf-gap-assessment/) | B2B cloud SaaS | 18 assessed outcomes across all six functions, 12 high-priority gaps, current/target profiles, and a 12-month roadmap |
+| 6 | [Northbridge: Third-Party Risk Management](04-northbridge-cloudworks-grc-program/03-third-party-risk-management/) | Critical AI SaaS vendor | 25-question evidence-based assessment, weighted scorecard, five findings, remediation tracking, and conditional-approval decision |
+| 7 | [Northbridge: Control Crosswalk & Testing](04-northbridge-cloudworks-grc-program/04-control-framework-crosswalk/) | Multi-framework assurance | 15-control internal library, NIST/CIS/ISO/SOC 2 crosswalk, five test workpapers, exceptions, and corrective actions |
+| 8 | [Northbridge: SOC 2 Readiness](04-northbridge-cloudworks-grc-program/05-soc2-readiness/) | Pre-audit readiness | 22-control matrix, PBC evidence tracker, five audit-style findings, remediation plan, and executive readiness decision |
+| 9 | [Halcyon Benefits Group: AI Governance](05-halcyon-ai-governance/) | Employee benefits / AI systems | 8-system AI inventory plus shadow-AI finding, with EU AI Act tiering, 12 risks mapped to NIST AI RMF trustworthiness characteristics, 15-control crosswalk across AI RMF/ISO 42001/EU AI Act, and an executive decision memo |
 
 ## Why five fictional companies
 
 The scenarios are deliberately different, because the competencies they exercise are different and no single environment shows all of them.
 
-**Northbridge Cloudworks** (projects 4-8) is a connected commercial program: one company carried from risk identification through to an audit-readiness decision. It shows how a GRC function operates as a system rather than as a set of exercises.
+**Northbridge Cloudworks** (projects 4-8) is a connected commercial program: one company carried from risk identification through to an audit-readiness decision. It shows how a GRC function operates as a connected system across a full audit-readiness cycle.
 
 **Meridian Health Analytics** (project 1) adds a regulated-data environment. HIPAA and PHI change what "high impact" means, and the artifacts reflect that.
 
@@ -35,7 +35,7 @@ The scenarios are deliberately different, because the competencies they exercise
 
 **Northgate Signal** (project 3) is the same federal discipline under the standard that replaced it. FedRAMP published the Consolidated Rules for 2026 in June 2026, replacing narrative control descriptions with Key Security Indicators validated automatically against the running system. This project was built after that change, and demonstrates it rather than describing it.
 
-**Halcyon Benefits Group** (project 9) extends the discipline into AI governance. It applies the same sequence — inventory, classify, assess, map controls, decide — to eight AI systems deployed without oversight, plus one shadow-AI governance finding, including one clearly high-risk under Annex III and one whose classification is genuinely contested. Built against a regulatory timeline that moved mid-project — the EU's Digital Omnibus entered into force partway through, deferring some obligations and expressly not others.
+**Halcyon Benefits Group** (project 9) extends the discipline into AI governance. It applies the same sequence (inventory, classify, assess, map controls, decide) to eight AI systems deployed without oversight, plus one shadow-AI governance finding, including one clearly high-risk under Annex III and one whose classification is genuinely contested. The regulatory timeline moved mid-project: the EU's Digital Omnibus entered into force partway through, deferring some obligations and not others.
 
 Read together: commercial program management, regulated industry, federal authorization, continuous compliance engineering, and AI governance.
 
@@ -77,10 +77,10 @@ The dashboards are rendered directly from the working Excel deliverables: [enter
 
 If you are a recruiter or hiring manager, these four items show the range of the portfolio quickly:
 
-1. [Northbridge SOC 2 Readiness Report](04-northbridge-cloudworks-grc-program/05-soc2-readiness/Northbridge-SOC2-Readiness-Report.md) — executive communication, audit judgment, and remediation priorities.
-2. [Cascade Security Assessment Report](02-cascade-civic-rev5-ato/pdf/security_assessment_report.pdf) — assessment writing and defensible finding structure; start with `FIND-001`.
-3. [Northgate KSI Validator](03-northgate-signal-fedramp-20x/src/ksi_validator.py) — automation, machine-readable evidence, and the distinction between declared configuration and observed behavior.
-4. [Halcyon AI Governance Decision Memo](05-halcyon-ai-governance/pdf/ai_governance_decision_memo.pdf) — emerging regulation, contested classification handled honestly, and a reversible executive recommendation.
+1. [Northbridge SOC 2 Readiness Report](04-northbridge-cloudworks-grc-program/05-soc2-readiness/Northbridge-SOC2-Readiness-Report.md): executive communication, audit judgment, and remediation priorities.
+2. [Cascade Security Assessment Report](02-cascade-civic-rev5-ato/pdf/security_assessment_report.pdf): assessment writing and defensible finding structure; start with `FIND-001`.
+3. [Northgate KSI Validator](03-northgate-signal-fedramp-20x/src/ksi_validator.py): automation, machine-readable evidence, and the distinction between declared configuration and observed behavior.
+4. [Halcyon AI Governance Decision Memo](05-halcyon-ai-governance/pdf/ai_governance_decision_memo.pdf): emerging regulation, contested classification handled honestly, and a reversible executive recommendation.
 
 For a commercial-risk sample, open the [Meridian Risk Register PDF](01-meridian-health-grc-program/pdf/risk_register.pdf) or the [Northbridge Enterprise Risk Assessment PDF](04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/pdf/Northbridge-Enterprise-Risk-Assessment.pdf). Every workbook is published twice: a PDF in each project's `pdf/` folder that previews directly in the browser, and the working `.xlsx` in `artifacts/` with live formulas, dashboards, and conditional logic intact.
 
@@ -89,7 +89,7 @@ For a commercial-risk sample, open the [Meridian Risk Register PDF](01-meridian-
 - **Browser-ready evidence:** Markdown reports and PDF exports make the work reviewable without specialized software.
 - **Working deliverables:** Excel workbooks retain scoring formulas, dashboards, conditional logic, trackers, and workpapers; Word files retain editable document structure.
 - **Traceability:** risks, controls, findings, owners, evidence, and remediation actions connect across related artifacts.
-- **Honest conclusions:** failed tests, open findings, conditional approvals, and incomplete readiness remain visible instead of being optimized away for presentation.
+- **Honest conclusions:** failed tests, open findings, conditional approvals, and incomplete readiness stay visible in the deliverables.
 - **Machine-readable security:** the FedRAMP 20x project includes Python and JSON alongside human-readable reporting.
 
 ## Frameworks and standards applied

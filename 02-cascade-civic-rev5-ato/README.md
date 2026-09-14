@@ -49,7 +49,7 @@ Every "Other Than Satisfied" control in the SCTM carries a POA&M ID. Every POA&M
 
 ### Start with the SSP — categorization and boundary
 
-RMF starts by categorizing the system. Working through the information types in SP 800-60 and applying the **high water mark**, GrantBridge lands at Moderate for confidentiality, integrity, and availability. That single decision selects the entire control baseline, which is why the rationale is documented rather than just the result.
+RMF starts by categorizing the system. Working through the information types in SP 800-60 and applying the **high water mark**, GrantBridge lands at Moderate for confidentiality, integrity, and availability. That single decision selects the entire control baseline, so the rationale behind it is documented alongside the result.
 
 Then the **authorization boundary** — the part most people underestimate. The SSP documents what's inside, what's outside, and *why*. AWS GovCloud infrastructure is outside and inherited. Corporate IT is outside because no federal data touches it.
 
