@@ -52,14 +52,6 @@ Five controls were selected for test workpapers:
 | Q2 access review missing approval timestamp | Medium | Review occurred, but evidence quality is incomplete |
 | Incident-response tabletop not completed in current year | Medium | IR plan exists, but readiness has not been exercised |
 
-## Why This Matters
-
-Recruiters and interviewers often ask whether a candidate knows frameworks. A stronger answer is:
-
-> I understand that frameworks are not the work product by themselves. The work product is the control, the evidence, the test procedure, the exception, the remediation plan, and the business decision.
-
-That answer sets you apart because it shows you can move from theory to execution.
-
 ## Management Recommendation
 
 Northbridge should maintain the unified control library as the source of truth, assign control owners, define evidence requirements, and use the testing workpapers as the foundation for SOC 2 readiness.
