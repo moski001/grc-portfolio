@@ -1,4 +1,4 @@
-# Project 2 - NIST CSF 2.0 Gap Assessment
+# Northbridge Program, Phase 2: NIST CSF 2.0 Gap Assessment
 
 ## Purpose
 
@@ -36,10 +36,6 @@ This project shows that you can:
 - Avoid claiming NIST CSF "certification."
 - Prioritize remediation by risk, business impact, and effort.
 - Translate assessment results into a 12-month roadmap.
-
-## Suggested Interview Positioning
-
-> I built a NIST CSF 2.0 current-versus-target gap assessment for the same fictional SaaS company used in my risk assessment project. I assessed outcomes across GOVERN, IDENTIFY, PROTECT, DETECT, RESPOND, and RECOVER, documented evidence and gaps, assigned owners, and built a remediation roadmap with 0-30, 31-90, 3-6 month, and 6-12 month actions.
 
 ## Files
 
