@@ -1,6 +1,6 @@
 # Northbridge Cloudworks GRC Portfolio
 
-Northbridge Cloudworks, Inc. is a fictional B2B SaaS company used to demonstrate practical governance, risk, and compliance work. The portfolio is built as one connected security program rather than disconnected school exercises.
+Northbridge Cloudworks, Inc. is a fictional B2B SaaS company I use to demonstrate practical governance, risk, and compliance work. I built the portfolio as one connected security program rather than disconnected school exercises.
 
 ## Company Scenario
 
@@ -8,7 +8,7 @@ Northbridge Cloudworks is a remote-first SaaS provider with approximately 120 em
 
 ## Verified 2026 Standards Baseline
 
-This portfolio uses the following baseline as of August 13, 2026:
+I used the following baseline as of August 13, 2026:
 
 | Area | Standard / Framework | Portfolio Use |
 |---|---|---|
@@ -32,7 +32,7 @@ This portfolio uses the following baseline as of August 13, 2026:
 
 ### Phase 1: Enterprise Cybersecurity Risk Assessment
 
-Purpose: demonstrate risk identification, inherent and residual risk scoring, control evaluation, risk treatment, executive reporting, and ERM alignment.
+I built this phase to demonstrate risk identification, inherent and residual risk scoring, control evaluation, risk treatment, executive reporting, and ERM alignment.
 
 Artifacts:
 
@@ -42,7 +42,7 @@ Artifacts:
 
 ### Phase 2: NIST CSF 2.0 Gap Assessment
 
-Purpose: demonstrate framework interpretation, current-vs-target profile thinking, gap analysis, prioritization, remediation roadmapping, and executive communication.
+I built this phase to demonstrate framework interpretation, current-vs-target profile thinking, gap analysis, prioritization, remediation roadmapping, and executive communication.
 
 Artifacts:
 
@@ -52,7 +52,7 @@ Artifacts:
 
 ### Phase 3: Third-Party Risk Management Assessment
 
-Purpose: demonstrate vendor classification, evidence review, questionnaire scoring, findings management, remediation tracking, and approval decision documentation.
+I built this phase to demonstrate vendor classification, evidence review, questionnaire scoring, findings management, remediation tracking, and approval decision documentation.
 
 Artifacts:
 
@@ -62,7 +62,7 @@ Artifacts:
 
 ### Phase 4: Control Framework Crosswalk and Control Testing
 
-Purpose: demonstrate internal control design, framework mapping, evidence requests, test workpapers, exception documentation, and remediation tracking.
+I built this phase to demonstrate internal control design, framework mapping, evidence requests, test workpapers, exception documentation, and remediation tracking.
 
 Artifacts:
 
@@ -72,19 +72,13 @@ Artifacts:
 
 ### Phase 5: SOC 2 Readiness and Evidence Management
 
-Purpose: demonstrate SOC 2 readiness planning, PBC evidence tracking, audit-style findings, remediation, readiness reporting, and executive communication.
+I built this phase to demonstrate SOC 2 readiness planning, PBC evidence tracking, audit-style findings, remediation, readiness reporting, and executive communication.
 
 Artifacts:
 
 - [Phase 5 README](05-soc2-readiness/README.md)
 - [SOC 2 Readiness Report](05-soc2-readiness/Northbridge-SOC2-Readiness-Report.md)
 - `Northbridge-SOC2-Readiness-and-Evidence-Tracker.xlsx`
-
-## How To Present This Portfolio
-
-Use this positioning in applications and interviews:
-
-> Built a simulated GRC program for a cloud SaaS organization, including an enterprise cybersecurity risk assessment, risk register, NIST CSF 2.0 current-versus-target gap assessment, third-party vendor risk assessment, control framework crosswalk, control testing workpapers, SOC 2 readiness tracker, remediation roadmaps, and executive-ready reporting. Mapped work to current 2026 standards including NIST CSF 2.0, NIST SP 800-30, NIST SP 800-161, the NIST IR 8286 Rev. 1 ERM series, NIST SP 1308, NIST SP 800-53 Rev. 5 Release 5.2.0, CIS Controls v8.1, ISO/IEC 27001:2022/Amd 1:2024, ISO/IEC 27002:2022, ISO/IEC 27017:2026, and AICPA Trust Services Criteria.
 
 ## Source URLs
 
