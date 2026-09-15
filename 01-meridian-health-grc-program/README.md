@@ -75,6 +75,10 @@ The honest limitation: 5×5 is **ordinal, not cardinal**. A 12 isn't twice as ri
 
 ---
 
+## Resolved review notes
+
+The Security Questionnaire's Assessor Findings for ClaimLink (V-001) previously called its risk "Critical/High" and "Medium-High," which don't correspond to any value on the Vendor Inventory's Risk Rating scale (Not Assessed/Low/Medium/High) and conflicted with that column's own formula output of Medium for ClaimLink's score of 84. The findings now distinguish ClaimLink's static Inherent Risk Tier (Critical, a function of PHI/system access) from its calculated Risk Rating (Medium, per the documented Risk Rating Logic: Critical tier + score < 80 = High, score 70-84 = Medium) and state the assessor's escalation rationale — the missing SOC 2 Type II report and the Critical inherent tier — without rewriting the calculated rating itself.
+
 ## Frameworks applied
 
 NIST CSF 2.0 · NIST SP 800-30 Rev 1 · NIST SP 800-34 Rev 1 · CIS Controls v8 · ISO/IEC 27001:2022 · SOC 2 Trust Services Criteria · HIPAA/HITECH
