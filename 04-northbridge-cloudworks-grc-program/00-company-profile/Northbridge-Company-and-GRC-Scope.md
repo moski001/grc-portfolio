@@ -76,7 +76,7 @@ These are fictional assessment dates and decision assumptions authored for the p
 | Control crosswalk and testing | 2026-09-02 | Use the vendor assessment as TPRM-01 evidence |
 | SOC 2 readiness | 2026-09-10 | Consolidate earlier work into evidence requests and readiness actions |
 
-DataFlow AI's next annual assessment is 2027-08-26. Existing remediation commitments are retained. Dates are assessment checkpoints, not assertions that every activity happened on that one day.
+DataFlow AI's next annual assessment is 2027-08-26. Existing remediation commitments are retained. Dates mark assessment checkpoints only.
 
 ### Distinct rating purposes
 
@@ -84,10 +84,10 @@ This section owns the definitions used by the Northbridge workbooks. An identica
 
 | Field and authoritative location | Meaning | Tier interpretation |
 |---|---|---|
-| Control Criticality — crosswalk Control Library column L | Business importance of the control objective if it fails; independent of whether current evidence is complete. | High: broad access, exposure or service-protection consequence. Medium: narrower or supporting control objective. Low: limited consequence. |
-| Evidence Review Priority — SOC 2 Control Matrix column I | Relative attention for the readiness evidence review, considering the documented evidence gap and follow-up needed. It is not a new business-risk rating. | High: production-sensitive evidence or important incomplete vendor/cloud assurance. Medium: routine control evidence or a bounded review/workflow gap. Low: administrative evidence follow-up. A Ready control may retain a review priority for continued monitoring. |
-| Finding Severity — workpapers and findings registers | Severity of the particular observed or assumed exception described in that finding. | The finding's stated consequence and evidence determine its severity. It need not equal the control's criticality. |
-| Residual Risk — enterprise Risk Register | Likelihood × impact remaining for the business-risk scenario after crediting effective controls. | Low 1–4; Medium 5–9; High 10–16; Critical 17–25. These bands apply to Northbridge only. |
+| Control Criticality (crosswalk Control Library column L) | Business importance of the control objective if it fails; independent of whether current evidence is complete. | High: broad access, exposure or service-protection consequence. Medium: narrower or supporting control objective. Low: limited consequence. |
+| Evidence Review Priority (SOC 2 Control Matrix column I) | Relative attention for the readiness evidence review, considering the documented evidence gap and follow-up needed. It is not a new business-risk rating. | High: production-sensitive evidence or important incomplete vendor/cloud assurance. Medium: routine control evidence or a bounded review/workflow gap. Low: administrative evidence follow-up. A Ready control may retain a review priority for continued monitoring. |
+| Finding Severity (workpapers and findings registers) | Severity of the particular observed or assumed exception described in that finding. | The finding's stated consequence and evidence determine its severity. It need not equal the control's criticality. |
+| Residual Risk (enterprise Risk Register) | Likelihood × impact remaining for the business-risk scenario after crediting effective controls. | Low 1–4; Medium 5–9; High 10–16; Critical 17–25. These bands apply to Northbridge only. |
 
 The shared controls below retain different values deliberately. They are reconciled by purpose and the existing finding, not silently treated as one scale.
 
@@ -97,7 +97,7 @@ The shared controls below retain different values deliberately. They are reconci
 | VM-01 Scanning | High | Medium | Scanning is important; three monthly scans passed the workpaper test, with an aging-summary follow-up. |
 | VM-02 Vulnerability Remediation | High | Medium | Unremediated vulnerabilities can be serious; SOCF-004 specifically concerns undocumented SLA exceptions and is rated Medium. |
 | LOG-01 Logging | High | Medium | Detection coverage is important; readiness work requires the source inventory and documented ownership. |
-| SEC-01 Training | Medium | Low | Workforce awareness is a supporting control; the PBC follow-up is contractor completion evidence, not a newly discovered security incident. |
+| SEC-01 Training | Medium | Low | Workforce awareness is a supporting control; the PBC follow-up is routine contractor completion evidence. |
 
 All other shared controls have matching tier labels. PBC request priority and finding severity remain separately scoped fields.
 
@@ -112,4 +112,4 @@ Effective means the described control operates consistently within its scope; it
 | R-015 Untested response | Ineffective | A plan and rota do not demonstrate coordinated response without an exercise. No reduction is credited: 20 inherent and 20 residual, Critical. |
 | R-020 Missing evidence | Ineffective | Shared folders without evidence owners do not establish evidence governance. No reduction is credited: 16 inherent and 16 residual, High. |
 
-The other sixteen risks retain Partially Effective. These are scenario assumptions, not newly executed tests. The dashboard ranks residual scores dynamically; tied scores keep register order for display only.
+The other sixteen risks retain Partially Effective. These reflect scenario assumptions carried from the original assessment. The dashboard ranks residual scores dynamically; tied scores keep register order for display only.
