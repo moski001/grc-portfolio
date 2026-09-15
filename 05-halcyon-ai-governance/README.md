@@ -89,6 +89,8 @@ This project extends the portfolio's commercial GRC work (Meridian, Northbridge)
 
 ## Deferred review notes
 
-The inventory's Classification Method B8 describes the Digital Omnibus deferral as proposed, while other artifacts describe it as enacted. Resolve that external-fact question in pass 5; this pass makes no legal-status determination.
-
 AI-009's inventory describes inputs as unknown/likely, while AIR-010 states member-data entry more firmly. Retain both: the inventory records discovery uncertainty; the risk assessment states the exposure scenario being evaluated. The latter is not independent evidence that the former has been confirmed. Confirmation would require evidence of the actual data submitted.
+
+## Resolved review notes
+
+The inventory's Classification Method B8 previously described the Digital Omnibus deferral as proposed while other artifacts (the inventory header, the "Applicable Deadline" column, and this README) described it as enacted. B8 now states the enacted position: Regulation (EU) 2026/1744 in force 27 July 2026, standalone Annex III obligations deferred to 2 December 2027, and the Article 50/Article 5/GPAI carve-outs that were not deferred — matching the rest of the artifact set and this README.
