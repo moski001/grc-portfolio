@@ -87,4 +87,4 @@ Implementation status categories:
 
 Many of the underlying controls already exist. What leadership needs to fund next is ownership of those controls, retained evidence that they operate, and the two tests (incident response and recovery) that have not been run. The roadmap orders that work by dependency, so the governance owners named in the first 30 days are the people who receive the later test results.
 
-Scenario assessment date: **2026-08-19**; see the [shared scenario chronology](../00-company-profile/Pinecastle-Company-and-GRC-Scope.md#scenario-chronology-and-rating-definitions).
+Scenario assessment date: **2026-08-21**; see the [shared scenario chronology](../00-company-profile/Pinecastle-Company-and-GRC-Scope.md#scenario-chronology-and-rating-definitions).

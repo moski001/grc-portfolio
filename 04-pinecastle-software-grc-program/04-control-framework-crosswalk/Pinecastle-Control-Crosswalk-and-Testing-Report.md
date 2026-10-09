@@ -58,4 +58,4 @@ Six controls were selected for test workpapers:
 
 Keep the control library as the single source of truth, confirm an owner for each of the 17 controls, and carry the testing workpapers into SOC 2 readiness. LOG-01 and the two governance controls were not tested this cycle and should be in the next one.
 
-Scenario assessment date: **2026-09-02**. [Shared rating definitions](../00-company-profile/Pinecastle-Company-and-GRC-Scope.md#distinct-rating-purposes) distinguish Control Criticality from SOC 2 Evidence Review Priority.
+Scenario assessment date: **2026-09-03**. [Shared rating definitions](../00-company-profile/Pinecastle-Company-and-GRC-Scope.md#distinct-rating-purposes) distinguish Control Criticality from SOC 2 Evidence Review Priority.

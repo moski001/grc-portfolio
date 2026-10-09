@@ -35,7 +35,7 @@ SCTM          RA-5, SI-2 marked "Other Than Satisfied"
 SAR           FIND-001: 14 High vulns open past the 30-day window,
               longest at 94 days. Cause: no automated SLA escalation.
                     ↓
-POA&M         V-001: 3 milestones, owner, target 2026-06-30,
+POA&M         V-001: 3 milestones, owner, target 2026-06-25,
               risk rating High
 ```
 
@@ -69,7 +69,7 @@ A common cloud failure is a customer assuming the provider handled something nob
 
 ### Then the Tabletop AAR
 
-Read section 10 first. The exercise was run to close POA&M item V-006, which concerns a one-hour US-CERT notification requirement that had never been exercised. The exercise failed: the notification draft came in at T+64 against a 60-minute requirement, severity classification took 22 minutes against a 15-minute objective, and the General Counsel's number in the roster was out of date.
+Read section 10 first. The exercise was run to close POA&M item V-006, which concerns a one-hour CISA notification requirement that had never been exercised. The exercise failed: the notification draft came in at T+64 against a 60-minute requirement, severity classification took 22 minutes against a 15-minute objective, and the General Counsel's number in the roster was out of date.
 
 The milestone said "conduct a tabletop," and one was conducted, so the item could have been closed on paper. The report recommends keeping it open. The AO accepts risk based on what the ISSO reports, and closing V-006 because an exercise occurred, when it did not succeed, would give the AO the wrong picture.
 

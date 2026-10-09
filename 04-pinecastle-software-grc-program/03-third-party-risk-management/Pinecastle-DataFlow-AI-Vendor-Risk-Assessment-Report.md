@@ -65,4 +65,4 @@ The gaps appear remediable and the service has business value, so the vendor is 
 
 Limited implementation can start once the four conditions are met. The missing advance notice of model changes is not a finding yet; it goes into the annual review as a question for the next contract renewal.
 
-Scenario assessment date: **2026-08-26**. Next annual review: **2027-08-26**. These authored dates are part of the [shared scenario chronology](../00-company-profile/Pinecastle-Company-and-GRC-Scope.md#scenario-chronology-and-rating-definitions); remediation commitments remain unchanged.
+Scenario assessment date: **2026-08-27**. Next annual review: **2027-08-27**. These authored dates are part of the [shared scenario chronology](../00-company-profile/Pinecastle-Company-and-GRC-Scope.md#scenario-chronology-and-rating-definitions); remediation commitments remain unchanged.

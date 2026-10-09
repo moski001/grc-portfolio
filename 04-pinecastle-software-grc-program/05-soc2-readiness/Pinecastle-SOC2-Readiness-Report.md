@@ -47,4 +47,4 @@ Pinecastle should not start a formal SOC 2 examination period until high-priorit
 
 The first report should be a Type I. The Type II observation window should start only after an internal readiness retest passes, and no audit date should be promised to customers before then.
 
-Scenario assessment date: **2026-09-10**. Dashboard areas are mutually exclusive and derived from Control Matrix column J: 22 controls total, comprising 6 Ready, 15 Partial and 1 Not Ready. [Shared rating definitions](../00-company-profile/Pinecastle-Company-and-GRC-Scope.md#distinct-rating-purposes) explain Evidence Review Priority and its differences from Control Criticality.
+Scenario assessment date: **2026-09-11**. Dashboard areas are mutually exclusive and derived from Control Matrix column J: 22 controls total, comprising 6 Ready, 15 Partial and 1 Not Ready. [Shared rating definitions](../00-company-profile/Pinecastle-Company-and-GRC-Scope.md#distinct-rating-purposes) explain Evidence Review Priority and its differences from Control Criticality.

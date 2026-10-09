@@ -69,12 +69,12 @@ These are fictional assessment dates and decision assumptions authored for the p
 | Phase | Scenario assessment date | Dependency |
 |---|---|---|
 | Enterprise risk assessment | 2026-08-13 | Establish risks and treatment ownership |
-| CSF gap assessment | 2026-08-19 | Use enterprise risks to prioritize gaps |
-| DataFlow AI vendor assessment | 2026-08-26 | Assess the vendor before the control-testing workpaper |
-| Control crosswalk and testing | 2026-09-02 | Use the vendor assessment as TPRM-01 evidence |
-| SOC 2 readiness | 2026-09-10 | Consolidate earlier work into evidence requests and readiness actions |
+| CSF gap assessment | 2026-08-21 | Use enterprise risks to prioritize gaps |
+| DataFlow AI vendor assessment | 2026-08-27 | Assess the vendor before the control-testing workpaper |
+| Control crosswalk and testing | 2026-09-03 | Use the vendor assessment as TPRM-01 evidence |
+| SOC 2 readiness | 2026-09-11 | Consolidate earlier work into evidence requests and readiness actions |
 
-DataFlow AI's next annual assessment is 2027-08-26. Existing remediation commitments are retained. Dates mark assessment checkpoints only.
+DataFlow AI's next annual assessment is 2027-08-27. Existing remediation commitments are retained. Dates mark assessment checkpoints only.
 
 ### Distinct rating purposes
 

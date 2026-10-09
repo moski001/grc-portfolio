@@ -1,7 +1,7 @@
 # Pineda Salon Co.
 ## Data Protection Impact Assessment: SkinRead Diagnostic Kiosk
 
-Assessment period: 2026-07-06 to 2026-09-11 · Report date: 2026-09-26 · Status: Draft v0.6, pending owner and counsel review
+Assessment period: 2026-07-06 to 2026-09-11 · Report date: 2026-09-25 · Status: Draft v0.6, pending owner and counsel review
 
 *Fictional organization. Created for portfolio demonstration purposes. No real client, biometric, or personal data is referenced.*
 
@@ -88,7 +88,7 @@ Summary: 1 High, 2 Moderate, 1 Low, 1 unable to test.
 1. Turn on "process and discard" in the vendor console. This takes minutes, costs nothing, and stops new accumulation while the DPA is negotiated.
 2. Negotiate a DPA that ends training use of Pineda client images, requires deletion of images already held, sets a deletion SLA, warrants encryption at rest, and grants an audit right.
 
-**Management response.** Concur. "Process and discard" enabled 2026-09-19. DPA target was 2026-08-29; moved to 2026-10-31 after Oduya Imaging's counsel rejected the first redline. Vendor counsel has since cited the HB 149 exemption in support of keeping historical images; deletion remains the open point. Intake question added 2026-08-04. Owner: Director of Operations.
+**Management response.** Concur. "Process and discard" enabled 2026-09-18. DPA target was 2026-08-26; moved to 2026-10-27 after Oduya Imaging's counsel rejected the first redline. Vendor counsel has since cited the HB 149 exemption in support of keeping historical images; deletion remains the open point. Intake question added 2026-08-04. Owner: Director of Operations.
 
 #### F-02 · Moderate · Consent screen does not meet CUBI notice requirements
 
@@ -104,7 +104,7 @@ Summary: 1 High, 2 Moderate, 1 Low, 1 unable to test.
 
 **Recommendation.** Put Texas kiosks in 2D-only mode (a console setting) until the new consent screen is live. Then rewrite the screen to name Oduya Imaging, the purpose, and retention, with marketing opt-in as a separate unchecked box.
 
-**Management response.** Partially concur. Management still regards the rating as overstated given the small number of clients affected. 2D-only mode scheduled for 2026-09-26. **Assessor position:** rating stays Moderate. The client count bounds the exposure but does not cure the notice.
+**Management response.** Partially concur. Management still regards the rating as overstated given the small number of clients affected. 2D-only mode scheduled for 2026-09-25. **Assessor position:** rating stays Moderate. The client count bounds the exposure but does not cure the notice.
 
 #### F-03 · Moderate · Before/after photos on personal phones with no policy
 
@@ -150,31 +150,31 @@ At booth-rental locations the position is different. The renter is a separate bu
 
 **Recommendation.** Set automated deletion of kiosk attachments 18 months after the client's last visit.
 
-**Management response.** Concur. Target 2026-11-30.
+**Management response.** Concur. Target 2026-11-25.
 
 ### 7. Accepted and escalated risks
 
 | ID | Risk | Rationale | Decision | Review date |
 |---|---|---|---|---|
-| AR-1 | Kiosks at Cocoa Village and Merritt Island share a network segment with guest Wi-Fi | Network refresh at both older locations is in the FY2027 capital budget. Interim control: vendor console restricted to vendor IP allowlist | Accepted by Lorraine Batiste, Chief Operating Officer | 2027-01-15 |
+| AR-1 | Kiosks at Cocoa Village and Merritt Island share a network segment with guest Wi-Fi | Network refresh at both older locations is in the FY2027 capital budget. Interim control: vendor console restricted to vendor IP allowlist | Accepted by Lorraine Batiste, Chief Operating Officer | 2027-01-12 |
 | AR-2 | 3D capture continued in Texas under the v0.3 consent screen | v0.3 recorded management's decision not to suspend | **Superseded.** Assessor did not support acceptance, because a likely statutory violation is not a risk the COO can accept alone. Resolved by 2D-only mode under F-02. Captures already taken are addressed under F-01 deletion | Closed on confirmation of 2D-only mode |
 
 ### 8. Remediation plan
 
 | Item | Finding | Owner | Effort | Cost | Target | Status |
 |---|---|---|---|---|---|---|
-| Enable "process and discard" | F-01 | Dir. of Operations | Under 1 hour | None | 2026-09-19 | Done |
-| Texas kiosks to 2D-only | F-02 | Dir. of Operations | Under 1 hour | None | 2026-09-26 | Scheduled |
-| Executed DPA with deletion of historical images | F-01, F-04 | Dir. of Operations, outside counsel | Weeks | Counsel fees, est. $3,000–$5,000 | 2026-10-31 (slipped from 2026-08-29) | In negotiation |
-| Rewrite consent screen | F-02 | Retail marketing lead | 1–2 days | None | 2026-10-15 | Not started |
+| Enable "process and discard" | F-01 | Dir. of Operations | Under 1 hour | None | 2026-09-18 | Done |
+| Texas kiosks to 2D-only | F-02 | Dir. of Operations | Under 1 hour | None | 2026-09-25 | Scheduled |
+| Executed DPA with deletion of historical images | F-01, F-04 | Dir. of Operations, outside counsel | Weeks | Counsel fees, est. $3,000–$5,000 | 2026-10-27 (slipped from 2026-08-26) | In negotiation |
+| Rewrite consent screen | F-02 | Retail marketing lead | 1–2 days | None | 2026-10-20 | Not started |
 | W-2 service-photo standard | F-03 | HR, employment counsel | 1–2 weeks | Counsel fees | None committed | Drafted |
 | Booth rental privacy clause | F-03 | Owner | At renewal | None | 2027-01 renewals | Not started |
-| Attachment retention rule | F-05 | Front-office manager | Under 1 day | None | 2026-11-30 | Not started |
-| Obtain SOC 2 under NDA | F-04 | Dir. of Operations | Days | None | 2026-10-15 | NDA with counsel |
+| Attachment retention rule | F-05 | Front-office manager | Under 1 day | None | 2026-11-25 | Not started |
+| Obtain SOC 2 under NDA | F-04 | Dir. of Operations | Days | None | 2026-10-20 | NDA with counsel |
 
 ### 9. Residual risk and open questions
 
-Residual risk is Moderate once the two console changes are confirmed, and depends on the DPA closing by 2026-10-31. If it slips again, the assessor recommends turning off 3D capture at all nine locations until it is signed.
+Residual risk is Moderate once the two console changes are confirmed, and depends on the DPA closing by 2026-10-27. If it slips again, the assessor recommends turning off 3D capture at all nine locations until it is signed.
 
 Questions for counsel:
 1. Does a 2D facial photo used only for skin analysis fall within CUBI's definition of a biometric identifier?
@@ -188,7 +188,7 @@ Questions for counsel:
 |---|---|
 | CUBI consent, disclosure exceptions, reasonable care, destruction, $25,000 penalty | Tex. Bus. & Com. Code ch. 503, statutes.capitol.texas.gov/Docs/BC/htm/BC.503.htm |
 | CUBI obligations summary | Texas Attorney General, texasattorneygeneral.gov, Biometric Identifier Act page |
-| HB 149 § 503.001(e)(2) and (f), § 552.054(c), § 552.104 cure period, § 552.105 penalties, effective 2026-01-01 | Enrolled bill text, capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.HTM, reviewed 2026-09-26 |
+| HB 149 § 503.001(e)(2) and (f), § 552.054(c), § 552.104 cure period, § 552.105 penalties, effective 2026-01-01 | Enrolled bill text, capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.HTM, reviewed 2026-09-25 |
 | TDPSA small-business exemption and § 541.107 | Perkins Coie; Vinson & Elkins |
 | FDBR controller thresholds and § 501.715 sale provision | Bass Berry & Sims; White & Case |
 
@@ -203,4 +203,4 @@ Questions for counsel:
 | 0.3 | 2026-09-18 | C. Morrissey | Management responses added. F-02 severity dispute recorded; AR-1 and AR-2 added |
 | 0.4 | 2026-09-21 | C. Morrissey | Added method, rating scale, necessity section, F-05, and remediation plan. Corrected client counts. Rescoped F-03 for booth renters. F-02 recommendation changed to 2D-only mode. AR-2 superseded |
 | 0.5 | 2026-09-24 | C. Morrissey | Legal claims checked against sources. FDBR corrected from "not applicable" to § 501.715 applying. HB 149 exemption confirmed and F-01 criteria revised around it; F-01 rating reviewed and held. CUBI disclosure exceptions stated. Added §10 |
-| 0.6 | 2026-09-26 | C. Morrissey | HB 149 verified against the enrolled bill text, replacing law-firm summaries. Added § 503.001(f) and the § 552.054(c) penalty routing. F-02 effect revised to note the 60-day cure period, which lowers practical exposure |
+| 0.6 | 2026-09-25 | C. Morrissey | HB 149 verified against the enrolled bill text, replacing law-firm summaries. Added § 503.001(f) and the § 552.054(c) penalty routing. F-02 effect revised to note the 60-day cure period, which lowers practical exposure |

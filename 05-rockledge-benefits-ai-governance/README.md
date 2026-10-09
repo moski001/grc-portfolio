@@ -59,7 +59,7 @@ The Digital Omnibus on AI (Regulation (EU) 2026/1744) was published in the Offic
 
 The deferral is selective. Article 50 transparency duties were not deferred and applied from 2 August 2026, and neither were the Article 5 prohibitions or the GPAI provider obligations.
 
-The obligation Rockledge has actually missed is the cheapest one in the register: telling members they are talking to a chatbot. AIR-007 is a small UX change, and its legal deadline and remediation target are different dates. As of this review on 2026-09-14, the register shows passed remediation targets for AIR-005 and AIR-007 (2026-08-15) and for AIR-010 and AIR-012 (2026-08-31), with no closure evidence or reason for the miss recorded. The expensive work got sixteen more months; the easy fix was already due.
+The obligation Rockledge has actually missed is the cheapest one in the register: telling members they are talking to a chatbot. AIR-007 is a small UX change, and its legal deadline and remediation target are different dates. As of this review on 2026-09-14, the register shows passed remediation targets for AIR-005 and AIR-007 (2026-08-21) and for AIR-010 and AIR-012 (2026-08-25), with no closure evidence or reason for the miss recorded. The expensive work got sixteen more months; the easy fix was already due.
 
 Section 2 of the memo makes the broader point. A deadline determines when enforcement can begin, not whether harm is occurring. AIR-001 (whether ClaimDesk encodes historical bias into denial recommendations) has no compliance date, and nobody yet knows whether the model discriminates. A member denied benefits in 2026 is not helped by a 2027 deadline.
 
