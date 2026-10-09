@@ -13,29 +13,29 @@ Nine hands-on projects showing how I translate security frameworks into business
 
 | # | Project | Environment | Evidence of capability |
 |---:|---|---|---|
-| 1 | [Meridian Health Analytics — GRC Program](01-meridian-health-grc-program/) | Healthcare analytics / HIPAA | 15-risk register, NIST CSF 2.0 gap assessment, multi-framework control mapping, vendor risk, policy, and BIA |
-| 2 | [Cascade Civic Systems — FedRAMP Rev5 ATO](02-cascade-civic-rev5-ato/) | Federal grants SaaS | SSP, 30-control traceability matrix, security assessment report, POA&M, shared-responsibility matrix, and IR tabletop AAR |
-| 3 | [Northgate Signal — FedRAMP 20x](03-northgate-signal-fedramp-20x/) | Government case-management SaaS | Python validation engine, 12 KSIs, 24 independent validation methods, machine-readable evidence, and two detected drift conditions |
-| 4 | [Northbridge — Enterprise Risk Assessment](04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/) | B2B cloud SaaS | 20 risks, inherent/residual scoring, control-effectiveness analysis, treatment plans, owners, and executive dashboard |
-| 5 | [Northbridge — NIST CSF 2.0 Gap Assessment](04-northbridge-cloudworks-grc-program/02-nist-csf-gap-assessment/) | B2B cloud SaaS | 18 assessed outcomes across all six functions, 12 high-priority gaps, current/target profiles, and a 12-month roadmap |
-| 6 | [Northbridge — Third-Party Risk Management](04-northbridge-cloudworks-grc-program/03-third-party-risk-management/) | Critical AI SaaS vendor | 25-question evidence-based assessment, weighted scorecard, five findings, remediation tracking, and conditional-approval decision |
-| 7 | [Northbridge — Control Crosswalk & Testing](04-northbridge-cloudworks-grc-program/04-control-framework-crosswalk/) | Multi-framework assurance | 15-control internal library, NIST/CIS/ISO/SOC 2 crosswalk, five test workpapers, exceptions, and corrective actions |
-| 8 | [Northbridge — SOC 2 Readiness](04-northbridge-cloudworks-grc-program/05-soc2-readiness/) | Pre-audit readiness | 22-control matrix, PBC evidence tracker, five audit-style findings, remediation plan, and executive readiness decision |
-| 9 | [Halcyon Benefits Group — AI Governance](05-halcyon-ai-governance/) | Employee benefits / AI systems | 8-system AI inventory plus shadow-AI finding, with EU AI Act tiering, 12 risks mapped to NIST AI RMF trustworthiness characteristics, 15-control crosswalk across AI RMF/ISO 42001/EU AI Act, and an executive decision memo |
+| 1 | [Tavares Claims Services — GRC Program](01-tavares-claims-grc-program/) | Healthcare claims / HIPAA | 15-risk register, NIST CSF 2.0 gap assessment, multi-framework control mapping, vendor risk, policy, and BIA |
+| 2 | [Tailspin Civic Systems — FedRAMP Rev5 ATO](02-tailspin-civic-rev5-ato/) | Federal grants SaaS | SSP, 30-control traceability matrix, security assessment report, POA&M, shared-responsibility matrix, and IR tabletop AAR |
+| 3 | [Salgado Public Systems — FedRAMP 20x](03-salgado-public-fedramp-20x/) | Government case-management SaaS | Python validation engine, 12 KSIs, 24 independent validation methods, hash-verifiable machine-readable evidence, two detected drift conditions, and an interactive results dashboard |
+| 4 | [Pinecastle — Enterprise Risk Assessment](04-pinecastle-software-grc-program/01-enterprise-risk-assessment/) | B2B cloud SaaS | 20 risks, inherent/residual scoring, control-effectiveness analysis, treatment plans, owners, and executive dashboard |
+| 5 | [Pinecastle — NIST CSF 2.0 Gap Assessment](04-pinecastle-software-grc-program/02-nist-csf-gap-assessment/) | B2B cloud SaaS | 18 assessed outcomes across all six functions, 12 high-priority gaps, current/target profiles, and a 12-month roadmap |
+| 6 | [Pinecastle — Third-Party Risk Management](04-pinecastle-software-grc-program/03-third-party-risk-management/) | Critical AI SaaS vendor | 25-question evidence-based assessment, weighted scorecard, five findings, remediation tracking, and conditional-approval decision |
+| 7 | [Pinecastle — Control Crosswalk & Testing](04-pinecastle-software-grc-program/04-control-framework-crosswalk/) | Multi-framework assurance | 15-control internal library, NIST/CIS/ISO/SOC 2 crosswalk, five test workpapers, exceptions, and corrective actions |
+| 8 | [Pinecastle — SOC 2 Readiness](04-pinecastle-software-grc-program/05-soc2-readiness/) | Pre-audit readiness | 22-control matrix, PBC evidence tracker, five audit-style findings, remediation plan, and executive readiness decision |
+| 9 | [Rockledge Benefits Administrators — AI Governance](05-rockledge-ai-governance/) | Employee benefits / AI systems | 8-system AI inventory plus shadow-AI finding, with EU AI Act tiering, 12 risks mapped to NIST AI RMF trustworthiness characteristics, 15-control crosswalk across AI RMF/ISO 42001/EU AI Act, and an executive decision memo |
 
 ## Why five fictional companies
 
 The scenarios are deliberately different, because the competencies they exercise are different and no single environment shows all of them.
 
-**Northbridge Cloudworks** (projects 4-8) is a connected commercial program: one company carried from risk identification through to an audit-readiness decision. It shows how a GRC function operates as a system rather than as a set of exercises.
+**Pinecastle Software** (projects 4-8) is a connected commercial program: one company carried from risk identification through to an audit-readiness decision. It shows how a GRC function operates as a system rather than as a set of exercises.
 
-**Meridian Health Analytics** (project 1) adds a regulated-data environment. HIPAA and PHI change what "high impact" means, and the artifacts reflect that.
+**Tavares Claims Services** (project 1) adds a regulated-data environment. HIPAA and PHI change what "high impact" means, and the artifacts reflect that.
 
-**Cascade Civic Systems** (project 2) moves into federal authorization, where the process is prescribed and the discipline is traceability: every deficiency traceable from control, to finding, to remediation plan with an owner and a date.
+**Tailspin Civic Systems** (project 2) moves into federal authorization, where the process is prescribed and the discipline is traceability: every deficiency traceable from control, to finding, to remediation plan with an owner and a date.
 
-**Northgate Signal** (project 3) is the same federal discipline under the standard that replaced it. FedRAMP published the Consolidated Rules for 2026 in June 2026, replacing narrative control descriptions with Key Security Indicators validated automatically against the running system. This project was built after that change, and demonstrates it rather than describing it.
+**Salgado Public Systems** (project 3) is the same federal discipline under the standard that replaced it. FedRAMP published the Consolidated Rules for 2026 in June 2026, replacing narrative control descriptions with Key Security Indicators validated automatically against the running system. This project was built after that change, and demonstrates it rather than describing it.
 
-**Halcyon Benefits Group** (project 9) extends the discipline into AI governance. It applies the same sequence — inventory, classify, assess, map controls, decide — to eight AI systems deployed without oversight, plus one shadow-AI governance finding, including one clearly high-risk under Annex III and one whose classification is genuinely contested. Built against a regulatory timeline that moved mid-project — the EU's Digital Omnibus entered into force partway through, deferring some obligations and expressly not others.
+**Rockledge Benefits Administrators** (project 9) extends the discipline into AI governance. It applies the same sequence — inventory, classify, assess, map controls, decide — to eight AI systems deployed without oversight, plus one shadow-AI governance finding, including one clearly high-risk under Annex III and one whose classification is genuinely contested. Built against a regulatory timeline that moved mid-project — the EU's Digital Omnibus entered into force partway through, deferring some obligations and expressly not others.
 
 Read together: commercial program management, regulated industry, federal authorization, continuous compliance engineering, and AI governance.
 
@@ -53,9 +53,9 @@ Read together: commercial program management, regulated industry, federal author
 | Policy, business continuity, incident response, and stakeholder communication | Projects 1, 2, 5, and 8 |
 | AI governance, EU AI Act classification, and AI risk assessment | Project 9 |
 
-## The Northbridge program: five projects, one operating model
+## The Pinecastle program: five projects, one operating model
 
-[Northbridge Cloudworks](04-northbridge-cloudworks-grc-program/) is a connected program for one fictional 120-person cloud SaaS company. Each phase uses decisions and evidence from the phase before it.
+[Pinecastle Software](04-pinecastle-software-grc-program/) is a connected program for one fictional 120-person cloud SaaS company. Each phase uses decisions and evidence from the phase before it.
 
 ```mermaid
 flowchart LR
@@ -69,20 +69,20 @@ The sequence demonstrates more than framework familiarity: risk drives prioritie
 
 ## Program evidence preview
 
-[![Northbridge SOC 2 readiness dashboard](assets/dashboard-previews/northbridge-soc2-readiness-dashboard.png)](04-northbridge-cloudworks-grc-program/05-soc2-readiness/)
+[![Pinecastle SOC 2 readiness dashboard](assets/dashboard-previews/pinecastle-soc2-readiness-dashboard.png)](04-pinecastle-software-grc-program/05-soc2-readiness/)
 
-The dashboards are rendered directly from the working Excel deliverables: [enterprise risk](assets/dashboard-previews/northbridge-enterprise-risk-dashboard.png) · [NIST CSF 2.0 gaps](assets/dashboard-previews/northbridge-nist-csf-gap-dashboard.png) · [third-party risk](assets/dashboard-previews/northbridge-third-party-risk-dashboard.png) · [control testing](assets/dashboard-previews/northbridge-control-testing-dashboard.png) · [SOC 2 readiness](assets/dashboard-previews/northbridge-soc2-readiness-dashboard.png)
+The dashboards are rendered directly from the working Excel deliverables: [enterprise risk](assets/dashboard-previews/pinecastle-enterprise-risk-dashboard.png) · [NIST CSF 2.0 gaps](assets/dashboard-previews/pinecastle-nist-csf-gap-dashboard.png) · [third-party risk](assets/dashboard-previews/pinecastle-third-party-risk-dashboard.png) · [control testing](assets/dashboard-previews/pinecastle-control-testing-dashboard.png) · [SOC 2 readiness](assets/dashboard-previews/pinecastle-soc2-readiness-dashboard.png)
 
 ## Five-minute review
 
 If you are a recruiter or hiring manager, these four items show the range of the portfolio quickly:
 
-1. [Northbridge SOC 2 Readiness Report](04-northbridge-cloudworks-grc-program/05-soc2-readiness/Northbridge-SOC2-Readiness-Report.md) — executive communication, audit judgment, and remediation priorities.
-2. [Cascade Security Assessment Report](02-cascade-civic-rev5-ato/pdf/security_assessment_report.pdf) — assessment writing and defensible finding structure; start with `FIND-001`.
-3. [Northgate KSI Validator](03-northgate-signal-fedramp-20x/src/ksi_validator.py) — automation, machine-readable evidence, and the distinction between declared configuration and observed behavior.
-4. [Halcyon AI Governance Decision Memo](05-halcyon-ai-governance/pdf/ai_governance_decision_memo.pdf) — emerging regulation, contested classification handled honestly, and a reversible executive recommendation.
+1. [Pinecastle SOC 2 Readiness Report](04-pinecastle-software-grc-program/05-soc2-readiness/Pinecastle-SOC2-Readiness-Report.md) — executive communication, audit judgment, and remediation priorities.
+2. [Tailspin Security Assessment Report](02-tailspin-civic-rev5-ato/pdf/security_assessment_report.pdf) — assessment writing and defensible finding structure; start with `FIND-001`.
+3. [Salgado KSI Validator](03-salgado-public-fedramp-20x/src/ksi_validator.py) — automation, machine-readable evidence, and the distinction between declared configuration and observed behavior. The [results dashboard](https://claude.ai/artifact/7DrT2VsqkTfA3HZH695FQ3) shows the same evidence visually.
+4. [Rockledge AI Governance Decision Memo](05-rockledge-ai-governance/pdf/ai_governance_decision_memo.pdf) — emerging regulation, contested classification handled honestly, and a reversible executive recommendation.
 
-For a commercial-risk sample, open the [Meridian Risk Register PDF](01-meridian-health-grc-program/pdf/risk_register.pdf) or the [Northbridge Enterprise Risk Assessment PDF](04-northbridge-cloudworks-grc-program/01-enterprise-risk-assessment/pdf/Northbridge-Enterprise-Risk-Assessment.pdf). Every workbook is published twice: a PDF in each project's `pdf/` folder that previews directly in the browser, and the working `.xlsx` in `artifacts/` with live formulas, dashboards, and conditional logic intact.
+For a commercial-risk sample, open the [Tavares Risk Register PDF](01-tavares-claims-grc-program/pdf/risk_register.pdf) or the [Pinecastle Enterprise Risk Assessment PDF](04-pinecastle-software-grc-program/01-enterprise-risk-assessment/pdf/Pinecastle-Enterprise-Risk-Assessment.pdf). Every workbook is published twice: a PDF in each project's `pdf/` folder that previews directly in the browser, and the working `.xlsx` in `artifacts/` with live formulas, dashboards, and conditional logic intact.
 
 ## Artifact design
 
@@ -100,7 +100,7 @@ Standards change. Each project states its scope and limitations; current authori
 
 ## About me
 
-I build GRC work that connects technical evidence to decisions leaders can act on. My background includes CompTIA A+, Network+, Security+, and Project+; CompTIA CIOS and CSIS stacked credentials; ITIL Foundation v4; and coursework toward Cisco AI Technical Practitioner.
+I build GRC work that connects technical evidence to decisions leaders can act on. My background includes CompTIA A+, Network+, Security+, and Project+; CompTIA CIOS and CSIS stacked credentials; ITIL Foundation v4; and the Cisco AI Technical Practitioner badge.
 
 I am interested in opportunities including **GRC Analyst, Cyber Risk Analyst, Third-Party Risk Analyst, IT Auditor, ISSO, Security Control Assessor, and IT Specialist (INFOSEC)**.
 
