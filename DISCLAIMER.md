@@ -2,16 +2,17 @@
 
 ## All organizations and systems are fictional
 
-Every company, system, platform, assessment, finding, incident, vendor, and individual described in this repository is **fictional** and was created solely to demonstrate professional methodology.
+Every company, system, platform, assessment, finding, incident, vendor, and individual described in this repository is **fictional** and was created for portfolio demonstration purposes.
 
 Specifically:
 
-- **Meridian Health Analytics, Inc.** does not exist.
-- **Cascade Civic Systems, Inc.** and the **GrantBridge** platform do not exist.
-- **Northgate Signal, Inc.** and the **Caseline** platform do not exist.
-- **Halcyon Benefits Group** and all AI systems, vendors, and decisions described in Project 9 do not exist.
-- **Northbridge Cloudworks, Inc.** does not exist.
+- **Tavares Claims Services, Inc.** does not exist.
+- **Tailspin Civic Systems, Inc.** and the **AwardWorks** platform do not exist.
+- **Salgado Public Systems, Inc.** and the **CaseBoard** platform do not exist.
+- **Rockledge Benefits Administrators**, the **ClaimDesk** system, and all AI systems, vendors, and decisions described in Project 9 do not exist.
+- **Pinecastle Software, Inc.** does not exist.
 - **DataFlow AI** does not exist.
+- **Pineda Salon Co.**, **Oduya Imaging, Inc.**, and the **SkinRead** kiosk do not exist.
 - All vendors, personnel, roles, dates, findings, metrics, incidents, and assessment results are invented.
 - No FedRAMP authorization, certification, SOC 2 report, or independent assessment described here occurred.
 
@@ -30,6 +31,10 @@ These artifacts demonstrate methodology. They are not templates for production u
 ## AI governance content
 
 Project 9 contains EU AI Act, ISO/IEC 42001, NIST AI RMF, and NYC Local Law 144 citations for demonstration purposes only. Real AI-system classification and regulatory applicability require qualified legal counsel.
+
+## Privacy and biometric law content
+
+Project 10 cites Texas CUBI, HB 149 (TRAIGA), the Texas Data Privacy and Security Act, the Florida Digital Bill of Rights, and FTC guidance for demonstration purposes only. Determinations marked as referred to counsel are open questions, not conclusions.
 
 ## Currency
 
