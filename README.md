@@ -15,7 +15,7 @@ Ten projects that turn security frameworks into business decisions, testable con
 |---:|---|---|---|
 | 1 | [Tavares Claims Services: GRC Program](01-tavares-claims-grc-program/) | Healthcare claims / HIPAA | 17-risk register with a formal risk acceptance record, CSF 2.0 gap assessment across all 22 Categories, 21-control mapping, vendor risk, policy, and BIA |
 | 2 | [Tailspin Civic Systems: FedRAMP Rev5 ATO](02-tailspin-civic-rev5-ato/) | Federal grants SaaS | SSP, 33-control traceability matrix, security assessment report, POA&M, customer responsibility matrix, and IR tabletop AAR |
-| 3 | [Salgado Public Systems: FedRAMP 20x](03-salgado-public-fedramp-20x/) | Government case-management SaaS | Python validation engine, 13 KSIs, 26 independent validation methods, hash-verifiable machine-readable evidence, two detected drift conditions, and an [interactive results dashboard](https://claude.ai/artifact/7DrT2VsqkTfA3HZH695FQ3) |
+| 3 | [Salgado Public Systems: FedRAMP 20x](03-salgado-public-fedramp-20x/) | Government case-management SaaS | Python validation engine, 13 KSIs, 26 validation methods (11 of 13 KSIs independently sourced), hash-verifiable machine-readable evidence, two detected drift conditions, and an [interactive results dashboard](https://claude.ai/artifact/7DrT2VsqkTfA3HZH695FQ3) |
 | 4 | [Pinecastle: Enterprise Risk Assessment](04-pinecastle-software-grc-program/01-enterprise-risk-assessment/) | B2B cloud SaaS | 22 risks, inherent/residual scoring, control-effectiveness ratings, treatment plans, owners, and executive dashboard |
 | 5 | [Pinecastle: NIST CSF 2.0 Gap Assessment](04-pinecastle-software-grc-program/02-nist-csf-gap-assessment/) | B2B cloud SaaS | 18 assessed outcomes across all six Functions, current/target profiles, and a roadmap sequenced by dependency |
 | 6 | [Pinecastle: Third-Party Risk Management](04-pinecastle-software-grc-program/03-third-party-risk-management/) | Critical AI SaaS vendor | 27-question evidence-based assessment, weighted scorecard, five findings, remediation tracking, and a conditional approval |
@@ -86,6 +86,10 @@ For a recruiter or hiring manager, these five items cover the range quickly:
 5. [Pineda SkinRead DPIA](06-pineda-salon-biometric-dpia/pdf/skinread_dpia.pdf): state privacy applicability, a risk acceptance the assessor declined to support, and remediation that cost nothing.
 
 For a commercial-risk sample, open the [Tavares Risk Register PDF](01-tavares-claims-grc-program/pdf/risk_register.pdf) or the [Pinecastle Enterprise Risk Assessment PDF](04-pinecastle-software-grc-program/01-enterprise-risk-assessment/pdf/Pinecastle-Enterprise-Risk-Assessment.pdf). Every workbook is published twice: a PDF in the project's `pdf/` folder that previews in the browser, and the working `.xlsx` in `artifacts/` with live formulas and conditional formatting.
+
+## Whitepaper
+
+[Declared vs. Observed: why a control needs two independent witnesses](whitepapers/declared-vs-observed.md) ([PDF](whitepapers/pdf/declared-vs-observed.pdf)) takes the Project 3 results and makes the general argument: a second validation method counts only if it is independent of the first, a pass means zero unexplained exceptions, and observed behavior governs when the two disagree. It also lists where that reasoning stops.
 
 ## How the artifacts are built
 

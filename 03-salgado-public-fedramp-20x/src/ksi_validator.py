@@ -23,7 +23,9 @@ sources. A method that reads the same API as another method is not a second
 method in any meaningful sense — it is the same assertion counted twice.
 This engine therefore pairs a CONTROL-PLANE method (what the configuration
 says should be true) with a DATA-PLANE or TELEMETRY method (what the running
-system actually did). Where those disagree, the KSI reports False, because a
+system actually did). Those labels describe intent. Whether a KSI is reported
+as independently corroborated is decided by which fixtures each method read
+when it ran, recorded as evidence_sources. Where the methods disagree, the KSI reports False, because a
 policy that exists and is not enforced is the exact failure mode continuous
 validation is meant to catch.
 
@@ -294,6 +296,26 @@ FIXTURES = {
         "reporting_deadline_breaches": 0,
     },
 }
+
+
+class TrackedFixtures(dict):
+    """A dict that records which top-level fixtures were read.
+
+    The engine uses this to see where each validation method actually got its
+    data, so independence is judged by what a method read and not by the
+    label it was given.
+    """
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.reads = set()
+
+    def __getitem__(self, key):
+        self.reads.add(key)
+        return super().__getitem__(key)
+
+
+FIXTURES = TrackedFixtures(FIXTURES)
 
 
 # ---------------------------------------------------------------------------
@@ -789,24 +811,43 @@ KSIS = [
 # ENGINE
 # ---------------------------------------------------------------------------
 
+def independently_sourced(method_results):
+    """True when the methods corroborate each other from different evidence.
+
+    Three conditions, all required:
+      - there are at least two methods;
+      - every method read at least one source (a method that reads nothing
+        is asserting a constant);
+      - no two methods read exactly the same set of sources (the same
+        evidence examined twice is one assertion).
+    """
+    source_sets = [frozenset(m["evidence_sources"]) for m in method_results]
+    return (len(source_sets) >= 2
+            and all(source_sets)
+            and len(set(source_sets)) == len(source_sets))
+
+
 def evaluate():
     results = []
     clock = ASSESSMENT_DATE
     for k in KSIS:
         method_results = []
         for kind, label, fn in k["methods"]:
+            FIXTURES.reads.clear()
             passed, metric, note = fn()
+            sources = sorted(FIXTURES.reads)
             clock += timedelta(seconds=METHOD_RUNTIME_SECONDS.get(label, 5))
             method_results.append({
                 "method_type": kind,
                 "method": label,
+                "evidence_sources": sources,
                 "result": "pass" if passed else "fail",
                 "metrics": metric,
                 "assessor_note": note,
                 "evaluated_at": clock.isoformat(),
             })
         all_pass = all(m["result"] == "pass" for m in method_results)
-        corroborated = len({m["method_type"] for m in method_results}) > 1
+        corroborated = independently_sourced(method_results)
 
         # Drift: methods disagree. The declared configuration asserts the
         # capability while observed behavior contradicts it. This is the

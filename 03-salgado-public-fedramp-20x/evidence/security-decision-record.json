@@ -50,6 +50,9 @@
         {
           "method_type": "control-plane",
           "method": "IdP and cloud IAM inventory query",
+          "evidence_sources": [
+            "iam_inventory"
+          ],
           "result": "pass",
           "metrics": {
             "accounts_total": 417,
@@ -63,6 +66,9 @@
         {
           "method_type": "telemetry",
           "method": "Automated access review job output",
+          "evidence_sources": [
+            "access_review"
+          ],
           "result": "pass",
           "metrics": {
             "days_since_review": 4,
@@ -107,6 +113,9 @@
         {
           "method_type": "control-plane",
           "method": "IdP authentication policy read",
+          "evidence_sources": [
+            "idp_policy"
+          ],
           "result": "pass",
           "metrics": {
             "phishing_resistant_required": true,
@@ -119,6 +128,9 @@
         {
           "method_type": "data-plane",
           "method": "Authentication event log analysis",
+          "evidence_sources": [
+            "auth_events_30d"
+          ],
           "result": "pass",
           "metrics": {
             "authentications_30d": 48213,
@@ -158,6 +170,9 @@
         {
           "method_type": "control-plane",
           "method": "Role binding enumeration",
+          "evidence_sources": [
+            "iam_inventory"
+          ],
           "result": "pass",
           "metrics": {
             "standing_privileged_roles": 0,
@@ -169,6 +184,9 @@
         {
           "method_type": "telemetry",
           "method": "Persistent least-privilege review closure",
+          "evidence_sources": [
+            "access_review"
+          ],
           "result": "pass",
           "metrics": {
             "flagged": 5,
@@ -208,6 +226,10 @@
         {
           "method_type": "control-plane",
           "method": "JIT workflow configuration check",
+          "evidence_sources": [
+            "iam_inventory",
+            "idp_policy"
+          ],
           "result": "pass",
           "metrics": {
             "jit_eligible_roles": 14,
@@ -219,6 +241,9 @@
         {
           "method_type": "telemetry",
           "method": "Privilege elevation event telemetry",
+          "evidence_sources": [
+            "elevation_events_30d"
+          ],
           "result": "pass",
           "metrics": {
             "elevations_30d": 287,
@@ -256,6 +281,9 @@
         {
           "method_type": "control-plane",
           "method": "Non-user principal inventory",
+          "evidence_sources": [
+            "iam_inventory"
+          ],
           "result": "pass",
           "metrics": {
             "non_user_accounts": 63,
@@ -268,6 +296,9 @@
         {
           "method_type": "data-plane",
           "method": "Repository and image secret scanning",
+          "evidence_sources": [
+            "secret_scan_30d"
+          ],
           "result": "pass",
           "metrics": {
             "repos_scanned": 34,
@@ -307,6 +338,9 @@
         {
           "method_type": "control-plane",
           "method": "Automated risk-response policy check",
+          "evidence_sources": [
+            "idp_policy"
+          ],
           "result": "pass",
           "metrics": {
             "auto_disable_enabled": true
@@ -317,6 +351,9 @@
         {
           "method_type": "telemetry",
           "method": "Risk signal response telemetry",
+          "evidence_sources": [
+            "suspicious_activity_30d"
+          ],
           "result": "pass",
           "metrics": {
             "risk_signals_30d": 11,
@@ -343,7 +380,7 @@
         "AU-09"
       ],
       "status": "true",
-      "independently_corroborated": true,
+      "independently_corroborated": false,
       "validation_method_count": 2,
       "meets_class_c_method_minimum": true,
       "drift_detected": false,
@@ -351,6 +388,9 @@
         {
           "method_type": "control-plane",
           "method": "Change logging configuration verification",
+          "evidence_sources": [
+            "change_log_integrity"
+          ],
           "result": "pass",
           "metrics": {
             "forwarding_enabled": true,
@@ -362,6 +402,9 @@
         {
           "method_type": "telemetry",
           "method": "Change event to approval reconciliation",
+          "evidence_sources": [
+            "change_log_integrity"
+          ],
           "result": "pass",
           "metrics": {
             "change_events_30d": 1926,
@@ -389,7 +432,7 @@
         "SI-03"
       ],
       "status": "true",
-      "independently_corroborated": true,
+      "independently_corroborated": false,
       "validation_method_count": 2,
       "meets_class_c_method_minimum": true,
       "drift_detected": false,
@@ -397,6 +440,9 @@
         {
           "method_type": "control-plane",
           "method": "Deployment source verification",
+          "evidence_sources": [
+            "change_control"
+          ],
           "result": "pass",
           "metrics": {
             "deployments_30d": 238,
@@ -409,6 +455,9 @@
         {
           "method_type": "telemetry",
           "method": "CI/CD gate execution records",
+          "evidence_sources": [
+            "change_control"
+          ],
           "result": "pass",
           "metrics": {
             "with_test_gate": 238,
@@ -442,6 +491,9 @@
         {
           "method_type": "control-plane",
           "method": "Declared network policy evaluation",
+          "evidence_sources": [
+            "network_policy"
+          ],
           "result": "pass",
           "metrics": {
             "default_deny_ingress": true,
@@ -455,6 +507,9 @@
         {
           "method_type": "data-plane",
           "method": "Observed network flow log analysis",
+          "evidence_sources": [
+            "network_flow_30d"
+          ],
           "result": "fail",
           "metrics": {
             "flows_observed_30d": 18400291,
@@ -495,6 +550,9 @@
         {
           "method_type": "control-plane",
           "method": "Storage and key management configuration read",
+          "evidence_sources": [
+            "encryption_config"
+          ],
           "result": "pass",
           "metrics": {
             "data_stores": 19,
@@ -510,6 +568,9 @@
         {
           "method_type": "data-plane",
           "method": "Active protocol negotiation and object scanning",
+          "evidence_sources": [
+            "encryption_observed_30d"
+          ],
           "result": "fail",
           "metrics": {
             "endpoints_scanned": 41,
@@ -548,6 +609,9 @@
         {
           "method_type": "control-plane",
           "method": "LMS completion record query",
+          "evidence_sources": [
+            "training_records"
+          ],
           "result": "pass",
           "metrics": {
             "workforce": 91,
@@ -563,6 +627,9 @@
         {
           "method_type": "telemetry",
           "method": "Phishing simulation outcome analysis",
+          "evidence_sources": [
+            "phishing_simulation"
+          ],
           "result": "pass",
           "metrics": {
             "campaigns_12mo": 4,
@@ -599,6 +666,9 @@
         {
           "method_type": "control-plane",
           "method": "Inventory system of record query",
+          "evidence_sources": [
+            "inventory_record"
+          ],
           "result": "pass",
           "metrics": {
             "resources_declared": 143,
@@ -612,6 +682,10 @@
         {
           "method_type": "telemetry",
           "method": "Cloud asset API discovery reconciliation",
+          "evidence_sources": [
+            "asset_discovery_30d",
+            "inventory_record"
+          ],
           "result": "pass",
           "metrics": {
             "resources_discovered": 147,
@@ -645,6 +719,9 @@
         {
           "method_type": "control-plane",
           "method": "IR plan and roster currency check",
+          "evidence_sources": [
+            "ir_program"
+          ],
           "result": "pass",
           "metrics": {
             "plan_age_days": 41,
@@ -660,6 +737,9 @@
         {
           "method_type": "telemetry",
           "method": "Incident record and reporting latency analysis",
+          "evidence_sources": [
+            "ir_events_12mo"
+          ],
           "result": "pass",
           "metrics": {
             "incidents_12mo": 5,
