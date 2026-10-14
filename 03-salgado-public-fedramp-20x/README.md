@@ -19,7 +19,7 @@ On June 25, 2026, FedRAMP published the **Consolidated Rules for 2026** and made
 
 | Artifact | What it is |
 |---|---|
-| [`src/ksi_validator.py`](src/ksi_validator.py) | The validation engine. Evaluates 13 KSIs with two independent automated methods each, writes machine-readable evidence, and verifies that evidence against its manifest. |
+| [`src/ksi_validator.py`](src/ksi_validator.py) | The validation engine. Evaluates 13 KSIs with two automated methods each, records which evidence each method read, writes machine-readable evidence, and verifies that evidence against its manifest. |
 | [`src/render_register.py`](src/render_register.py) | Refreshes the register workbook's result columns from the Security Decision Record, so the spreadsheet cannot drift from the JSON. |
 | [`evidence/security-decision-record.json`](evidence/security-decision-record.json) | The 20x replacement for a Rev5 SSP. Generated, not hand-written. |
 | [`evidence/ongoing-certification-report.json`](evidence/ongoing-certification-report.json) | The 20x replacement for a monthly ConMon submission. |
@@ -93,9 +93,14 @@ The ongoing certification report has its own gaps: detection coverage is 98.6% (
 python3 src/ksi_validator.py --summary   # evaluate and write evidence/
 python3 src/ksi_validator.py --verify    # check evidence/ against the manifest
 python3 src/render_register.py           # refresh the register workbook (needs openpyxl)
+python3 -m unittest discover -s tests -v # regression tests
 ```
 
 The validator needs only the standard library. The `FIXTURES` dict stands in for cloud provider, IdP, and SIEM API responses; in production each would be an API call. Two fixtures disagree with their configuration blocks on purpose to produce the drift results, and both are commented in the source.
+
+### Tests
+
+[`tests/test_validator.py`](tests/test_validator.py) runs the engine against its own fixtures. Configuration-only validation reports 13 of 13 and misses both drift conditions. The paired methods report 11 of 13. One source read twice under two labels meets the method count and is reported as not independently corroborated, because the engine records which fixtures each method read (`evidence_sources`) and compares those. By that test `KSI-CMT-LMC` and `KSI-CMT-RMV` are not independently corroborated: both methods of each read the same record. The integrity check rejects an altered or missing evidence file. These are tests against authored fixtures and do not measure detection in a real environment.
 
 ### Evidence integrity
 
@@ -114,6 +119,7 @@ Each digest should match the `sha256` value for that file in `evidence-integrity
 - KSI identifiers are drawn from the **FedRAMP Consolidated Rules for 2026**, which changed the naming scheme (`KSI-IAM-AAM`, not the `KSI-IAM-01` format from the 2025 pilot). KSI-CMT-RMV quotes the official statement; the others are close paraphrases. Verify each against the published text, including KSI-PIY-GIV, which was added in October 2026.
 - The JSON structures are **modeled on** CR26 rule requirements (`SDR-CSO-FRR`, `CCM-OCR-AVL`, `FRC-CSO-JSN`). They are not claimed to validate against FedRAMP's published schemas at `fedramp.gov/schemas`. A production implementation would validate against those schemas in CI.
 - The 2026 rules are new and revised often. Check anything here against the current text at **fedramp.gov/2026** before relying on it.
+- The Security Decision Record is a single evaluation. It does not include the historical KSI metrics that rule `SDR-CSX-KMT` requires for Class C (30-day and one-year summaries and daily metric data, where available).
 - The 13 KSIs are a sample across seven families. A full Class C package addresses the complete KSI set across all ten families.
 
 ---

@@ -6,8 +6,8 @@
   "artifacts": [
     {
       "filename": "security-decision-record.json",
-      "sha256": "5cbc74faf85687dfc4c7b941f3f5114ffd1ae6b93f67f87f590981febed2b38f",
-      "bytes": 24913
+      "sha256": "075a8436b9ded8feef0c33292d2db86164b6f94e65bd20eb74ee7ec849fe036d",
+      "bytes": 26936
     },
     {
       "filename": "ongoing-certification-report.json",
