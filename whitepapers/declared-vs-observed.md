@@ -41,7 +41,7 @@ Each of these gaps is ordinary, and none needs negligence to appear. Any system 
 
 ## What FedRAMP 20x changes
 
-FedRAMP's Consolidated Rules for 2026 replace narrative control descriptions with **Key Security Indicators (KSIs)**: short statements of a security outcome, validated automatically against the running system. A generated Security Decision Record takes the place of the hand-written System Security Plan, and an Ongoing Certification Report takes the place of the monthly continuous-monitoring submission.
+FedRAMP's Consolidated Rules for 2026 require providers to validate **Key Security Indicators (KSIs)**, short statements of a security outcome, with automated methods. A generated Security Decision Record takes the place of the hand-written System Security Plan, and an Ongoing Certification Report takes the place of the monthly continuous-monitoring submission.
 
 One rule carries this paper. For a Class C provider, rule `FRC-CSX-VVK` requires **at least two automated validation methods for each KSI**.
 

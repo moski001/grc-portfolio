@@ -11,7 +11,7 @@ A cloud-native SaaS case management platform for state and local health and huma
 
 I built a Rev5-style FedRAMP authorization package first: SSP, SCTM, Security Assessment Report, POA&M, Customer Responsibility Matrix. That package shows control-by-control reasoning and audit-finding writing.
 
-On June 25, 2026, FedRAMP published the **Consolidated Rules for 2026** and made **FedRAMP 20x** a widely available certification path. It is the first substantial redesign of the program since 2011: "Authorization" became "Certification," impact levels became certification Classes A–D, and narrative control descriptions were replaced by **Key Security Indicators** validated automatically against the running system. This project builds that model in code.
+On June 25, 2026, FedRAMP published the **Consolidated Rules for 2026** and made **FedRAMP 20x** a widely available certification path. It is the first substantial redesign of the program since 2011. "Authorization" became "Certification," impact levels became certification Classes A–D (Class D is still described as a pilot in FedRAMP's launch notice), and the System Security Plan gave way to a Security Decision Record. Providers must validate **Key Security Indicators** with automated methods, at least two per KSI for Class C. This project builds that model in code.
 
 ---
 
