@@ -113,7 +113,7 @@ I am interested in roles including **GRC Analyst, Cyber Risk Analyst, Third-Part
 
 ## Contact
 
-[morrisseyventuresllc.com](https://morrisseyventuresllc.com) · [LinkedIn](https://linkedin.com/in/christophermorrissey88) · [github.com/moski001](https://github.com/moski001)
+[christopher@morrisseyventuresllc.com](mailto:christopher@morrisseyventuresllc.com) · [morrisseyventuresllc.com](https://morrisseyventuresllc.com) · [LinkedIn](https://linkedin.com/in/christophermorrissey88) · [github.com/moski001](https://github.com/moski001)
 
 ---
 
