@@ -23,11 +23,11 @@ Rockledge administers health and retirement benefits for mid-market employers, i
 
 ## The sequence
 
-**Inventory first.** Every AI governance framework assumes an inventory exists, and most organizations do not have one. Discovery here used procurement records, cloud consoles, CASB telemetry, and interviews. The CASB data produced the unexpected result: 214 unique users reached consumer AI endpoints in thirty days. That is row AI-009. It is an enterprise governance finding, not an AI system, and it cannot be classified under the AI Act, but leaving known unmanaged use out of the inventory would understate the exposure. The count is eight systems plus one finding, and the summary tab keeps the two separate.
+**Inventory first.** Every AI governance framework assumes an inventory exists, and most organizations do not have one. Discovery here used procurement records, cloud consoles, CASB telemetry, and interviews. The CASB data produced the unexpected result: 214 unique users reached consumer AI endpoints in thirty days. That is row AI-009. It is an enterprise governance finding and cannot be classified under the AI Act, but leaving known unmanaged use out of the inventory would understate the exposure. The count is eight systems plus one finding, and the summary tab keeps the two separate.
 
 **Classify by use.** The same LLM is Minimal-risk when it drafts marketing copy and Limited-risk in a member-facing chatbot. EU AI Act tiering depends on what the system is for and who it affects.
 
-Two systems raised high-risk questions, and they are not equally clear. The resume screener is: Annex III(4)(a) names recruitment and candidate evaluation. ClaimDesk is contested. Annex III(5)(a) covers essential public assistance benefits administered by public authorities, and (5)(c) covers risk assessment and pricing for life and health insurance. A private administrator adjudicating employer-sponsored claims sits between them, so the inventory records it as High-Risk (contested), states the reasoning, and refers the question to counsel. A confident classification here would produce plans built on an answer nobody has.
+Two systems raised high-risk questions, and they are not equally clear. The resume screener is: Annex III(4)(a) names recruitment and candidate evaluation. ClaimDesk is contested. Annex III(5)(a) covers systems used by or on behalf of public authorities to evaluate eligibility for essential public assistance benefits, and (5)(c) covers risk assessment and pricing for life and health insurance. A private administrator adjudicating employer-sponsored claims sits between them, and the open question under (5)(a) is whether Rockledge ever acts on behalf of a public authority, so the inventory records it as High-Risk (contested), states the reasoning, and refers the question to counsel. A confident classification here would produce plans built on an answer nobody has.
 
 **Assess against the framework's structure.** Every risk is tagged to the NIST AI RMF trustworthiness characteristic it threatens, and the Trustworthiness Coverage tab counts them. It shows no risks under Safe and four under Accountable & Transparent, which says something about where the assessment looked as well as where the exposure is.
 
@@ -57,11 +57,11 @@ The memo does not recommend halting AI adoption. Six of the nine inventory entri
 
 The Digital Omnibus on AI (Regulation (EU) 2026/1744) was published in the Official Journal on 24 July 2026 and entered into force on 27 July 2026, six days before the AI Act's original high-risk deadline. Standalone Annex III high-risk obligations now apply from 2 December 2027, and embedded high-risk systems under Annex I from 2 August 2028.
 
-The deferral is selective. Article 50 transparency duties were not deferred and applied from 2 August 2026, and neither were the Article 5 prohibitions or the GPAI provider obligations.
+The deferral is selective. The Article 50(1) duty to tell people they are interacting with an AI system was not deferred and applied from 2 August 2026, and neither were the Article 5 prohibitions or the GPAI provider obligations. Recital 38 of the Omnibus gives providers of generative systems already on the market a four-month transition for the Article 50(2) marking duty, which this project does not rely on.
 
 The obligation Rockledge has actually missed is the cheapest one in the register: telling members they are talking to a chatbot. AIR-007 is a small UX change, and its legal deadline and remediation target are different dates. As of this review on 2026-09-14, the register shows passed remediation targets for AIR-005 and AIR-007 (2026-08-21) and for AIR-010 and AIR-012 (2026-08-25), with no closure evidence or reason for the miss recorded. The expensive work got sixteen more months; the easy fix was already due.
 
-Section 2 of the memo makes the broader point. A deadline determines when enforcement can begin, not whether harm is occurring. AIR-001 (whether ClaimDesk encodes historical bias into denial recommendations) has no compliance date, and nobody yet knows whether the model discriminates. A member denied benefits in 2026 is not helped by a 2027 deadline.
+Section 2 of the memo makes the broader point. A deadline determines when enforcement can begin and says nothing about whether harm is occurring. AIR-001 (whether ClaimDesk encodes historical bias into denial recommendations) has no compliance date, and nobody yet knows whether the model discriminates. A member denied benefits in 2026 is not helped by a 2027 deadline.
 
 ---
 
@@ -85,4 +85,4 @@ AI-009's inventory entry describes its data inputs as unknown or likely, while A
 
 ## Resolved review notes
 
-The inventory's Classification Method B8 previously described the Digital Omnibus deferral as proposed, while the inventory header, the Applicable Deadline column, and this README described it as enacted. B8 now states the enacted position: Regulation (EU) 2026/1744 in force 27 July 2026, standalone Annex III obligations deferred to 2 December 2027, and the Article 50, Article 5, and GPAI obligations that were not deferred.
+The inventory's Classification Method B8 previously described the Digital Omnibus deferral as proposed, while the inventory header, the Applicable Deadline column, and this README described it as enacted. B8 now states the enacted position: Regulation (EU) 2026/1744 in force 27 July 2026, standalone Annex III obligations deferred to 2 December 2027, and the Article 50(1), Article 5, and GPAI obligations that were not deferred.

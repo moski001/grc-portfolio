@@ -87,7 +87,7 @@ The milestone said "conduct a tabletop," and one was conducted, so the item coul
 
 ## Program context: this package is Rev5
 
-On June 25, 2026, FedRAMP published the Consolidated Rules for 2026 and made FedRAMP 20x a widely available certification path. Under those rules "Authorization" became "Certification," impact levels became Classes A–D, and narrative control descriptions were replaced by Key Security Indicators validated automatically.
+On June 25, 2026, FedRAMP published the Consolidated Rules for 2026 and made FedRAMP 20x a widely available certification path. Under those rules "Authorization" became "Certification," impact levels became Classes A–D, the System Security Plan gave way to a Security Decision Record, and providers must validate Key Security Indicators with automated methods.
 
 This package is built to Rev5, which remains valid. CR26 becomes mandatory for existing certifications on January 1, 2027, and new Rev5 applications stop being accepted June 11, 2027. [Project 3](../03-salgado-public-fedramp-20x/) applies the same discipline under the newer rules.
 
